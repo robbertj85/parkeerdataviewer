@@ -1,38 +1,38 @@
 {
   "municipality": "Schiedam Centrum",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 2,
   "facilities": [
     {
       "uuid": "1535650f-5e48-49fe-b849-24bf24ee13ab",
       "name": "P+R Horvathweg (Schiedam Centrum)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Horvathweg",
-      "houseNumber": "3",
-      "zipcode": "3112HB",
-      "city": "Schiedam",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 51.92158,
       "longitude": 4.40896,
       "capacity": 53,
-      "vacantSpaces": 33,
-      "occupancyPercent": 37.7,
+      "vacantSpaces": 34,
+      "occupancyPercent": 35.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811416,
-      "minimumHeightInMeters": 2.1,
+      "lastUpdated": 1772811569,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     },
     {
       "uuid": "d7f41af5-8e89-465a-963c-f5102affcd78",
       "name": "P+R Parallelweg (Schiedam Centrum)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Parallelweg",
-      "houseNumber": "2",
-      "zipcode": "3112NA",
-      "city": "Schiedam",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 51.92229,
       "longitude": 4.40951,
@@ -42,10 +42,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1768231580,
-      "minimumHeightInMeters": 0.0,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     }
   ]
 }

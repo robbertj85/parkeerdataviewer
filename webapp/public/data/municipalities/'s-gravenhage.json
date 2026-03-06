@@ -1,6 +1,6 @@
 {
   "municipality": "'s-Gravenhage",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -23,7 +23,7 @@
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "Garage parkeren"
+      "usage": ""
     },
     {
       "uuid": "76b80f7c-2455-4eab-ba88-d4c2eaa1e7e8",
@@ -41,11 +41,11 @@
       "occupancyPercent": 0.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811503,
+      "lastUpdated": 1772811670,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "Garage parkeren"
+      "usage": ""
     }
   ]
 }

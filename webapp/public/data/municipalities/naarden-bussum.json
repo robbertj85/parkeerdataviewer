@@ -1,16 +1,16 @@
 {
   "municipality": "Naarden-Bussum",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "f7e93a01-102a-47de-aafb-0dea5f163a4c",
       "name": "P+R Slochterenlaan (Naarden-Bussum)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Slochterenlaan",
-      "houseNumber": "11",
-      "zipcode": "1405AL",
-      "city": "Naarden-Bussum",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 52.28006,
       "longitude": 5.15665,
@@ -20,10 +20,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1772811006,
-      "minimumHeightInMeters": 0.0,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     }
   ]
 }

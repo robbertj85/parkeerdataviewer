@@ -1,16 +1,16 @@
 {
   "municipality": "Beverwijk",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "e25f0d56-a213-416b-ab85-9f4d40d0f8f6",
       "name": "P+R Wijckermolen (Beverwijk)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Wijckermolen",
-      "houseNumber": "0",
-      "zipcode": "1941JA",
-      "city": "Beverwijk",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 52.47915,
       "longitude": 4.65656,
@@ -20,10 +20,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1772811042,
-      "minimumHeightInMeters": 0.0,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     }
   ]
 }

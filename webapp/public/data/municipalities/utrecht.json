@@ -1,29 +1,29 @@
 {
   "municipality": "utrecht",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "40212393-05d9-45a4-a287-123af9ad325a",
       "name": "Garage Hoog Catharijne P1 (utrecht)",
       "operator": "Interparking",
-      "street": "Spoorstraat",
-      "houseNumber": "22",
-      "zipcode": "3511EN",
-      "city": "Utrecht",
-      "province": "Utrecht",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
       "latitude": 52.089612,
       "longitude": 5.113428,
       "capacity": 348,
-      "vacantSpaces": 228,
-      "occupancyPercent": 34.5,
+      "vacantSpaces": 230,
+      "occupancyPercent": 33.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811333,
-      "minimumHeightInMeters": 2.0,
-      "chargingPointCapacity": 3,
+      "lastUpdated": 1772811633,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "Garage parkeren"
+      "usage": ""
     }
   ]
 }

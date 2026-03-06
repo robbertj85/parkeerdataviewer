@@ -1,16 +1,16 @@
 {
   "municipality": "Breda",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 2,
   "facilities": [
     {
       "uuid": "b17c99c0-65af-4451-a700-a21b24fc611e",
       "name": "P+R Stationsweg (Breda)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Stationsweg",
-      "houseNumber": "61",
-      "zipcode": "4811EH",
-      "city": "Breda",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 51.595,
       "longitude": 4.78184,
@@ -20,32 +20,32 @@
       "open": true,
       "full": false,
       "lastUpdated": 1772811496,
-      "minimumHeightInMeters": 2.1,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     },
     {
       "uuid": "d5565e93-2f9f-4074-8548-e631b72bae66",
       "name": "P+R Station (Breda)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "Stationslaan",
-      "houseNumber": "0",
-      "zipcode": "4811BN",
-      "city": "Breda",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
       "province": "",
       "latitude": 51.596259,
       "longitude": 4.777855,
       "capacity": 550,
-      "vacantSpaces": 502,
-      "occupancyPercent": 8.7,
+      "vacantSpaces": 503,
+      "occupancyPercent": 8.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811488,
-      "minimumHeightInMeters": 2.1,
+      "lastUpdated": 1772811617,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "P+R"
+      "usage": ""
     }
   ]
 }

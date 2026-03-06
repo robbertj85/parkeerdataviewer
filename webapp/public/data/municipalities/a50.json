@@ -1,6 +1,6 @@
 {
   "municipality": "A50",
-  "generated_at": "2026-03-06T15:39:13.228341+00:00",
+  "generated_at": "2026-03-06T15:42:15.805291+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,11 +19,11 @@
       "occupancyPercent": 14.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811300,
-      "minimumHeightInMeters": 0.0,
+      "lastUpdated": 1772811600,
+      "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": "Carpoolparkeren"
+      "usage": ""
     }
   ]
 }
