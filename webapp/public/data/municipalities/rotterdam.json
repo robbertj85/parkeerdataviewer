@@ -1,6 +1,6 @@
 {
   "municipality": "Rotterdam",
-  "generated_at": "2026-03-06T15:42:15.805291+00:00",
+  "generated_at": "2026-03-06T15:44:45.257091+00:00",
   "facility_count": 23,
   "facilities": [
     {
@@ -389,11 +389,11 @@
       "latitude": 51.92078261,
       "longitude": 4.4795588,
       "capacity": 292,
-      "vacantSpaces": 208,
-      "occupancyPercent": 28.8,
+      "vacantSpaces": 209,
+      "occupancyPercent": 28.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811602,
+      "lastUpdated": 1772811767,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

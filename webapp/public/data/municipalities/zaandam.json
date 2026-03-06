@@ -1,6 +1,6 @@
 {
   "municipality": "Zaandam",
-  "generated_at": "2026-03-06T15:42:15.805291+00:00",
+  "generated_at": "2026-03-06T15:44:45.257091+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 8.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811376,
+      "lastUpdated": 1772811696,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

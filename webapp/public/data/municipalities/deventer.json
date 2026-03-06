@@ -1,6 +1,6 @@
 {
   "municipality": "Deventer",
-  "generated_at": "2026-03-06T15:42:15.805291+00:00",
+  "generated_at": "2026-03-06T15:44:45.257091+00:00",
   "facility_count": 7,
   "facilities": [
     {
@@ -147,11 +147,11 @@
       "latitude": 52.25496,
       "longitude": 6.16647,
       "capacity": 162,
-      "vacantSpaces": 137,
-      "occupancyPercent": 15.4,
+      "vacantSpaces": 138,
+      "occupancyPercent": 14.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811675,
+      "lastUpdated": 1772811786,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
