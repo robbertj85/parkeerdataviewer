@@ -1,6 +1,6 @@
 {
   "municipality": "utrecht",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -9,12 +9,12 @@
       "operator": "Interparking",
       "latitude": 52.089612,
       "longitude": 5.113428,
-      "capacity": 334,
-      "vacantSpaces": 194,
-      "occupancyPercent": 41.9,
+      "capacity": 342,
+      "vacantSpaces": 212,
+      "occupancyPercent": 38.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803533
+      "lastUpdated": 1772808033
     }
   ]
 }

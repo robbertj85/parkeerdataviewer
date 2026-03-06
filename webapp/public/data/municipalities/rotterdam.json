@@ -1,6 +1,6 @@
 {
   "municipality": "Rotterdam",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 14,
   "facilities": [
     {
@@ -23,11 +23,11 @@
       "latitude": 51.924172,
       "longitude": 4.482425,
       "capacity": 332,
-      "vacantSpaces": 216,
-      "occupancyPercent": 34.9,
+      "vacantSpaces": 218,
+      "occupancyPercent": 34.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "dc96d900-8446-4e99-8a09-dd60da167fc8",
@@ -36,11 +36,11 @@
       "latitude": 51.921755,
       "longitude": 4.492372,
       "capacity": 174,
-      "vacantSpaces": 139,
-      "occupancyPercent": 20.1,
+      "vacantSpaces": 138,
+      "occupancyPercent": 20.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "d9be5735-e8a0-4f62-9712-740bea0c2dd9",
@@ -49,11 +49,11 @@
       "latitude": 51.885571,
       "longitude": 4.569489,
       "capacity": 508,
-      "vacantSpaces": 449,
-      "occupancyPercent": 11.6,
+      "vacantSpaces": 450,
+      "occupancyPercent": 11.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "fa25b695-5055-40a5-9930-ac2aa77ba975",
@@ -62,11 +62,11 @@
       "latitude": 51.923057,
       "longitude": 4.470506,
       "capacity": 528,
-      "vacantSpaces": 263,
-      "occupancyPercent": 50.2,
+      "vacantSpaces": 238,
+      "occupancyPercent": 54.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "bae90cb2-90cc-4ef7-9752-672ef216a52c",
@@ -75,11 +75,11 @@
       "latitude": 51.922799,
       "longitude": 4.470409,
       "capacity": 517,
-      "vacantSpaces": 404,
-      "occupancyPercent": 21.9,
+      "vacantSpaces": 416,
+      "occupancyPercent": 19.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "574e6027-47e9-45eb-bcc1-01a9d1a344f7",
@@ -88,11 +88,11 @@
       "latitude": 51.894989,
       "longitude": 4.533083,
       "capacity": 494,
-      "vacantSpaces": 340,
-      "occupancyPercent": 31.2,
+      "vacantSpaces": 363,
+      "occupancyPercent": 26.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "a4265c3c-b33d-4f83-973b-bf7eb97958e2",
@@ -108,6 +108,19 @@
       "lastUpdated": 1765550010
     },
     {
+      "uuid": "d6ea05f4-e484-4db8-84cd-a0ac20db1f1f",
+      "name": "P+R Alexander (Rotterdam)",
+      "operator": "Rotterdam",
+      "latitude": 51.953005,
+      "longitude": 4.550463,
+      "capacity": 398,
+      "vacantSpaces": 269,
+      "occupancyPercent": 32.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772808007
+    },
+    {
       "uuid": "328cbed1-dfe1-4984-8cf6-4b4d9671b168",
       "name": "P+R Meijersplein (Rotterdam)",
       "operator": "Rotterdam",
@@ -119,32 +132,6 @@
       "open": true,
       "full": false,
       "lastUpdated": 1765550010
-    },
-    {
-      "uuid": "d6ea05f4-e484-4db8-84cd-a0ac20db1f1f",
-      "name": "P+R Alexander (Rotterdam)",
-      "operator": "Rotterdam",
-      "latitude": 51.953005,
-      "longitude": 4.550463,
-      "capacity": 398,
-      "vacantSpaces": 257,
-      "occupancyPercent": 35.4,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1772803507
-    },
-    {
-      "uuid": "9386ab02-ee17-4fd7-9580-93115e203a31",
-      "name": "Garage De Boompjes",
-      "operator": "Rotterdam",
-      "latitude": 51.913787,
-      "longitude": 4.485195,
-      "capacity": 323,
-      "vacantSpaces": 214,
-      "occupancyPercent": 33.7,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1772803507
     },
     {
       "uuid": "ac1a8242-ea7d-48ff-8935-9fbe07691d77",
@@ -160,17 +147,30 @@
       "lastUpdated": 1772438797
     },
     {
+      "uuid": "9386ab02-ee17-4fd7-9580-93115e203a31",
+      "name": "Garage De Boompjes",
+      "operator": "Rotterdam",
+      "latitude": 51.913787,
+      "longitude": 4.485195,
+      "capacity": 323,
+      "vacantSpaces": 218,
+      "occupancyPercent": 32.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772808007
+    },
+    {
       "uuid": "b702aa0d-1392-4b9c-a158-5ead5179f9ad",
       "name": "Garage Erasmusbrug",
       "operator": "Rotterdam",
       "latitude": 51.910553,
       "longitude": 4.48387,
       "capacity": 277,
-      "vacantSpaces": 166,
-      "occupancyPercent": 40.1,
+      "vacantSpaces": 173,
+      "occupancyPercent": 37.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     },
     {
       "uuid": "4988115d-7c6e-4a4a-bd9d-5605e692c2cb",
@@ -179,11 +179,11 @@
       "latitude": 51.920983,
       "longitude": 4.492877,
       "capacity": 79,
-      "vacantSpaces": 32,
-      "occupancyPercent": 59.5,
+      "vacantSpaces": 33,
+      "occupancyPercent": 58.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803507
+      "lastUpdated": 1772808007
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "municipality": "Amsterdam Lelylaan",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.35919,
       "longitude": 4.83367,
       "capacity": 70,
-      "vacantSpaces": 61,
-      "occupancyPercent": 12.9,
+      "vacantSpaces": 59,
+      "occupancyPercent": 15.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803364
+      "lastUpdated": 1772807784
     }
   ]
 }

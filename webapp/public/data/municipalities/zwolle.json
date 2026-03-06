@@ -1,21 +1,8 @@
 {
   "municipality": "Zwolle",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 7,
   "facilities": [
-    {
-      "uuid": "a2bc4ea0-a218-4a59-a328-36fb8234402b",
-      "name": "Parkeergarage Pas de Deux (Zwolle)",
-      "operator": "Zwolle",
-      "latitude": 52.503617,
-      "longitude": 6.091695,
-      "capacity": 195,
-      "vacantSpaces": 73,
-      "occupancyPercent": 62.6,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870878"
-    },
     {
       "uuid": "68d5fcce-596d-4f6d-97d5-e67f6f644ac7",
       "name": "Parkeergarage Diezerpoort (Zwolle)",
@@ -25,6 +12,19 @@
       "capacity": 562,
       "vacantSpaces": 418,
       "occupancyPercent": 25.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870878"
+    },
+    {
+      "uuid": "a2bc4ea0-a218-4a59-a328-36fb8234402b",
+      "name": "Parkeergarage Pas de Deux (Zwolle)",
+      "operator": "Zwolle",
+      "latitude": 52.503617,
+      "longitude": 6.091695,
+      "capacity": 195,
+      "vacantSpaces": 73,
+      "occupancyPercent": 62.6,
       "open": true,
       "full": false,
       "lastUpdated": "1751870878"
@@ -56,19 +56,6 @@
       "lastUpdated": "1751870878"
     },
     {
-      "uuid": "9e43035c-6707-4b47-a263-d62f0c5d5f84",
-      "name": "Parkeergarage L\u00fcbeckplein (Zwolle)",
-      "operator": "Zwolle",
-      "latitude": 52.503792,
-      "longitude": 6.088352,
-      "capacity": 355,
-      "vacantSpaces": 171,
-      "occupancyPercent": 51.8,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870878"
-    },
-    {
       "uuid": "ff27bae8-ce05-40c6-8422-03da3bd7d9e1",
       "name": "Parkeergarage Noordereiland - Dek (Zwolle)",
       "operator": "Zwolle",
@@ -77,6 +64,19 @@
       "capacity": 670,
       "vacantSpaces": 553,
       "occupancyPercent": 17.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870878"
+    },
+    {
+      "uuid": "9e43035c-6707-4b47-a263-d62f0c5d5f84",
+      "name": "Parkeergarage L\u00fcbeckplein (Zwolle)",
+      "operator": "Zwolle",
+      "latitude": 52.503792,
+      "longitude": 6.088352,
+      "capacity": 355,
+      "vacantSpaces": 171,
+      "occupancyPercent": 51.8,
       "open": true,
       "full": false,
       "lastUpdated": "1751870878"

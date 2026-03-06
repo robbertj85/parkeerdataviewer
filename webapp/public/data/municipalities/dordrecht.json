@@ -1,21 +1,8 @@
 {
   "municipality": "Dordrecht",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 6,
   "facilities": [
-    {
-      "uuid": "5b3d8f1d-67f8-499e-a35c-92f3b181bfa1",
-      "name": "Garage Riedijkshaven (Dordrecht)",
-      "operator": "Dordrecht",
-      "latitude": 51.817199,
-      "longitude": 4.676626,
-      "capacity": 20,
-      "vacantSpaces": 13,
-      "occupancyPercent": 35.0,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1744018321"
-    },
     {
       "uuid": "fe585239-852e-4f52-84e8-56eda8239a8f",
       "name": "Garage Spuihaven (Dordrecht)",
@@ -28,6 +15,19 @@
       "open": true,
       "full": false,
       "lastUpdated": "1744018320"
+    },
+    {
+      "uuid": "5b3d8f1d-67f8-499e-a35c-92f3b181bfa1",
+      "name": "Garage Riedijkshaven (Dordrecht)",
+      "operator": "Dordrecht",
+      "latitude": 51.817199,
+      "longitude": 4.676626,
+      "capacity": 20,
+      "vacantSpaces": 13,
+      "occupancyPercent": 35.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1744018321"
     },
     {
       "uuid": "01e2fd1b-550b-40e1-b9fe-5373a15d88a0",
@@ -75,11 +75,11 @@
       "latitude": 51.80662,
       "longitude": 4.66915,
       "capacity": 113,
-      "vacantSpaces": 65,
-      "occupancyPercent": 42.5,
+      "vacantSpaces": 71,
+      "occupancyPercent": 37.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803568
+      "lastUpdated": 1772808014
     }
   ]
 }

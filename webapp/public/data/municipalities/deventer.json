@@ -1,6 +1,6 @@
 {
   "municipality": "Deventer",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 6,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.256486,
       "longitude": 6.152129,
       "capacity": 48,
-      "vacantSpaces": 28,
-      "occupancyPercent": 41.7,
+      "vacantSpaces": 23,
+      "occupancyPercent": 52.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803500
+      "lastUpdated": 1772808000
     },
     {
       "uuid": "186af3cc-3ebe-40b1-a807-72f98dbc94f7",
@@ -23,11 +23,11 @@
       "latitude": 52.250043,
       "longitude": 6.160796,
       "capacity": 280,
-      "vacantSpaces": 74,
-      "occupancyPercent": 73.6,
+      "vacantSpaces": 81,
+      "occupancyPercent": 71.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803500
+      "lastUpdated": 1772808000
     },
     {
       "uuid": "9939a414-628f-4b60-8068-f7731ea5f31a",
@@ -36,11 +36,11 @@
       "latitude": 52.254732,
       "longitude": 6.1588,
       "capacity": 481,
-      "vacantSpaces": 65,
-      "occupancyPercent": 86.5,
+      "vacantSpaces": 114,
+      "occupancyPercent": 76.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803500
+      "lastUpdated": 1772808000
     },
     {
       "uuid": "45434989-3252-4c85-8731-c856b02c390c",
@@ -49,11 +49,11 @@
       "latitude": 52.256282,
       "longitude": 6.161446,
       "capacity": 159,
-      "vacantSpaces": 72,
-      "occupancyPercent": 54.7,
+      "vacantSpaces": 73,
+      "occupancyPercent": 54.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803500
+      "lastUpdated": 1772808000
     },
     {
       "uuid": "4639a30f-a31e-4f72-8430-49c1d8ff6be7",
@@ -62,11 +62,11 @@
       "latitude": 52.256485,
       "longitude": 6.152127,
       "capacity": 132,
-      "vacantSpaces": 41,
-      "occupancyPercent": 68.9,
+      "vacantSpaces": 37,
+      "occupancyPercent": 72.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803500
+      "lastUpdated": 1772808000
     },
     {
       "uuid": "5e438ace-a80a-4a9b-9047-782c092d9fc5",
@@ -75,11 +75,11 @@
       "latitude": 52.25496,
       "longitude": 6.16647,
       "capacity": 162,
-      "vacantSpaces": 114,
-      "occupancyPercent": 29.6,
+      "vacantSpaces": 132,
+      "occupancyPercent": 18.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803517
+      "lastUpdated": 1772808054
     }
   ]
 }

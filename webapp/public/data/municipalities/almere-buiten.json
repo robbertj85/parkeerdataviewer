@@ -1,6 +1,6 @@
 {
   "municipality": "Almere Buiten",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 5,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.394629,
       "longitude": 5.279243,
       "capacity": 334,
-      "vacantSpaces": 297,
-      "occupancyPercent": 11.1,
+      "vacantSpaces": 301,
+      "occupancyPercent": 9.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "707242b6-6564-43ed-b272-fab1b406a3bb",
@@ -23,11 +23,11 @@
       "latitude": 52.393521,
       "longitude": 5.276422,
       "capacity": 301,
-      "vacantSpaces": 262,
-      "occupancyPercent": 13.0,
+      "vacantSpaces": 268,
+      "occupancyPercent": 11.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "2ddeebb5-39db-4a32-ae6d-eeb45bf4a5ef",
@@ -36,11 +36,11 @@
       "latitude": 52.395308,
       "longitude": 5.274068,
       "capacity": 150,
-      "vacantSpaces": 148,
-      "occupancyPercent": 1.3,
+      "vacantSpaces": 150,
+      "occupancyPercent": 0.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "4e593474-6add-44a1-b0b8-c53f2aac44ad",
@@ -49,11 +49,11 @@
       "latitude": 52.394855,
       "longitude": 5.280122,
       "capacity": 209,
-      "vacantSpaces": 152,
-      "occupancyPercent": 27.3,
+      "vacantSpaces": 147,
+      "occupancyPercent": 29.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "02b97e2b-bea0-42ce-801c-5462221b28f7",
@@ -62,11 +62,11 @@
       "latitude": 52.393533,
       "longitude": 5.276429,
       "capacity": 91,
-      "vacantSpaces": 39,
-      "occupancyPercent": 57.1,
+      "vacantSpaces": 40,
+      "occupancyPercent": 56.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     }
   ]
 }

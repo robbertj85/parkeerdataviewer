@@ -1,21 +1,8 @@
 {
   "municipality": "Maastricht",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 5,
   "facilities": [
-    {
-      "uuid": "45b1b090-778f-4a65-99ba-7baf8e0f4412",
-      "name": "Terrein Stadspark 1 (Maastricht)",
-      "operator": "Maastricht",
-      "latitude": 50.50364,
-      "longitude": 5.41497,
-      "capacity": 227,
-      "vacantSpaces": 33,
-      "occupancyPercent": 85.5,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1752066495
-    },
     {
       "uuid": "af0b223f-cfe3-4e84-8359-2724e26315a0",
       "name": "Terrein Stadspark 2 (Maastricht)",
@@ -28,6 +15,19 @@
       "open": true,
       "full": true,
       "lastUpdated": 1752066320
+    },
+    {
+      "uuid": "45b1b090-778f-4a65-99ba-7baf8e0f4412",
+      "name": "Terrein Stadspark 1 (Maastricht)",
+      "operator": "Maastricht",
+      "latitude": 50.50364,
+      "longitude": 5.41497,
+      "capacity": 227,
+      "vacantSpaces": 33,
+      "occupancyPercent": 85.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1752066495
     },
     {
       "uuid": "53d7d51e-1be5-4ecf-af13-c1c601d37503",
@@ -49,11 +49,11 @@
       "latitude": 50.85319,
       "longitude": 5.70299,
       "capacity": 27,
-      "vacantSpaces": 43,
-      "occupancyPercent": -59.3,
+      "vacantSpaces": 46,
+      "occupancyPercent": -70.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772802943
+      "lastUpdated": 1772807858
     },
     {
       "uuid": "74823881-a189-4746-ae24-528e733777f7",
@@ -66,7 +66,7 @@
       "occupancyPercent": -37.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803543
+      "lastUpdated": 1772808102
     }
   ]
 }

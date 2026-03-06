@@ -1,6 +1,6 @@
 {
   "municipality": "Almere",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.369412,
       "longitude": 5.223197,
       "capacity": 315,
-      "vacantSpaces": 60,
-      "occupancyPercent": 81.0,
+      "vacantSpaces": 83,
+      "occupancyPercent": 73.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "332264eb-f17e-4cbb-8ed2-40aae6f68b2c",
@@ -23,11 +23,11 @@
       "latitude": 52.374188,
       "longitude": 5.219964,
       "capacity": 262,
-      "vacantSpaces": 161,
-      "occupancyPercent": 38.5,
+      "vacantSpaces": 148,
+      "occupancyPercent": 43.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     }
   ]
 }

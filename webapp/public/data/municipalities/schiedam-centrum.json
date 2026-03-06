@@ -1,6 +1,6 @@
 {
   "municipality": "Schiedam Centrum",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 51.92158,
       "longitude": 4.40896,
       "capacity": 53,
-      "vacantSpaces": 20,
-      "occupancyPercent": 62.3,
+      "vacantSpaces": 32,
+      "occupancyPercent": 39.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803092
+      "lastUpdated": 1772807772
     },
     {
       "uuid": "d7f41af5-8e89-465a-963c-f5102affcd78",

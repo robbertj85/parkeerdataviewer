@@ -1,6 +1,6 @@
 {
   "municipality": "Apeldoorn",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.213228,
       "longitude": 5.969136,
       "capacity": 530,
-      "vacantSpaces": 401,
-      "occupancyPercent": 24.3,
+      "vacantSpaces": 402,
+      "occupancyPercent": 24.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803630
+      "lastUpdated": 1772807942
     },
     {
       "uuid": "62075c53-5284-47d4-8909-3872721380d7",
@@ -23,11 +23,11 @@
       "latitude": 52.21153,
       "longitude": 5.961093,
       "capacity": 174,
-      "vacantSpaces": 97,
-      "occupancyPercent": 44.3,
+      "vacantSpaces": 94,
+      "occupancyPercent": 46.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803632
+      "lastUpdated": 1772808129
     },
     {
       "uuid": "d713179a-5257-46e3-a989-705291add0c1",
@@ -36,11 +36,11 @@
       "latitude": 52.20862,
       "longitude": 5.9706,
       "capacity": 178,
-      "vacantSpaces": 19,
-      "occupancyPercent": 89.3,
+      "vacantSpaces": -18,
+      "occupancyPercent": 110.1,
       "open": true,
-      "full": false,
-      "lastUpdated": 1772803482
+      "full": true,
+      "lastUpdated": 1772807855
     }
   ]
 }

@@ -1,21 +1,8 @@
 {
   "municipality": "Roosendaal",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 7,
   "facilities": [
-    {
-      "uuid": "500f53b7-d700-4f9d-818b-72951caf4d40",
-      "name": "Garage Liga (Roosendaal)",
-      "operator": "Roosendaal",
-      "latitude": 51.530499,
-      "longitude": 4.45237,
-      "capacity": 150,
-      "vacantSpaces": 120,
-      "occupancyPercent": 20.0,
-      "open": false,
-      "full": false,
-      "lastUpdated": 1772803532
-    },
     {
       "uuid": "b7fd59d7-ef6e-4b8b-804d-42ba6bb98dbf",
       "name": "Garage Biggelaar (Roosendaal)",
@@ -23,11 +10,24 @@
       "latitude": 51.533183,
       "longitude": 4.458464,
       "capacity": 371,
-      "vacantSpaces": 268,
-      "occupancyPercent": 27.8,
+      "vacantSpaces": 282,
+      "occupancyPercent": 24.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803532
+      "lastUpdated": 1772808032
+    },
+    {
+      "uuid": "500f53b7-d700-4f9d-818b-72951caf4d40",
+      "name": "Garage Liga (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.530499,
+      "longitude": 4.45237,
+      "capacity": 150,
+      "vacantSpaces": 125,
+      "occupancyPercent": 16.7,
+      "open": false,
+      "full": false,
+      "lastUpdated": 1772808032
     },
     {
       "uuid": "02f38b89-a5a7-4df6-8e87-5de543d84440",
@@ -36,11 +36,11 @@
       "latitude": 51.531157,
       "longitude": 4.45917,
       "capacity": 439,
-      "vacantSpaces": 254,
-      "occupancyPercent": 42.1,
+      "vacantSpaces": 244,
+      "occupancyPercent": 44.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803532
+      "lastUpdated": 1772808032
     },
     {
       "uuid": "9a2ca410-8fba-4ff7-ab8f-6f1a5398eab0",
@@ -49,11 +49,11 @@
       "latitude": 51.530433,
       "longitude": 4.453411,
       "capacity": 382,
-      "vacantSpaces": 208,
-      "occupancyPercent": 45.5,
+      "vacantSpaces": 210,
+      "occupancyPercent": 45.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803532
+      "lastUpdated": 1772808032
     },
     {
       "uuid": "d13f96a4-ed41-41ae-88a1-921e9c067e3e",
@@ -62,11 +62,11 @@
       "latitude": 51.528407,
       "longitude": 4.454167,
       "capacity": 90,
-      "vacantSpaces": 59,
-      "occupancyPercent": 34.4,
+      "vacantSpaces": 61,
+      "occupancyPercent": 32.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803532
+      "lastUpdated": 1772808032
     },
     {
       "uuid": "08e88e8e-9a59-4ea7-9511-4914d75364ee",
@@ -75,11 +75,11 @@
       "latitude": 51.5394,
       "longitude": 4.45789,
       "capacity": 110,
-      "vacantSpaces": 63,
-      "occupancyPercent": 42.7,
+      "vacantSpaces": 73,
+      "occupancyPercent": 33.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803523
+      "lastUpdated": 1772808072
     },
     {
       "uuid": "656ec2fe-54a8-4e3c-8118-2182adc93bd1",
@@ -88,11 +88,11 @@
       "latitude": 51.54031,
       "longitude": 4.46103,
       "capacity": 98,
-      "vacantSpaces": 67,
-      "occupancyPercent": 31.6,
+      "vacantSpaces": 64,
+      "occupancyPercent": 34.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803503
+      "lastUpdated": 1772807992
     }
   ]
 }

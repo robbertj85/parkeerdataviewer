@@ -1,6 +1,6 @@
 {
   "municipality": "Alkmaar",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 4,
   "facilities": [
     {
@@ -10,11 +10,11 @@
       "latitude": 52.632194,
       "longitude": 4.751839,
       "capacity": 420,
-      "vacantSpaces": 185,
-      "occupancyPercent": 56.0,
+      "vacantSpaces": 189,
+      "occupancyPercent": 55.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803505
+      "lastUpdated": 1772808005
     },
     {
       "uuid": "e7f0ddfb-8b9f-4f47-a274-076807a63a5b",
@@ -23,11 +23,11 @@
       "latitude": 52.634197,
       "longitude": 4.745139,
       "capacity": 65,
-      "vacantSpaces": 4,
-      "occupancyPercent": 93.8,
+      "vacantSpaces": 10,
+      "occupancyPercent": 84.6,
       "open": true,
-      "full": true,
-      "lastUpdated": 1772803505
+      "full": false,
+      "lastUpdated": 1772808005
     },
     {
       "uuid": "46c2167d-7d65-4e5f-9e3e-6d625aa8c7b6",
@@ -40,7 +40,7 @@
       "occupancyPercent": 3.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803506
+      "lastUpdated": 1772808006
     },
     {
       "uuid": "d863d817-96ec-4b0a-9393-97b6adaf70f5",
@@ -49,11 +49,11 @@
       "latitude": 52.63905,
       "longitude": 4.74079,
       "capacity": 180,
-      "vacantSpaces": 114,
-      "occupancyPercent": 36.7,
+      "vacantSpaces": 136,
+      "occupancyPercent": 24.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803373
+      "lastUpdated": 1772807511
     }
   ]
 }

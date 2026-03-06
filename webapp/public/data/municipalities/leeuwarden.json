@@ -1,8 +1,21 @@
 {
   "municipality": "Leeuwarden",
-  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "generated_at": "2026-03-06T14:43:21.435490+00:00",
   "facility_count": 6,
   "facilities": [
+    {
+      "uuid": "c0bc471b-86b3-4d80-b62f-1d88101096b2",
+      "name": "P-Oldehove",
+      "operator": "Leeuwarden",
+      "latitude": 53.203228,
+      "longitude": 5.789787,
+      "capacity": 510,
+      "vacantSpaces": 149,
+      "occupancyPercent": 70.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772808030
+    },
     {
       "uuid": "14f1046d-1fda-4081-883b-d6a8a2ad937d",
       "name": "P-Klanderij",
@@ -10,11 +23,11 @@
       "latitude": 53.197967,
       "longitude": 5.797714,
       "capacity": 625,
-      "vacantSpaces": 372,
-      "occupancyPercent": 40.5,
+      "vacantSpaces": 407,
+      "occupancyPercent": 34.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "80d26cc5-1210-4bdf-beb4-0602f35bdccc",
@@ -23,24 +36,11 @@
       "latitude": 53.1993,
       "longitude": 5.793889,
       "capacity": 705,
-      "vacantSpaces": 89,
-      "occupancyPercent": 87.4,
+      "vacantSpaces": 98,
+      "occupancyPercent": 86.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
-    },
-    {
-      "uuid": "c0bc471b-86b3-4d80-b62f-1d88101096b2",
-      "name": "P-Oldehove",
-      "operator": "Leeuwarden",
-      "latitude": 53.203228,
-      "longitude": 5.789787,
-      "capacity": 510,
-      "vacantSpaces": 143,
-      "occupancyPercent": 72.0,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "a03c3613-6fed-4659-906f-17843c227622",
@@ -49,11 +49,11 @@
       "latitude": 53.205689,
       "longitude": 5.802397,
       "capacity": 388,
-      "vacantSpaces": 170,
-      "occupancyPercent": 56.2,
+      "vacantSpaces": 171,
+      "occupancyPercent": 55.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "d3bd2edf-cd1f-4b3d-baee-eb37c8bc9e53",
@@ -62,11 +62,11 @@
       "latitude": 53.201489,
       "longitude": 5.80145,
       "capacity": 250,
-      "vacantSpaces": 182,
-      "occupancyPercent": 27.2,
+      "vacantSpaces": 183,
+      "occupancyPercent": 26.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803530
+      "lastUpdated": 1772808030
     },
     {
       "uuid": "9ed37ad1-9374-400a-918f-f02411eb8ce6",
@@ -75,11 +75,11 @@
       "latitude": 53.19531,
       "longitude": 5.79078,
       "capacity": 210,
-      "vacantSpaces": 161,
-      "occupancyPercent": 23.3,
+      "vacantSpaces": 157,
+      "occupancyPercent": 25.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772803539
+      "lastUpdated": 1772807911
     }
   ]
 }
