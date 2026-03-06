@@ -1,0 +1,85 @@
+{
+  "municipality": "Leeuwarden",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 6,
+  "facilities": [
+    {
+      "uuid": "14f1046d-1fda-4081-883b-d6a8a2ad937d",
+      "name": "P-Klanderij",
+      "operator": "Leeuwarden",
+      "latitude": 53.197967,
+      "longitude": 5.797714,
+      "capacity": 625,
+      "vacantSpaces": 372,
+      "occupancyPercent": 40.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "80d26cc5-1210-4bdf-beb4-0602f35bdccc",
+      "name": "P-Zaailand",
+      "operator": "Leeuwarden",
+      "latitude": 53.1993,
+      "longitude": 5.793889,
+      "capacity": 705,
+      "vacantSpaces": 89,
+      "occupancyPercent": 87.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "c0bc471b-86b3-4d80-b62f-1d88101096b2",
+      "name": "P-Oldehove",
+      "operator": "Leeuwarden",
+      "latitude": 53.203228,
+      "longitude": 5.789787,
+      "capacity": 510,
+      "vacantSpaces": 143,
+      "occupancyPercent": 72.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "a03c3613-6fed-4659-906f-17843c227622",
+      "name": "P-Hoeksterend",
+      "operator": "Leeuwarden",
+      "latitude": 53.205689,
+      "longitude": 5.802397,
+      "capacity": 388,
+      "vacantSpaces": 170,
+      "occupancyPercent": 56.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "d3bd2edf-cd1f-4b3d-baee-eb37c8bc9e53",
+      "name": "P-Oosterstraat",
+      "operator": "Leeuwarden",
+      "latitude": 53.201489,
+      "longitude": 5.80145,
+      "capacity": 250,
+      "vacantSpaces": 182,
+      "occupancyPercent": 27.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "9ed37ad1-9374-400a-918f-f02411eb8ce6",
+      "name": "P+R Wijnhornsterstraat (Leeuwarden)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 53.19531,
+      "longitude": 5.79078,
+      "capacity": 210,
+      "vacantSpaces": 161,
+      "occupancyPercent": 23.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803539
+    }
+  ]
+}

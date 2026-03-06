@@ -1,0 +1,20 @@
+{
+  "municipality": "Eindhoven",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "cc7a3d99-d6f6-4407-86bc-008eb47549ea",
+      "name": "P+R Fuutlaan (Eindhoven)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.44248,
+      "longitude": 5.4856,
+      "capacity": 130,
+      "vacantSpaces": 32,
+      "occupancyPercent": 75.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803542
+    }
+  ]
+}

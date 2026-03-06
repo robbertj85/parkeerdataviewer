@@ -1,0 +1,20 @@
+{
+  "municipality": "Boxtel",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "87657efe-b52a-40e4-9cf2-cf356a24017c",
+      "name": "P+R Van Salmstraat (Boxtel)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.58316,
+      "longitude": 5.31807,
+      "capacity": 189,
+      "vacantSpaces": 170,
+      "occupancyPercent": 10.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772802913
+    }
+  ]
+}

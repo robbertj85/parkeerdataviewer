@@ -1,0 +1,98 @@
+{
+  "municipality": "Roosendaal",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 7,
+  "facilities": [
+    {
+      "uuid": "500f53b7-d700-4f9d-818b-72951caf4d40",
+      "name": "Garage Liga (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.530499,
+      "longitude": 4.45237,
+      "capacity": 150,
+      "vacantSpaces": 120,
+      "occupancyPercent": 20.0,
+      "open": false,
+      "full": false,
+      "lastUpdated": 1772803532
+    },
+    {
+      "uuid": "b7fd59d7-ef6e-4b8b-804d-42ba6bb98dbf",
+      "name": "Garage Biggelaar (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.533183,
+      "longitude": 4.458464,
+      "capacity": 371,
+      "vacantSpaces": 268,
+      "occupancyPercent": 27.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803532
+    },
+    {
+      "uuid": "02f38b89-a5a7-4df6-8e87-5de543d84440",
+      "name": "Garage Nieuwe Markt (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.531157,
+      "longitude": 4.45917,
+      "capacity": 439,
+      "vacantSpaces": 254,
+      "occupancyPercent": 42.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803532
+    },
+    {
+      "uuid": "9a2ca410-8fba-4ff7-ab8f-6f1a5398eab0",
+      "name": "Garage Roselaar (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.530433,
+      "longitude": 4.453411,
+      "capacity": 382,
+      "vacantSpaces": 208,
+      "occupancyPercent": 45.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803532
+    },
+    {
+      "uuid": "d13f96a4-ed41-41ae-88a1-921e9c067e3e",
+      "name": "Garage Mill Hill (Roosendaal)",
+      "operator": "Roosendaal",
+      "latitude": 51.528407,
+      "longitude": 4.454167,
+      "capacity": 90,
+      "vacantSpaces": 59,
+      "occupancyPercent": 34.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803532
+    },
+    {
+      "uuid": "08e88e8e-9a59-4ea7-9511-4914d75364ee",
+      "name": "P+R Stationsstraat (Roosendaal)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.5394,
+      "longitude": 4.45789,
+      "capacity": 110,
+      "vacantSpaces": 63,
+      "occupancyPercent": 42.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803523
+    },
+    {
+      "uuid": "656ec2fe-54a8-4e3c-8118-2182adc93bd1",
+      "name": "P+R Stationsplein (Roosendaal)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.54031,
+      "longitude": 4.46103,
+      "capacity": 98,
+      "vacantSpaces": 67,
+      "occupancyPercent": 31.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803503
+    }
+  ]
+}

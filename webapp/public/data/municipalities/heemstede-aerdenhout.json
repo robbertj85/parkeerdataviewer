@@ -1,0 +1,20 @@
+{
+  "municipality": "Heemstede-Aerdenhout",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "5d3110ce-748f-4d92-b131-11f1c456f510",
+      "name": "P+R Roemer Visscherplein (Heemstede-Aerdenhout)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.35933,
+      "longitude": 4.606,
+      "capacity": 132,
+      "vacantSpaces": 79,
+      "occupancyPercent": 40.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803441
+    }
+  ]
+}

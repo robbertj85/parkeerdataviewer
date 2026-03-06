@@ -1,0 +1,20 @@
+{
+  "municipality": "Naaldwijk",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "c26ad163-2d50-4198-9e33-25a4ba91a340",
+      "name": "Parkeergarage Foodmarkt Westland (Naaldwijk)",
+      "operator": "Westland",
+      "latitude": 51.993037,
+      "longitude": 4.203803,
+      "capacity": 200,
+      "vacantSpaces": 117,
+      "occupancyPercent": 41.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803617
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "municipality": "Nijmegen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 7,
+  "facilities": [
+    {
+      "uuid": "0967d16d-061b-4f44-838d-36cec4be68b9",
+      "name": "P+R Nijmegen-Noord (Nijmegen)",
+      "operator": "Nijmegen",
+      "latitude": 51.881898,
+      "longitude": 5.861051,
+      "capacity": 390,
+      "vacantSpaces": 357,
+      "occupancyPercent": 8.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803534
+    },
+    {
+      "uuid": "84af4dc6-992d-40dd-a6e1-a1900ea7961f",
+      "name": "P6 Parkeergarage Eiermarkt",
+      "operator": "Nijmegen",
+      "latitude": 51.847434,
+      "longitude": 5.86656,
+      "capacity": 401,
+      "vacantSpaces": 112,
+      "occupancyPercent": 72.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803531
+    },
+    {
+      "uuid": "60bf0e76-d3bf-42d1-b7a0-04f0ab048e9d",
+      "name": "Terrein Molenpoortdak (Nijmegen)",
+      "operator": "Nijmegen",
+      "latitude": 51.843891,
+      "longitude": 5.864618,
+      "capacity": 289,
+      "vacantSpaces": 289,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803531
+    },
+    {
+      "uuid": "ffab40f6-4a10-41f2-9cc1-b9c2879d8c37",
+      "name": "P3 Parkeergarage Kelfkensbos",
+      "operator": "Nijmegen",
+      "latitude": 51.846208,
+      "longitude": 5.870647,
+      "capacity": 484,
+      "vacantSpaces": 271,
+      "occupancyPercent": 44.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803531
+    },
+    {
+      "uuid": "96ec46a4-8089-49a8-8ca4-df67a5d0bdc1",
+      "name": "P1 Parkeergarage Keizer Karel",
+      "operator": "Nijmegen",
+      "latitude": 51.842178,
+      "longitude": 5.85737,
+      "capacity": 684,
+      "vacantSpaces": 325,
+      "occupancyPercent": 52.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803507
+    },
+    {
+      "uuid": "deb8f7da-0864-4019-8715-53ca185efc42",
+      "name": "P5 Parkeergarage Mari\u00ebnburg",
+      "operator": "Nijmegen",
+      "latitude": 51.844784,
+      "longitude": 5.865989,
+      "capacity": 300,
+      "vacantSpaces": 91,
+      "occupancyPercent": 69.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "88053957-10e2-4453-a3d7-1706298b9737",
+      "name": "P+R 1e Oude Heselaan (Nijmegen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.84469,
+      "longitude": 5.85132,
+      "capacity": 85,
+      "vacantSpaces": 38,
+      "occupancyPercent": 55.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803443
+    }
+  ]
+}

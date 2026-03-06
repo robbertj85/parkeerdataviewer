@@ -1,0 +1,20 @@
+{
+  "municipality": "Leidschendam-Voorburg",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "73f63588-e4c1-4f4c-aeae-d204e2ef5b1f",
+      "name": "Garage Damplein (Leidschendam-Voorburg)",
+      "operator": "Leidschendam-Voorburg",
+      "latitude": 52.081003,
+      "longitude": 4.397197,
+      "capacity": 225,
+      "vacantSpaces": 186,
+      "occupancyPercent": 17.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803650
+    }
+  ]
+}

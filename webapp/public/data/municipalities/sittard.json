@@ -1,0 +1,20 @@
+{
+  "municipality": "Sittard",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "46fa33ae-878c-4afa-b231-9930ee1fb073",
+      "name": "P+R Transferium (Sittard)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.001739,
+      "longitude": 5.857042,
+      "capacity": 495,
+      "vacantSpaces": 211,
+      "occupancyPercent": 57.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803109
+    }
+  ]
+}

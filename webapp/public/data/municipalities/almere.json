@@ -1,0 +1,33 @@
+{
+  "municipality": "Almere",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "a293ae1c-779c-4d2b-80d0-a305c4b04e61",
+      "name": "P5 Parkeerterrein Hennepveld",
+      "operator": "Almere",
+      "latitude": 52.369412,
+      "longitude": 5.223197,
+      "capacity": 315,
+      "vacantSpaces": 60,
+      "occupancyPercent": 81.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "332264eb-f17e-4cbb-8ed2-40aae6f68b2c",
+      "name": "P1 Parkeerterrein Koolzaadveld",
+      "operator": "Almere",
+      "latitude": 52.374188,
+      "longitude": 5.219964,
+      "capacity": 262,
+      "vacantSpaces": 161,
+      "occupancyPercent": 38.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    }
+  ]
+}

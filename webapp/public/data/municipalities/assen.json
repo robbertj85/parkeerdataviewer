@@ -1,0 +1,20 @@
+{
+  "municipality": "Assen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "5283148b-441e-425d-bab4-ec0a68a33342",
+      "name": "P+R Stationsplein (Assen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.98963,
+      "longitude": 6.56954,
+      "capacity": 256,
+      "vacantSpaces": 163,
+      "occupancyPercent": 36.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803180
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "municipality": "Amsterdam Lelylaan",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "ac546da2-cc2b-4e1d-adf7-15bcecde9fff",
+      "name": "P+R Comeniuslaan (Amsterdam Lelylaan)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.35919,
+      "longitude": 4.83367,
+      "capacity": 70,
+      "vacantSpaces": 61,
+      "occupancyPercent": 12.9,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803364
+    }
+  ]
+}

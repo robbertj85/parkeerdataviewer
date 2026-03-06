@@ -1,0 +1,20 @@
+{
+  "municipality": "Diemen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "40367d76-9ba1-4257-b954-f5f58edf144e",
+      "name": "P+R Station Diemen (Diemen)",
+      "operator": "Diemen",
+      "latitude": 52.345229,
+      "longitude": 4.967026,
+      "capacity": 112,
+      "vacantSpaces": 81,
+      "occupancyPercent": 27.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803466
+    }
+  ]
+}

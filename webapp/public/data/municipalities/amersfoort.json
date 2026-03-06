@@ -1,0 +1,33 @@
+{
+  "municipality": "Amersfoort",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "325f0f1e-f5e5-44fa-8335-a7086df8976e",
+      "name": "P+R Barchman Wuijtierslaan (Amersfoort)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.1529,
+      "longitude": 5.36837,
+      "capacity": 180,
+      "vacantSpaces": 163,
+      "occupancyPercent": 9.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772802979
+    },
+    {
+      "uuid": "fa1c4be1-6424-43e9-bf19-91cbb126ce63",
+      "name": "P+R Piet Mondriaanplein (Amersfoort)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.15498,
+      "longitude": 5.37218,
+      "capacity": 431,
+      "vacantSpaces": 67,
+      "occupancyPercent": 84.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803524
+    }
+  ]
+}

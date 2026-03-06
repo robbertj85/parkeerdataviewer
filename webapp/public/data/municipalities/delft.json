@@ -1,0 +1,46 @@
+{
+  "municipality": "Delft",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 3,
+  "facilities": [
+    {
+      "uuid": "c6fa5861-abde-41af-8f00-14c188566168",
+      "name": "Phoenixgarage (Delft)",
+      "operator": "Delft",
+      "latitude": 52.010766,
+      "longitude": 4.354602,
+      "capacity": 201,
+      "vacantSpaces": 15,
+      "occupancyPercent": 92.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803651
+    },
+    {
+      "uuid": "333f3516-1869-43fc-a84a-24c2356049b9",
+      "name": "Zuidpoortgarage (Delft)",
+      "operator": "Delft",
+      "latitude": 52.008015,
+      "longitude": 4.363065,
+      "capacity": 810,
+      "vacantSpaces": 324,
+      "occupancyPercent": 60.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803651
+    },
+    {
+      "uuid": "c4172abb-8ad1-446a-8c35-ddb310d1a0f9",
+      "name": "Marktgarage (Delft)",
+      "operator": "Delft",
+      "latitude": 52.014289,
+      "longitude": 4.365997,
+      "capacity": 325,
+      "vacantSpaces": 209,
+      "occupancyPercent": 35.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803651
+    }
+  ]
+}

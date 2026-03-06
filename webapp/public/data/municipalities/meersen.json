@@ -1,0 +1,20 @@
+{
+  "municipality": "Meersen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "24190ff2-c521-4825-abd6-aa20c14d8b67",
+      "name": "P+R Stationsstraat (Meersen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 50.882452,
+      "longitude": 5.751464,
+      "capacity": 88,
+      "vacantSpaces": 66,
+      "occupancyPercent": 25.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497702
+    }
+  ]
+}

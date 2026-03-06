@@ -1,0 +1,33 @@
+{
+  "municipality": "Breda",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "b17c99c0-65af-4451-a700-a21b24fc611e",
+      "name": "P+R Stationsweg (Breda)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.595,
+      "longitude": 4.78184,
+      "capacity": 39,
+      "vacantSpaces": 49,
+      "occupancyPercent": -25.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803578
+    },
+    {
+      "uuid": "d5565e93-2f9f-4074-8548-e631b72bae66",
+      "name": "P+R Station (Breda)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.596259,
+      "longitude": 4.777855,
+      "capacity": 550,
+      "vacantSpaces": 466,
+      "occupancyPercent": 15.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803582
+    }
+  ]
+}

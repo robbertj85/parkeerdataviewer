@@ -1,0 +1,395 @@
+{
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "municipalities": [
+    {
+      "name": "'s-Hertogenbosch",
+      "slug": "'s-hertogenbosch",
+      "facility_count": 10
+    },
+    {
+      "name": "A50",
+      "slug": "a50",
+      "facility_count": 1
+    },
+    {
+      "name": "Alkmaar",
+      "slug": "alkmaar",
+      "facility_count": 4
+    },
+    {
+      "name": "Almere",
+      "slug": "almere",
+      "facility_count": 2
+    },
+    {
+      "name": "Almere Buiten",
+      "slug": "almere-buiten",
+      "facility_count": 5
+    },
+    {
+      "name": "Almere Stad",
+      "slug": "almere-stad",
+      "facility_count": 10
+    },
+    {
+      "name": "Alphen a/d Rijn",
+      "slug": "alphen-a-d-rijn",
+      "facility_count": 1
+    },
+    {
+      "name": "Amersfoort",
+      "slug": "amersfoort",
+      "facility_count": 2
+    },
+    {
+      "name": "Amsterdam",
+      "slug": "amsterdam",
+      "facility_count": 19
+    },
+    {
+      "name": "Amsterdam Lelylaan",
+      "slug": "amsterdam-lelylaan",
+      "facility_count": 1
+    },
+    {
+      "name": "Apeldoorn",
+      "slug": "apeldoorn",
+      "facility_count": 3
+    },
+    {
+      "name": "Arnhem",
+      "slug": "arnhem",
+      "facility_count": 4
+    },
+    {
+      "name": "Assen",
+      "slug": "assen",
+      "facility_count": 1
+    },
+    {
+      "name": "Beek",
+      "slug": "beek",
+      "facility_count": 1
+    },
+    {
+      "name": "Bergen op Zoom",
+      "slug": "bergen-op-zoom",
+      "facility_count": 1
+    },
+    {
+      "name": "Beverwijk",
+      "slug": "beverwijk",
+      "facility_count": 1
+    },
+    {
+      "name": "Boxtel",
+      "slug": "boxtel",
+      "facility_count": 1
+    },
+    {
+      "name": "Breda",
+      "slug": "breda",
+      "facility_count": 2
+    },
+    {
+      "name": "Bunde",
+      "slug": "bunde",
+      "facility_count": 2
+    },
+    {
+      "name": "Delft",
+      "slug": "delft",
+      "facility_count": 3
+    },
+    {
+      "name": "Den Haag",
+      "slug": "den-haag",
+      "facility_count": 9
+    },
+    {
+      "name": "Deventer",
+      "slug": "deventer",
+      "facility_count": 6
+    },
+    {
+      "name": "Diemen",
+      "slug": "diemen",
+      "facility_count": 1
+    },
+    {
+      "name": "Doetinchem",
+      "slug": "doetinchem",
+      "facility_count": 3
+    },
+    {
+      "name": "Dordrecht",
+      "slug": "dordrecht",
+      "facility_count": 6
+    },
+    {
+      "name": "Duivendrecht",
+      "slug": "duivendrecht",
+      "facility_count": 1
+    },
+    {
+      "name": "Echt",
+      "slug": "echt",
+      "facility_count": 2
+    },
+    {
+      "name": "Eindhoven",
+      "slug": "eindhoven",
+      "facility_count": 1
+    },
+    {
+      "name": "Enschede",
+      "slug": "enschede",
+      "facility_count": 3
+    },
+    {
+      "name": "Gorinchem",
+      "slug": "gorinchem",
+      "facility_count": 1
+    },
+    {
+      "name": "Groningen",
+      "slug": "groningen",
+      "facility_count": 1
+    },
+    {
+      "name": "HWZB",
+      "slug": "hwzb",
+      "facility_count": 1
+    },
+    {
+      "name": "Harderwijk",
+      "slug": "harderwijk",
+      "facility_count": 5
+    },
+    {
+      "name": "Heemstede-Aerdenhout",
+      "slug": "heemstede-aerdenhout",
+      "facility_count": 1
+    },
+    {
+      "name": "Heerenveen",
+      "slug": "heerenveen",
+      "facility_count": 1
+    },
+    {
+      "name": "Heerlen",
+      "slug": "heerlen",
+      "facility_count": 3
+    },
+    {
+      "name": "Helmond",
+      "slug": "helmond",
+      "facility_count": 1
+    },
+    {
+      "name": "Hengelo",
+      "slug": "hengelo",
+      "facility_count": 1
+    },
+    {
+      "name": "Hoorn",
+      "slug": "hoorn",
+      "facility_count": 4
+    },
+    {
+      "name": "Klimmen Ransdaal",
+      "slug": "klimmen-ransdaal",
+      "facility_count": 1
+    },
+    {
+      "name": "Leeuwarden",
+      "slug": "leeuwarden",
+      "facility_count": 6
+    },
+    {
+      "name": "Leidschendam-Voorburg",
+      "slug": "leidschendam-voorburg",
+      "facility_count": 1
+    },
+    {
+      "name": "Lochem",
+      "slug": "lochem",
+      "facility_count": 2
+    },
+    {
+      "name": "Maastricht",
+      "slug": "maastricht",
+      "facility_count": 5
+    },
+    {
+      "name": "Meersen",
+      "slug": "meersen",
+      "facility_count": 1
+    },
+    {
+      "name": "Middelburg",
+      "slug": "middelburg",
+      "facility_count": 1
+    },
+    {
+      "name": "Naaldwijk",
+      "slug": "naaldwijk",
+      "facility_count": 1
+    },
+    {
+      "name": "Naarden-Bussum",
+      "slug": "naarden-bussum",
+      "facility_count": 1
+    },
+    {
+      "name": "Nijmegen",
+      "slug": "nijmegen",
+      "facility_count": 7
+    },
+    {
+      "name": "Noordwijk",
+      "slug": "noordwijk",
+      "facility_count": 1
+    },
+    {
+      "name": "Odijkerweg, Zeist",
+      "slug": "odijkerweg,-zeist",
+      "facility_count": 1
+    },
+    {
+      "name": "Oisterwijk",
+      "slug": "oisterwijk",
+      "facility_count": 1
+    },
+    {
+      "name": "Oss",
+      "slug": "oss",
+      "facility_count": 1
+    },
+    {
+      "name": "Roermond",
+      "slug": "roermond",
+      "facility_count": 2
+    },
+    {
+      "name": "Roosendaal",
+      "slug": "roosendaal",
+      "facility_count": 7
+    },
+    {
+      "name": "Rotterdam",
+      "slug": "rotterdam",
+      "facility_count": 14
+    },
+    {
+      "name": "Rotterdam Centraal",
+      "slug": "rotterdam-centraal",
+      "facility_count": 1
+    },
+    {
+      "name": "Schiedam",
+      "slug": "schiedam",
+      "facility_count": 1
+    },
+    {
+      "name": "Schiedam Centrum",
+      "slug": "schiedam-centrum",
+      "facility_count": 2
+    },
+    {
+      "name": "Schin op Geul",
+      "slug": "schin-op-geul",
+      "facility_count": 1
+    },
+    {
+      "name": "Sittard",
+      "slug": "sittard",
+      "facility_count": 1
+    },
+    {
+      "name": "Sneek",
+      "slug": "sneek",
+      "facility_count": 1
+    },
+    {
+      "name": "Susteren",
+      "slug": "susteren",
+      "facility_count": 2
+    },
+    {
+      "name": "Tilburg",
+      "slug": "tilburg",
+      "facility_count": 7
+    },
+    {
+      "name": "Utrecht",
+      "slug": "utrecht",
+      "facility_count": 9
+    },
+    {
+      "name": "Valkenburg",
+      "slug": "valkenburg",
+      "facility_count": 1
+    },
+    {
+      "name": "Veenendaal",
+      "slug": "veenendaal",
+      "facility_count": 3
+    },
+    {
+      "name": "Venlo",
+      "slug": "venlo",
+      "facility_count": 1
+    },
+    {
+      "name": "Vlaardingen",
+      "slug": "vlaardingen",
+      "facility_count": 3
+    },
+    {
+      "name": "Voerendaal",
+      "slug": "voerendaal",
+      "facility_count": 1
+    },
+    {
+      "name": "Weert",
+      "slug": "weert",
+      "facility_count": 1
+    },
+    {
+      "name": "Woerden",
+      "slug": "woerden",
+      "facility_count": 2
+    },
+    {
+      "name": "Zaandam",
+      "slug": "zaandam",
+      "facility_count": 1
+    },
+    {
+      "name": "Zaanstad",
+      "slug": "zaanstad",
+      "facility_count": 1
+    },
+    {
+      "name": "Zutphen",
+      "slug": "zutphen",
+      "facility_count": 1
+    },
+    {
+      "name": "Zwijndrecht",
+      "slug": "zwijndrecht",
+      "facility_count": 1
+    },
+    {
+      "name": "Zwolle",
+      "slug": "zwolle",
+      "facility_count": 7
+    },
+    {
+      "name": "utrecht",
+      "slug": "utrecht",
+      "facility_count": 1
+    }
+  ]
+}

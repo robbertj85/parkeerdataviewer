@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Next.js
+webapp/.next/
+webapp/out/
+webapp/build/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Cache
+data/cache/
+
+# Misc
+.DS_Store
+*.pem
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Verkeerslichtenviewer copy (not part of this project)
+verkeerslichtenviewer/

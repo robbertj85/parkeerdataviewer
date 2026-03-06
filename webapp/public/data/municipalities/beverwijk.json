@@ -1,0 +1,20 @@
+{
+  "municipality": "Beverwijk",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "e25f0d56-a213-416b-ab85-9f4d40d0f8f6",
+      "name": "P+R Wijckermolen (Beverwijk)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.47915,
+      "longitude": 4.65656,
+      "capacity": 116,
+      "vacantSpaces": 99,
+      "occupancyPercent": 14.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803009
+    }
+  ]
+}

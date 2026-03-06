@@ -1,0 +1,20 @@
+{
+  "municipality": "Middelburg",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "a74cb3bf-e681-45a0-bd09-60ab91099fec",
+      "name": "P+R Segeersingel (Middelburg)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.49375,
+      "longitude": 3.61519,
+      "capacity": 143,
+      "vacantSpaces": 104,
+      "occupancyPercent": 27.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803137
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "municipality": "Woerden",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "83c0ebb3-ef4b-49bd-b15d-e30fc58902bf",
+      "name": "P+R Spoorlaan (Woerden)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.08568,
+      "longitude": 4.89278,
+      "capacity": 154,
+      "vacantSpaces": 83,
+      "occupancyPercent": 46.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803591
+    },
+    {
+      "uuid": "0b6cd5b5-8a48-4e69-a38e-6e38c12cb9a7",
+      "name": "P+R Houttuinlaan 3 parking (Woerden)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.082613,
+      "longitude": 4.890934,
+      "capacity": 245,
+      "vacantSpaces": 240,
+      "occupancyPercent": 2.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1747293594
+    }
+  ]
+}

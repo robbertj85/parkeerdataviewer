@@ -1,0 +1,20 @@
+{
+  "municipality": "Zaanstad",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "b3b3f9ec-e94e-4923-8865-53c9c5f7aeaf",
+      "name": "Parkeerterrein de Burcht (Zaanstad)",
+      "operator": "Zaanstad",
+      "latitude": 52.43872,
+      "longitude": 4.828007,
+      "capacity": 236,
+      "vacantSpaces": 236,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    }
+  ]
+}

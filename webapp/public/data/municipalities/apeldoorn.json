@@ -1,0 +1,46 @@
+{
+  "municipality": "Apeldoorn",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 3,
+  "facilities": [
+    {
+      "uuid": "d381c28b-2cf8-48b6-b0f8-8166c08cf25f",
+      "name": "Parkeergarage Koningshaven-Centrum",
+      "operator": "Apeldoorn",
+      "latitude": 52.213228,
+      "longitude": 5.969136,
+      "capacity": 530,
+      "vacantSpaces": 401,
+      "occupancyPercent": 24.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803630
+    },
+    {
+      "uuid": "62075c53-5284-47d4-8909-3872721380d7",
+      "name": "Parkeergarage Brinklaan (op werkdagen zijn 125 plaatsen gereserveerd)",
+      "operator": "Apeldoorn",
+      "latitude": 52.21153,
+      "longitude": 5.961093,
+      "capacity": 174,
+      "vacantSpaces": 97,
+      "occupancyPercent": 44.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803632
+    },
+    {
+      "uuid": "d713179a-5257-46e3-a989-705291add0c1",
+      "name": "P+R Laan van de Mensenrechten (Apeldoorn)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.20862,
+      "longitude": 5.9706,
+      "capacity": 178,
+      "vacantSpaces": 19,
+      "occupancyPercent": 89.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803482
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "municipality": "Noordwijk",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "8c237822-2d60-4446-b5cd-8f33cccb26fc",
+      "name": "Terrein Vomar Bomstraat (Noordwijk)",
+      "operator": "Centrum Parking",
+      "latitude": 52.243867,
+      "longitude": 4.431611,
+      "capacity": 240,
+      "vacantSpaces": 161,
+      "occupancyPercent": 32.9,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    }
+  ]
+}

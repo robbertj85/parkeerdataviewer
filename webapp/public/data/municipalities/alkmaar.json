@@ -1,0 +1,59 @@
+{
+  "municipality": "Alkmaar",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 4,
+  "facilities": [
+    {
+      "uuid": "c06e8266-5df0-411e-8b7d-3027530f2661",
+      "name": "Parkeergarage Karperton",
+      "operator": "Alkmaar",
+      "latitude": 52.632194,
+      "longitude": 4.751839,
+      "capacity": 420,
+      "vacantSpaces": 185,
+      "occupancyPercent": 56.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803505
+    },
+    {
+      "uuid": "e7f0ddfb-8b9f-4f47-a274-076807a63a5b",
+      "name": "Parkeergarage Vest",
+      "operator": "Alkmaar",
+      "latitude": 52.634197,
+      "longitude": 4.745139,
+      "capacity": 65,
+      "vacantSpaces": 4,
+      "occupancyPercent": 93.8,
+      "open": true,
+      "full": true,
+      "lastUpdated": 1772803505
+    },
+    {
+      "uuid": "46c2167d-7d65-4e5f-9e3e-6d625aa8c7b6",
+      "name": "Garage Grote Kerk (Alkmaar)",
+      "operator": "APCOA Parking",
+      "latitude": 52.63226,
+      "longitude": 4.742638,
+      "capacity": 150,
+      "vacantSpaces": 145,
+      "occupancyPercent": 3.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803506
+    },
+    {
+      "uuid": "d863d817-96ec-4b0a-9393-97b6adaf70f5",
+      "name": "P+R Kruseman van Eltenweg (Alkmaar)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.63905,
+      "longitude": 4.74079,
+      "capacity": 180,
+      "vacantSpaces": 114,
+      "occupancyPercent": 36.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803373
+    }
+  ]
+}

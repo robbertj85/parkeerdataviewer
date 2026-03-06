@@ -1,0 +1,46 @@
+{
+  "municipality": "Veenendaal",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 3,
+  "facilities": [
+    {
+      "uuid": "5512204f-fb36-43de-a58e-1743d41ebe8d",
+      "name": "P+R Station Veenendaal-Centrum (Veenendaal)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.019891,
+      "longitude": 5.54854,
+      "capacity": 95,
+      "vacantSpaces": 83,
+      "occupancyPercent": 12.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1766561808
+    },
+    {
+      "uuid": "83e8b817-f383-453b-a4fc-b7a99a45dc18",
+      "name": "Terrein Duivenweide (Veenendaal)",
+      "operator": "P1",
+      "latitude": 52.024715,
+      "longitude": 5.553624,
+      "capacity": 441,
+      "vacantSpaces": 219,
+      "occupancyPercent": 50.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803665
+    },
+    {
+      "uuid": "5ba03aad-2871-4fba-85bf-748798d2eb87",
+      "name": "Garage Gemeentehuis (Veenendaal)",
+      "operator": "P1",
+      "latitude": 52.023543,
+      "longitude": 5.556489,
+      "capacity": 300,
+      "vacantSpaces": 146,
+      "occupancyPercent": 51.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803527
+    }
+  ]
+}

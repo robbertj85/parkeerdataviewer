@@ -1,0 +1,20 @@
+{
+  "municipality": "Heerenveen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "f7eafdd2-de31-4aff-b554-75270a60bc99",
+      "name": "P+R Stationsplein (Heerenveen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.96257,
+      "longitude": 5.91403,
+      "capacity": 129,
+      "vacantSpaces": 79,
+      "occupancyPercent": 38.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803617
+    }
+  ]
+}

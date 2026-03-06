@@ -1,0 +1,20 @@
+{
+  "municipality": "Odijkerweg, Zeist",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "54612960-b8a6-4499-9f47-f7ae7c4fd2c8",
+      "name": "P+R station Driebergen-Zeist",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.064487,
+      "longitude": 5.258174,
+      "capacity": 568,
+      "vacantSpaces": 332,
+      "occupancyPercent": 41.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803595
+    }
+  ]
+}

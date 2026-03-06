@@ -1,0 +1,20 @@
+{
+  "municipality": "Bergen op Zoom",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "41306aac-28b3-4cbf-8df4-b1a6aa5647c8",
+      "name": "P+R Parallelweg (Bergen op Zoom)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.49488,
+      "longitude": 4.29674,
+      "capacity": 120,
+      "vacantSpaces": 96,
+      "occupancyPercent": 20.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803374
+    }
+  ]
+}

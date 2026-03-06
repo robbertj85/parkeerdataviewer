@@ -1,0 +1,20 @@
+{
+  "municipality": "Gorinchem",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "1840ed29-74ce-46fc-8265-85c7c69c1acb",
+      "name": "P+R Stationsweg (Gorinchem)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.83421,
+      "longitude": 4.96932,
+      "capacity": 122,
+      "vacantSpaces": 108,
+      "occupancyPercent": 11.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803330
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "municipality": "Valkenburg",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "8aa45b74-0b08-4234-9231-29b6a80a9ee7",
+      "name": "P+R Spoorlaan (Valkenburg)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.08568,
+      "longitude": 5.83199,
+      "capacity": 123,
+      "vacantSpaces": 80,
+      "occupancyPercent": 35.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803483
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "municipality": "Beek",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "6b153ac5-9aee-4758-a5a3-7e92a2b98eab",
+      "name": "P+R Aan de drie heren (Beek)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 50.946975,
+      "longitude": 5.786335,
+      "capacity": 121,
+      "vacantSpaces": 121,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497701
+    }
+  ]
+}

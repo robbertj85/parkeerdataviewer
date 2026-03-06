@@ -1,0 +1,20 @@
+{
+  "municipality": "Zutphen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "7b4e7874-59b9-4e9c-9486-206453b5a2a5",
+      "name": "P+R Lijmerij (Zutphen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.145233,
+      "longitude": 6.192855,
+      "capacity": 308,
+      "vacantSpaces": 288,
+      "occupancyPercent": 6.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772802909
+    }
+  ]
+}

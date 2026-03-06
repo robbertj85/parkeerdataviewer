@@ -1,0 +1,20 @@
+{
+  "municipality": "HWZB",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "63811863-d897-4247-a726-efb29a24379d",
+      "name": "P+R Halfweg-Zwanenburg Station (HWZB)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.38653,
+      "longitude": 4.74659,
+      "capacity": 137,
+      "vacantSpaces": 88,
+      "occupancyPercent": 35.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803539
+    }
+  ]
+}

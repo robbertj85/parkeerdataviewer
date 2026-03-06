@@ -1,0 +1,20 @@
+{
+  "municipality": "Helmond",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "fed5c736-f2d8-4f91-8fd0-9d9188ba76bf",
+      "name": "P+R Smalstraat (Helmond)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.47612,
+      "longitude": 5.6637,
+      "capacity": 100,
+      "vacantSpaces": 89,
+      "occupancyPercent": 11.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803510
+    }
+  ]
+}

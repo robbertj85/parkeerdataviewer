@@ -1,0 +1,59 @@
+{
+  "municipality": "Hoorn",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 4,
+  "facilities": [
+    {
+      "uuid": "ad408289-258a-4e66-997b-06944563a84c",
+      "name": "Garage Schouwburg het Park (Hoorn)",
+      "operator": "InPublic Ventures B.V.",
+      "latitude": 52.642,
+      "longitude": 5.04937,
+      "capacity": 120,
+      "vacantSpaces": 90,
+      "occupancyPercent": 25.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803528
+    },
+    {
+      "uuid": "bc09b9a5-a929-4b13-bd54-3a92fc3b7b89",
+      "name": "Garage 't Jeudje (Hoorn)",
+      "operator": "InPublic Ventures B.V.",
+      "latitude": 52.642706,
+      "longitude": 5.063568,
+      "capacity": 210,
+      "vacantSpaces": 44,
+      "occupancyPercent": 79.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803528
+    },
+    {
+      "uuid": "1b1834c0-d727-4370-9111-3076f8b038fc",
+      "name": "Parkeerterrein Pelmolenpad (Hoorn)",
+      "operator": "Hoorn",
+      "latitude": 52.64426,
+      "longitude": 5.049902,
+      "capacity": 573,
+      "vacantSpaces": 380,
+      "occupancyPercent": 33.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    },
+    {
+      "uuid": "1c1f3c0a-8c0c-4ac9-b4ce-8ae7000aae9f",
+      "name": "Parkeerterrein Transferium (Hoorn)",
+      "operator": "Hoorn",
+      "latitude": 52.646131,
+      "longitude": 5.0544,
+      "capacity": 609,
+      "vacantSpaces": 179,
+      "occupancyPercent": 70.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803530
+    }
+  ]
+}

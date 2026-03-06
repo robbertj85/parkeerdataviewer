@@ -1,0 +1,20 @@
+{
+  "municipality": "Klimmen Ransdaal",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "f7e4a75c-79a2-41c7-b12e-aa88bff379f1",
+      "name": "P+R Mareheiweg (Klimmen Ransdaal)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 50.866523,
+      "longitude": 5.890046,
+      "capacity": 28,
+      "vacantSpaces": 28,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497702
+    }
+  ]
+}

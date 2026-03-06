@@ -1,0 +1,20 @@
+{
+  "municipality": "Sneek",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "5da92d12-8d50-439a-a900-2cde0d600a83",
+      "name": "P+R Sneek (Sneek)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 53.031308,
+      "longitude": 5.650877,
+      "capacity": 55,
+      "vacantSpaces": 46,
+      "occupancyPercent": 16.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803101
+    }
+  ]
+}

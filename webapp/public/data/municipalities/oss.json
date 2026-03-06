@@ -1,0 +1,20 @@
+{
+  "municipality": "Oss",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "3cc2d8e4-53ef-48ba-8dda-c97047d16fe1",
+      "name": "P+R Gasstraat (Oss)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.76499,
+      "longitude": 5.531281,
+      "capacity": 234,
+      "vacantSpaces": 167,
+      "occupancyPercent": 28.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803383
+    }
+  ]
+}

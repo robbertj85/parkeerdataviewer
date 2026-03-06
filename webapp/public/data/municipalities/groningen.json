@@ -1,0 +1,20 @@
+{
+  "municipality": "Groningen",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "751c1199-6ad2-4fc4-b879-8b9091c9d96c",
+      "name": "P+R Hoofdstation (Groningen)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 53.211687,
+      "longitude": 6.560898,
+      "capacity": 146,
+      "vacantSpaces": 101,
+      "occupancyPercent": 30.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803607
+    }
+  ]
+}

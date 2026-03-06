@@ -1,0 +1,20 @@
+{
+  "municipality": "Duivendrecht",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "f0f161fb-e8f7-4dbb-81cd-fedce924d76c",
+      "name": "P+R Stationsplein (Duivendrecht)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 52.32266,
+      "longitude": 4.93576,
+      "capacity": 230,
+      "vacantSpaces": 200,
+      "occupancyPercent": 13.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803218
+    }
+  ]
+}

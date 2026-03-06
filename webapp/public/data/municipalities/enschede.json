@@ -1,0 +1,46 @@
+{
+  "municipality": "Enschede",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 3,
+  "facilities": [
+    {
+      "uuid": "1a39c8e9-91f9-40d9-bdf3-ce1f6e438a14",
+      "name": "Parkeergarage Van Heek",
+      "operator": "Enschede",
+      "latitude": 52.216916,
+      "longitude": 6.901198,
+      "capacity": 1700,
+      "vacantSpaces": 1464,
+      "occupancyPercent": 13.9,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870873"
+    },
+    {
+      "uuid": "824a6cd5-acd4-4d88-893e-d38aa1fc5116",
+      "name": "Parkeergarage Irene",
+      "operator": "Enschede",
+      "latitude": 52.222013,
+      "longitude": 6.898074,
+      "capacity": 475,
+      "vacantSpaces": 413,
+      "occupancyPercent": 13.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870873"
+    },
+    {
+      "uuid": "335d508f-cb75-480d-b034-b30f128fccce",
+      "name": "Parkeergarage Brouwerij",
+      "operator": "Enschede",
+      "latitude": 52.231866,
+      "longitude": 6.890873,
+      "capacity": 300,
+      "vacantSpaces": 233,
+      "occupancyPercent": 22.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870873"
+    }
+  ]
+}

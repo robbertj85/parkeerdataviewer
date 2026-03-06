@@ -1,0 +1,20 @@
+{
+  "municipality": "Venlo",
+  "generated_at": "2026-03-06T13:27:53.728442+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "2eb02bef-9754-4091-b7cf-63932d0bf28e",
+      "name": "P+R Kaldenkerkerweg (Venlo)",
+      "operator": "Nederlandse Spoorwegen",
+      "latitude": 51.36437,
+      "longitude": 6.1734,
+      "capacity": 80,
+      "vacantSpaces": 62,
+      "occupancyPercent": 22.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772803302
+    }
+  ]
+}
