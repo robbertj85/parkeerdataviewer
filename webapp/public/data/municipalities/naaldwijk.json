@@ -1,6 +1,6 @@
 {
   "municipality": "Naaldwijk",
-  "generated_at": "2026-03-06T15:44:45.257091+00:00",
+  "generated_at": "2026-03-06T16:52:50.468545+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.993037,
       "longitude": 4.203803,
       "capacity": 200,
-      "vacantSpaces": 129,
-      "occupancyPercent": 35.5,
+      "vacantSpaces": 149,
+      "occupancyPercent": 25.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811794,
+      "lastUpdated": 1772815872,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

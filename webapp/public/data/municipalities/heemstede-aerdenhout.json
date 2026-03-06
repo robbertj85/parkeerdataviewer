@@ -1,6 +1,6 @@
 {
   "municipality": "Heemstede-Aerdenhout",
-  "generated_at": "2026-03-06T15:44:45.257091+00:00",
+  "generated_at": "2026-03-06T16:52:50.468545+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.35933,
       "longitude": 4.606,
       "capacity": 132,
-      "vacantSpaces": 96,
-      "occupancyPercent": 27.3,
+      "vacantSpaces": 102,
+      "occupancyPercent": 22.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772811674,
+      "lastUpdated": 1772815597,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
