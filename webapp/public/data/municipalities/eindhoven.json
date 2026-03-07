@@ -1,29 +1,29 @@
 {
   "municipality": "Eindhoven",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 2,
   "facilities": [
     {
       "uuid": "cc7a3d99-d6f6-4407-86bc-008eb47549ea",
       "name": "P+R Fuutlaan (Eindhoven)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Fuutlaan",
+      "houseNumber": "12",
+      "zipcode": "5613AB",
+      "city": "Eindhoven",
       "province": "",
       "latitude": 51.44248,
       "longitude": 5.4856,
       "capacity": 130,
-      "vacantSpaces": 3,
-      "occupancyPercent": 97.7,
+      "vacantSpaces": 20,
+      "occupancyPercent": 84.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893784,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897379,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "69a54734-54a0-4e32-aef5-328b9d5c57b6",
@@ -37,15 +37,15 @@
       "latitude": 51.44038937,
       "longitude": 5.47228162,
       "capacity": 242,
-      "vacantSpaces": 108,
-      "occupancyPercent": 55.4,
+      "vacantSpaces": 121,
+      "occupancyPercent": 50.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893823,
+      "lastUpdated": 1772897397,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "Garage parkeren"
     }
   ]
 }

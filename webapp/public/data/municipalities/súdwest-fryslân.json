@@ -1,16 +1,16 @@
 {
   "municipality": "S\u00fadwest-Frysl\u00e2n",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "5da92d12-8d50-439a-a900-2cde0d600a83",
       "name": "P+R Sneek (Sneek)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Kanaalstraat",
+      "houseNumber": "22",
+      "zipcode": "8601GA",
+      "city": "Sneek",
       "province": "",
       "latitude": 53.031308,
       "longitude": 5.650877,
@@ -19,11 +19,11 @@
       "occupancyPercent": 9.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893571,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772896588,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

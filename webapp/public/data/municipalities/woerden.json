@@ -1,14 +1,14 @@
 {
   "municipality": "Woerden",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 3,
   "facilities": [
     {
       "uuid": "aac1824c-b958-4abe-b311-5e25a334b940",
       "name": "P + R staton Woerden",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
+      "street": "Stationsplein Noord",
+      "houseNumber": "0",
       "zipcode": "",
       "city": "",
       "province": "",
@@ -20,41 +20,41 @@
       "open": null,
       "full": null,
       "lastUpdated": null,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "83c0ebb3-ef4b-49bd-b15d-e30fc58902bf",
       "name": "P+R Spoorlaan (Woerden)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Stationsplein-Noord",
+      "houseNumber": "0",
+      "zipcode": "3445AD",
+      "city": "Woerden",
       "province": "",
       "latitude": 52.08568,
       "longitude": 4.89278,
       "capacity": 154,
-      "vacantSpaces": 124,
-      "occupancyPercent": 19.5,
+      "vacantSpaces": 127,
+      "occupancyPercent": 17.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893721,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897362,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "0b6cd5b5-8a48-4e69-a38e-6e38c12cb9a7",
       "name": "P+R Houttuinlaan 3 parking (Woerden)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Houttuinlaan",
+      "houseNumber": "0",
+      "zipcode": "3447GN",
+      "city": "Woerden",
       "province": "",
       "latitude": 52.082613,
       "longitude": 4.890934,
@@ -64,10 +64,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1747293594,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

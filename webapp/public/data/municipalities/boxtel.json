@@ -1,29 +1,29 @@
 {
   "municipality": "Boxtel",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "87657efe-b52a-40e4-9cf2-cf356a24017c",
       "name": "P+R Van Salmstraat (Boxtel)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Salmstraat",
+      "houseNumber": "66",
+      "zipcode": "5281RS",
+      "city": "Boxtel",
       "province": "",
       "latitude": 51.58316,
       "longitude": 5.31807,
       "capacity": 189,
-      "vacantSpaces": 172,
-      "occupancyPercent": 9.0,
+      "vacantSpaces": 173,
+      "occupancyPercent": 8.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893790,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897391,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "municipality": "Teylingen",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "9976905e-fe02-4211-8976-1b77e57c3b6f",
       "name": "P + R station Sassenheim",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
+      "street": "Stationsplein",
+      "houseNumber": "0",
       "zipcode": "",
-      "city": "",
+      "city": "Warmond",
       "province": "",
       "latitude": 52.215931,
       "longitude": 4.517862,
@@ -20,10 +20,10 @@
       "open": true,
       "full": true,
       "lastUpdated": 1746629609,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

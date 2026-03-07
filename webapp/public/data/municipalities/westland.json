@@ -1,29 +1,29 @@
 {
   "municipality": "Westland",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "c26ad163-2d50-4198-9e33-25a4ba91a340",
       "name": "Parkeergarage Foodmarkt Westland (Naaldwijk)",
       "operator": "Westland",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Simon van Slingerlandtstraat",
+      "houseNumber": "2",
+      "zipcode": "2671HV",
+      "city": "Naaldwijk",
       "province": "",
       "latitude": 51.993037,
       "longitude": 4.203803,
       "capacity": 200,
-      "vacantSpaces": 41,
-      "occupancyPercent": 79.5,
+      "vacantSpaces": 80,
+      "occupancyPercent": 60.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893816,
-      "minimumHeightInMeters": null,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": ""
+      "lastUpdated": 1772897350,
+      "minimumHeightInMeters": 2.3,
+      "chargingPointCapacity": 8,
+      "disabledAccess": true,
+      "usage": "Garage parkeren"
     }
   ]
 }

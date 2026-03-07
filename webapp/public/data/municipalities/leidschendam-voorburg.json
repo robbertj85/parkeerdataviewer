@@ -1,29 +1,29 @@
 {
   "municipality": "Leidschendam-Voorburg",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "73f63588-e4c1-4f4c-aeae-d204e2ef5b1f",
       "name": "Garage Damplein (Leidschendam-Voorburg)",
       "operator": "Leidschendam-Voorburg",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Damplein",
+      "houseNumber": "6",
+      "zipcode": "2265AC",
+      "city": "Leidschendam",
+      "province": "Zuid-Holland",
       "latitude": 52.081003,
       "longitude": 4.397197,
       "capacity": 225,
-      "vacantSpaces": 170,
-      "occupancyPercent": 24.4,
+      "vacantSpaces": 174,
+      "occupancyPercent": 22.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893780,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897270,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "Garage parkeren"
     }
   ]
 }

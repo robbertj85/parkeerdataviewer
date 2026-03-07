@@ -1,29 +1,29 @@
 {
   "municipality": "Zwijndrecht",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "c1aee7fe-47b9-48d8-98d0-6bc9aa033e6e",
       "name": "P+R Westelijke parallelweg (Zwijndrecht)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Westelijke Parallelweg",
+      "houseNumber": "0",
+      "zipcode": "3331EW",
+      "city": "Zwijndrecht",
       "province": "",
       "latitude": 51.81431,
       "longitude": 4.642238,
       "capacity": 117,
-      "vacantSpaces": 99,
-      "occupancyPercent": 15.4,
+      "vacantSpaces": 101,
+      "occupancyPercent": 13.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893426,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897018,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

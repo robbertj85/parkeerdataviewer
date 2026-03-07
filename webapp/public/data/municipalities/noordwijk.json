@@ -1,29 +1,29 @@
 {
   "municipality": "Noordwijk",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 2,
   "facilities": [
     {
       "uuid": "8c237822-2d60-4446-b5cd-8f33cccb26fc",
       "name": "Terrein Vomar Bomstraat (Noordwijk)",
       "operator": "Centrum Parking",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Bomstraat",
+      "houseNumber": "15",
+      "zipcode": "2202GH",
+      "city": "Noordwijk",
+      "province": "Zuid-Holland",
       "latitude": 52.243867,
       "longitude": 4.431611,
       "capacity": 240,
-      "vacantSpaces": 114,
-      "occupancyPercent": 52.5,
+      "vacantSpaces": 119,
+      "occupancyPercent": 50.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893530,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897130,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "Terreinparkeren"
     },
     {
       "uuid": "da95ab75-7e5e-438d-8bfb-f3eb0d37dd44",
@@ -45,7 +45,7 @@
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "Betaald parkeren"
     }
   ]
 }

@@ -1,29 +1,29 @@
 {
   "municipality": "Bergen op Zoom",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "41306aac-28b3-4cbf-8df4-b1a6aa5647c8",
       "name": "P+R Parallelweg (Bergen op Zoom)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Parallelweg",
+      "houseNumber": "0",
+      "zipcode": "4621CB",
+      "city": "Bergen op Zoom",
       "province": "",
       "latitude": 51.49488,
       "longitude": 4.29674,
       "capacity": 120,
-      "vacantSpaces": 105,
-      "occupancyPercent": 12.5,
+      "vacantSpaces": 107,
+      "occupancyPercent": 10.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893361,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897098,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

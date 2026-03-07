@@ -1,17 +1,17 @@
 {
   "municipality": "Meerssen",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 3,
   "facilities": [
     {
       "uuid": "c5e2a674-a5c3-4c74-9b84-377b3dfaf146",
       "name": "P+R Spoorstraat (Bunde)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Spoorstraat",
+      "houseNumber": "0",
+      "zipcode": "6241CL",
+      "city": "Bunde",
+      "province": "Limburg",
       "latitude": 50.897367,
       "longitude": 5.735898,
       "capacity": 90,
@@ -20,20 +20,20 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497702,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "66834791-df8d-4c8b-86f3-23ce0c131c3b",
       "name": "P+R Spoorstraat (Bunde)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Spoorstraat",
+      "houseNumber": "0",
+      "zipcode": "6241CL",
+      "city": "Bunde",
+      "province": "Limburg",
       "latitude": 50.896643,
       "longitude": 5.736096,
       "capacity": 37,
@@ -42,20 +42,20 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497702,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "24190ff2-c521-4825-abd6-aa20c14d8b67",
       "name": "P+R Stationsstraat (Meersen)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Stationsstraat",
+      "houseNumber": "0",
+      "zipcode": "6231CK",
+      "city": "Meerssen",
+      "province": "Limburg",
       "latitude": 50.882452,
       "longitude": 5.751464,
       "capacity": 88,
@@ -64,10 +64,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497702,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

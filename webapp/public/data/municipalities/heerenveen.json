@@ -1,29 +1,29 @@
 {
   "municipality": "Heerenveen",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "f7eafdd2-de31-4aff-b554-75270a60bc99",
       "name": "P+R Stationsplein (Heerenveen)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Stationsplein",
+      "houseNumber": "12",
+      "zipcode": "8411HT",
+      "city": "Heerenveen",
       "province": "",
       "latitude": 52.96257,
       "longitude": 5.91403,
       "capacity": 129,
-      "vacantSpaces": 46,
-      "occupancyPercent": 64.3,
+      "vacantSpaces": 54,
+      "occupancyPercent": 58.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893684,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897320,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

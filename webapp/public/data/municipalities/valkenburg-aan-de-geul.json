@@ -1,17 +1,17 @@
 {
   "municipality": "Valkenburg aan de Geul",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 2,
   "facilities": [
     {
       "uuid": "241e35bc-be67-4ee9-9da0-71017d6a4267",
       "name": "P+R Baanweg (Schin op Geul)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Baanweg",
+      "houseNumber": "0",
+      "zipcode": "6305",
+      "city": "Schin op Geul",
+      "province": "Limburg",
       "latitude": 50.85573,
       "longitude": 5.874163,
       "capacity": 48,
@@ -20,20 +20,20 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497704,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     },
     {
       "uuid": "f7e4a75c-79a2-41c7-b12e-aa88bff379f1",
       "name": "P+R Mareheiweg (Klimmen Ransdaal)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
+      "street": "Mareheiweg",
+      "houseNumber": "0",
+      "zipcode": "6343EL",
+      "city": "Ransdaal",
+      "province": "Limburg",
       "latitude": 50.866523,
       "longitude": 5.890046,
       "capacity": 28,
@@ -42,10 +42,10 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497702,
-      "minimumHeightInMeters": null,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

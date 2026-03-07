@@ -1,29 +1,29 @@
 {
   "municipality": "Venlo",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "2eb02bef-9754-4091-b7cf-63932d0bf28e",
       "name": "P+R Kaldenkerkerweg (Venlo)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Kaldenkerkerweg",
+      "houseNumber": "0",
+      "zipcode": "5913AA",
+      "city": "Venlo",
       "province": "",
       "latitude": 51.36437,
       "longitude": 6.1734,
       "capacity": 80,
-      "vacantSpaces": 12,
-      "occupancyPercent": 85.0,
+      "vacantSpaces": 31,
+      "occupancyPercent": 61.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893502,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897406,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

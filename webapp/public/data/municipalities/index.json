@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -9,7 +9,7 @@
     {
       "name": "'s-Hertogenbosch",
       "slug": "'s-hertogenbosch",
-      "facility_count": 12
+      "facility_count": 11
     },
     {
       "name": "Alkmaar",
@@ -94,7 +94,7 @@
     {
       "name": "Den Haag",
       "slug": "den-haag",
-      "facility_count": 9
+      "facility_count": 10
     },
     {
       "name": "Deventer",

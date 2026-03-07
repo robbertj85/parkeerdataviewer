@@ -1,29 +1,29 @@
 {
   "municipality": "Heemstede",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "5d3110ce-748f-4d92-b131-11f1c456f510",
       "name": "P+R Roemer Visscherplein (Heemstede-Aerdenhout)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Roemer Visscherplein",
+      "houseNumber": "0",
+      "zipcode": "2106AZ",
+      "city": "Heemstede-Aerdenhout",
       "province": "",
       "latitude": 52.35933,
       "longitude": 4.606,
       "capacity": 132,
-      "vacantSpaces": 92,
-      "occupancyPercent": 30.3,
+      "vacantSpaces": 93,
+      "occupancyPercent": 29.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893576,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897026,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

@@ -1,29 +1,29 @@
 {
   "municipality": "Gooise Meren",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "f7e93a01-102a-47de-aafb-0dea5f163a4c",
       "name": "P+R Slochterenlaan (Naarden-Bussum)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Slochterenlaan",
+      "houseNumber": "11",
+      "zipcode": "1405AL",
+      "city": "Naarden-Bussum",
       "province": "",
       "latitude": 52.28006,
       "longitude": 5.15665,
       "capacity": 93,
-      "vacantSpaces": 68,
-      "occupancyPercent": 26.9,
+      "vacantSpaces": 71,
+      "occupancyPercent": 23.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893804,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897406,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

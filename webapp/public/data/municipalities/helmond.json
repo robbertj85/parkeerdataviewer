@@ -1,16 +1,16 @@
 {
   "municipality": "Helmond",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "fed5c736-f2d8-4f91-8fd0-9d9188ba76bf",
       "name": "P+R Smalstraat (Helmond)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Smalstraat",
+      "houseNumber": "2",
+      "zipcode": "5701NX",
+      "city": "Helmond",
       "province": "",
       "latitude": 51.47612,
       "longitude": 5.6637,
@@ -19,11 +19,11 @@
       "occupancyPercent": -1.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893806,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897405,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

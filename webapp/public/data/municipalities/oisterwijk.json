@@ -1,29 +1,29 @@
 {
   "municipality": "Oisterwijk",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "9a11d95d-87bc-4b26-aff8-4cd6f6c2fc75",
       "name": "P+R Spoorlaan (Oisterwijk)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Spoorlaan",
+      "houseNumber": "92",
+      "zipcode": "5061HD",
+      "city": "Oisterwijk",
       "province": "",
       "latitude": 51.5827,
       "longitude": 5.19772,
       "capacity": 125,
-      "vacantSpaces": 106,
-      "occupancyPercent": 15.2,
+      "vacantSpaces": 107,
+      "occupancyPercent": 14.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893113,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897248,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

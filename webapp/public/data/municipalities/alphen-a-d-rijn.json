@@ -1,16 +1,16 @@
 {
   "municipality": "Alphen a/d Rijn",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "9b647f63-9c6b-4b14-93b3-a3ead7dee757",
       "name": "P+R Sacharovlaan (Alphen a/d Rijn)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Dr A.D. Sacharovlaan",
+      "houseNumber": "0",
+      "zipcode": "2405ZW",
+      "city": "Alphen aan den Rijn",
       "province": "",
       "latitude": 52.12741,
       "longitude": 4.65566,
@@ -19,11 +19,11 @@
       "occupancyPercent": 13.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893793,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772896738,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

@@ -1,29 +1,29 @@
 {
   "municipality": "Ouder-Amstel",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "f0f161fb-e8f7-4dbb-81cd-fedce924d76c",
       "name": "P+R Stationsplein (Duivendrecht)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Stationsplein",
+      "houseNumber": "0",
+      "zipcode": "1115BZ",
+      "city": "Duivendrecht",
       "province": "",
       "latitude": 52.32266,
       "longitude": 4.93576,
       "capacity": 230,
-      "vacantSpaces": 170,
-      "occupancyPercent": 26.1,
+      "vacantSpaces": 168,
+      "occupancyPercent": 27.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893419,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772896810,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

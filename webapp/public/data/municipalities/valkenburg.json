@@ -1,29 +1,29 @@
 {
   "municipality": "Valkenburg",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "8aa45b74-0b08-4234-9231-29b6a80a9ee7",
       "name": "P+R Spoorlaan (Valkenburg)",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Spoorlaan",
+      "houseNumber": "1",
+      "zipcode": "6301GB",
+      "city": "Valkenburg a/d Geul",
       "province": "",
       "latitude": 52.08568,
       "longitude": 5.83199,
       "capacity": 123,
-      "vacantSpaces": 61,
-      "occupancyPercent": 50.4,
+      "vacantSpaces": 62,
+      "occupancyPercent": 49.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893690,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897237,
+      "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }

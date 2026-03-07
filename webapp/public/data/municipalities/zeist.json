@@ -1,29 +1,29 @@
 {
   "municipality": "Zeist",
-  "generated_at": "2026-03-07T14:31:05.134309+00:00",
+  "generated_at": "2026-03-07T15:30:56.028087+00:00",
   "facility_count": 1,
   "facilities": [
     {
       "uuid": "54612960-b8a6-4499-9f47-f7ae7c4fd2c8",
       "name": "P+R station Driebergen-Zeist",
       "operator": "Nederlandse Spoorwegen",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
+      "street": "Stationsweg",
+      "houseNumber": "15",
+      "zipcode": "3972KA",
+      "city": "Driebergen-Rijsenburg",
       "province": "",
       "latitude": 52.064487,
       "longitude": 5.258174,
       "capacity": 568,
-      "vacantSpaces": 381,
-      "occupancyPercent": 32.9,
+      "vacantSpaces": 419,
+      "occupancyPercent": 26.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1772893814,
-      "minimumHeightInMeters": null,
+      "lastUpdated": 1772897141,
+      "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
-      "usage": ""
+      "usage": "P+R"
     }
   ]
 }
