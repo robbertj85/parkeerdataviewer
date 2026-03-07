@@ -137,9 +137,10 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
 
           <div className="pt-4 border-t border-gray-200">
             <p className="text-xs text-gray-500 mb-2">
-              <strong>Disclaimer:</strong> De getoonde bezettingsdata is indicatief en wordt niet
-              gegarandeerd. Gebruik is geheel op eigen risico. De beschikbaarheid en nauwkeurigheid
-              varieert per exploitant.
+              <strong>Disclaimer:</strong> Deze dienst wordt aangeboden op basis van &quot;best effort&quot;,
+              zonder enige garantie op beschikbaarheid, nauwkeurigheid of volledigheid. De getoonde
+              bezettingsdata is indicatief en kan afwijken van de werkelijkheid. Gebruik is geheel
+              op eigen risico. De kwaliteit en actualiteit van de data varieert per exploitant.
             </p>
             <p className="text-xs text-gray-400">
               Dit is een onofficieel project. Data: Open Parkeerdata (SPDP v2, CC-0).

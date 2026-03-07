@@ -36,6 +36,35 @@ FACILITY_OVERRIDES = {
     },
 }
 
+# Map non-standard municipality names to official ones
+MUNICIPALITY_RENAMES = {
+    "A50": "Apeldoorn",
+    "utrecht": "Utrecht",
+    "Almere Stad": "Almere",
+    "Almere Buiten": "Almere",
+    "Amsterdam Lelylaan": "Amsterdam",
+    "Duivendrecht": "Ouder-Amstel",
+    "Rotterdam Centraal": "Rotterdam",
+    "Schiedam Centrum": "Schiedam",
+    "Marnix": "Amsterdam",
+    "HWZB": "Haarlemmermeer",
+    "Odijkerweg, Zeist": "Zeist",
+    "Naarden-Bussum": "Gooise Meren",
+    "Heemstede-Aerdenhout": "Heemstede",
+    "Klimmen Ransdaal": "Valkenburg aan de Geul",
+    "Schin op Geul": "Valkenburg aan de Geul",
+    "Bunde": "Meerssen",
+    "Meersen": "Meerssen",
+    "Echt": "Echt-Susteren",
+    "Susteren": "Echt-Susteren",
+    "Naaldwijk": "Westland",
+    "Sneek": "Súdwest-Fryslân",
+    "Zaandam": "Zaanstad",
+    "Sittard": "Sittard-Geleen",
+    "Beek": "Beekdaelen",
+    "Voerendaal": "Voerendaal",
+}
+
 
 def fetch_index():
     """Fetch the SPDP v2 index of all parking facilities."""
@@ -386,6 +415,7 @@ def build_facilities_geojson(static_data, dynamic_data):
             lat,
             lng,
         )
+        municipality = MUNICIPALITY_RENAMES.get(municipality, municipality)
 
         try:
             capacity = int(capacity) if capacity is not None else None
