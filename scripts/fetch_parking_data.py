@@ -30,6 +30,10 @@ FACILITY_OVERRIDES = {
         "latitude": 52.07830825,
         "longitude": 4.32153612,
     },
+    # afrit 24 Apeldoorn (A50): municipality listed as "A50" instead of Apeldoorn
+    "33ac0b4d-9a9d-4c39-85df-13293292f04b": {
+        "municipality": "Apeldoorn",
+    },
 }
 
 

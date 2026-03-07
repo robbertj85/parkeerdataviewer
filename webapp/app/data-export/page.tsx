@@ -14,12 +14,19 @@ export default function DataExportPage() {
   const [dataMode, setDataMode] = useState<'realtime' | 'history'>('realtime');
   const [activeTab, setActiveTab] = useState<'download' | 'municipality'>('download');
   const [muniSearch, setMuniSearch] = useState('');
+  const [muniSortAsc, setMuniSortAsc] = useState(true);
   const [selectedDate, setSelectedDate] = useState(() => {
     const d = new Date();
     return d.toISOString().split('T')[0];
   });
+  const [endDate, setEndDate] = useState(() => {
+    const d = new Date();
+    return d.toISOString().split('T')[0];
+  });
+  const [rangeMode, setRangeMode] = useState(false);
   const [historyData, setHistoryData] = useState<DailySnapshots | null>(null);
   const [historyLoading, setHistoryLoading] = useState(false);
+  const [rangeDownloading, setRangeDownloading] = useState(false);
 
   useEffect(() => {
     Promise.all([
@@ -126,15 +133,100 @@ export default function DataExportPage() {
     }
   };
 
+  const getDatesInRange = (start: string, end: string): string[] => {
+    const dates: string[] = [];
+    const current = new Date(start);
+    const last = new Date(end);
+    while (current <= last) {
+      dates.push(current.toISOString().split('T')[0]);
+      current.setDate(current.getDate() + 1);
+    }
+    return dates;
+  };
+
+  const downloadRange = async (muniSlug?: string, muniName?: string) => {
+    const start = rangeMode ? selectedDate : selectedDate;
+    const end = rangeMode ? endDate : selectedDate;
+    const dates = getDatesInRange(start, end);
+    if (dates.length === 0) return;
+    if (dates.length > 90) {
+      alert('Maximaal 90 dagen per download.');
+      return;
+    }
+
+    setRangeDownloading(true);
+    try {
+      let uuids: Set<string> | null = null;
+      if (muniSlug) {
+        const muniRes = await fetch(`/data/municipalities/${muniSlug}.json`);
+        if (!muniRes.ok) throw new Error('Municipality data not found');
+        const muniData = await muniRes.json();
+        uuids = new Set((muniData.facilities || []).map((f: { uuid: string }) => f.uuid));
+      }
+
+      const allDays: Record<string, DailySnapshots> = {};
+      for (const date of dates) {
+        const [year, month, day] = date.split('-');
+        const res = await fetch(`/data/snapshots/${year}/${month}/${day}.json`);
+        if (!res.ok) continue;
+        const dayData: DailySnapshots = await res.json();
+
+        if (uuids) {
+          dayData.snapshots = Object.fromEntries(
+            Object.entries(dayData.snapshots).map(([hour, snap]) => [
+              hour,
+              {
+                ...snap,
+                facility_count: Object.keys(snap.facilities).filter(id => uuids!.has(id)).length,
+                facilities: Object.fromEntries(
+                  Object.entries(snap.facilities).filter(([id]) => uuids!.has(id))
+                ),
+              },
+            ])
+          );
+        }
+        allDays[date] = dayData;
+      }
+
+      if (Object.keys(allDays).length === 0) {
+        alert('Geen data beschikbaar voor deze periode.');
+        return;
+      }
+
+      const exportData = {
+        ...(muniName ? { municipality: muniName } : {}),
+        dateRange: { start, end },
+        days: allDays,
+      };
+
+      const suffix = muniSlug ? `-${muniSlug}` : '';
+      const filename = dates.length === 1
+        ? `parkeerdata${suffix}-${start}.json`
+        : `parkeerdata${suffix}-${start}_${end}.json`;
+
+      const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (err) {
+      console.error('Download failed:', err);
+      alert('Download mislukt.');
+    } finally {
+      setRangeDownloading(false);
+    }
+  };
+
   useEffect(() => {
     if (dataMode === 'history') {
       loadHistory();
     }
   }, [dataMode, selectedDate]);
 
-  const filteredMunis = muniIndex?.municipalities.filter(
+  const filteredMunis = (muniIndex?.municipalities.filter(
     (m) => m.name.toLowerCase().includes(muniSearch.toLowerCase())
-  ) || [];
+  ) || []).sort((a, b) => muniSortAsc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -242,31 +334,35 @@ export default function DataExportPage() {
         {dataMode === 'realtime' && activeTab === 'municipality' && (
           <div className="bg-white rounded-lg shadow-sm p-6">
             <h2 className="text-lg font-medium text-gray-900 mb-4">Download per gemeente</h2>
-            <input
-              type="text"
-              placeholder="Zoek gemeente..."
-              value={muniSearch}
-              onChange={(e) => setMuniSearch(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-200 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
+            <div className="flex gap-2 mb-4">
+              <input
+                type="text"
+                placeholder="Zoek gemeente..."
+                value={muniSearch}
+                onChange={(e) => setMuniSearch(e.target.value)}
+                className="flex-1 px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button
+                onClick={() => setMuniSortAsc(!muniSortAsc)}
+                className="px-3 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition text-sm text-gray-600"
+                title={muniSortAsc ? 'Sorteer Z→A' : 'Sorteer A→Z'}
+              >
+                {muniSortAsc ? 'A→Z' : 'Z→A'}
+              </button>
+            </div>
             {loading ? (
               <div className="text-center py-8 text-gray-500">Laden...</div>
             ) : (
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 max-h-[60vh] overflow-y-auto custom-scrollbar">
+              <div className="flex flex-col gap-1 max-h-[60vh] overflow-y-auto custom-scrollbar">
                 {filteredMunis.map((muni) => (
                   <button
                     key={muni.slug}
                     onClick={() => downloadFile(`/data/municipalities/${muni.slug}.json`, `parkeerdata-${muni.slug}.json`)}
                     disabled={downloading !== null}
-                    className="flex items-center justify-between p-3 border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition text-left disabled:opacity-50"
+                    className="flex items-center justify-between px-3 py-2 border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition text-left disabled:opacity-50"
                   >
-                    <div>
-                      <div className="font-medium text-gray-900 text-sm">{muni.name}</div>
-                      <div className="text-xs text-gray-500">{muni.facility_count} garages</div>
-                    </div>
-                    <svg className="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
+                    <span className="font-medium text-gray-900 text-sm">{muni.name}</span>
+                    <span className="text-xs text-gray-400 ml-2">{muni.facility_count}</span>
                   </button>
                 ))}
                 {filteredMunis.length === 0 && (
@@ -286,95 +382,86 @@ export default function DataExportPage() {
               Historische data {activeTab === 'municipality' ? 'per gemeente' : 'Nederland'}
             </h2>
             <p className="text-sm text-gray-500 mb-4">
-              Download uurlijkse snapshots van de bezettingsdata. Selecteer een datum om te bekijken of te downloaden.
+              Download uurlijkse snapshots van de bezettingsdata. Selecteer een datum of periode om te bekijken of te downloaden.
             </p>
             <div className="flex flex-wrap items-center gap-4 mb-6">
-              <label className="text-sm font-medium text-gray-700">Datum:</label>
-              <input
-                type="date"
-                value={selectedDate}
-                onChange={(e) => setSelectedDate(e.target.value)}
-                max={new Date().toISOString().split('T')[0]}
-                className="px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-              {historyData && (
+              <label className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={rangeMode}
+                  onChange={(e) => setRangeMode(e.target.checked)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                Periode
+              </label>
+              <div className="flex items-center gap-2">
+                <label className="text-sm font-medium text-gray-700">{rangeMode ? 'Van:' : 'Datum:'}</label>
+                <input
+                  type="date"
+                  value={selectedDate}
+                  onChange={(e) => setSelectedDate(e.target.value)}
+                  max={new Date().toISOString().split('T')[0]}
+                  className="px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                />
+              </div>
+              {rangeMode && (
+                <div className="flex items-center gap-2">
+                  <label className="text-sm font-medium text-gray-700">Tot:</label>
+                  <input
+                    type="date"
+                    value={endDate}
+                    onChange={(e) => setEndDate(e.target.value)}
+                    min={selectedDate}
+                    max={new Date().toISOString().split('T')[0]}
+                    className="px-3 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                  />
+                </div>
+              )}
+              {activeTab === 'download' && (
                 <button
-                  onClick={() => {
-                    const blob = new Blob([JSON.stringify(historyData, null, 2)], { type: 'application/json' });
-                    const a = document.createElement('a');
-                    a.href = URL.createObjectURL(blob);
-                    a.download = `parkeerdata-${selectedDate}.json`;
-                    a.click();
-                    URL.revokeObjectURL(a.href);
-                  }}
-                  className="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 transition"
+                  onClick={() => downloadRange()}
+                  disabled={rangeDownloading}
+                  className="px-4 py-2 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 transition disabled:opacity-50"
                 >
-                  Download dag
+                  {rangeDownloading ? 'Downloaden...' : rangeMode ? 'Download periode' : 'Download dag'}
                 </button>
+              )}
+              {rangeMode && (
+                <span className="text-xs text-gray-400">
+                  {getDatesInRange(selectedDate, endDate).length} dag(en)
+                </span>
               )}
             </div>
 
             {/* Municipality filter for history */}
             {activeTab === 'municipality' && (
               <div className="mb-6">
-                <input
-                  type="text"
-                  placeholder="Zoek gemeente..."
-                  value={muniSearch}
-                  onChange={(e) => setMuniSearch(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-200 rounded-lg mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                <div className="grid sm:grid-cols-3 lg:grid-cols-4 gap-1.5 max-h-40 overflow-y-auto custom-scrollbar">
+                <div className="flex gap-2 mb-3">
+                  <input
+                    type="text"
+                    placeholder="Zoek gemeente..."
+                    value={muniSearch}
+                    onChange={(e) => setMuniSearch(e.target.value)}
+                    className="flex-1 px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
+                  <button
+                    onClick={() => setMuniSortAsc(!muniSortAsc)}
+                    className="px-3 py-2 border border-gray-200 rounded-lg hover:bg-gray-50 transition text-sm text-gray-600"
+                    title={muniSortAsc ? 'Sorteer Z→A' : 'Sorteer A→Z'}
+                  >
+                    {muniSortAsc ? 'A→Z' : 'Z→A'}
+                  </button>
+                </div>
+                <div className="flex flex-col gap-1 max-h-[50vh] overflow-y-auto custom-scrollbar">
                   {filteredMunis.map((muni) => (
                     <button
                       key={muni.slug}
-                      onClick={async () => {
-                        if (!historyData) return;
-                        setDownloading(muni.slug);
-                        try {
-                          // Fetch municipality file to get facility UUIDs
-                          const muniRes = await fetch(`/data/municipalities/${muni.slug}.json`);
-                          if (!muniRes.ok) throw new Error('Municipality data not found');
-                          const muniData = await muniRes.json();
-                          const uuids = new Set((muniData.facilities || []).map((f: { uuid: string }) => f.uuid));
-
-                          // Filter snapshot data to only include this municipality's facilities
-                          const filtered = {
-                            ...historyData,
-                            municipality: muni.name,
-                            snapshots: Object.fromEntries(
-                              Object.entries(historyData.snapshots).map(([hour, snap]) => [
-                                hour,
-                                {
-                                  ...snap,
-                                  facility_count: Object.keys(snap.facilities).filter(id => uuids.has(id)).length,
-                                  facilities: Object.fromEntries(
-                                    Object.entries(snap.facilities).filter(([id]) => uuids.has(id))
-                                  ),
-                                },
-                              ])
-                            ),
-                          };
-                          const blob = new Blob([JSON.stringify(filtered, null, 2)], { type: 'application/json' });
-                          const a = document.createElement('a');
-                          a.href = URL.createObjectURL(blob);
-                          a.download = `parkeerdata-${muni.slug}-${selectedDate}.json`;
-                          a.click();
-                          URL.revokeObjectURL(a.href);
-                        } catch (err) {
-                          console.error('Download failed:', err);
-                          alert('Download mislukt.');
-                        } finally {
-                          setDownloading(null);
-                        }
-                      }}
-                      disabled={downloading !== null || !historyData}
-                      className="flex items-center justify-between p-2 border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition text-left disabled:opacity-50 text-sm"
+                      onClick={() => downloadRange(muni.slug, muni.name)}
+                      disabled={rangeDownloading}
+                      className="flex items-center justify-between px-3 py-2 border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition text-left disabled:opacity-50 text-sm"
                     >
                       <span className="font-medium text-gray-900">{muni.name}</span>
-                      <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                      </svg>
+                      <span className="text-xs text-gray-400 ml-2">{muni.facility_count}</span>
                     </button>
                   ))}
                 </div>
