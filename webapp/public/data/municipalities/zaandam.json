@@ -1,6 +1,6 @@
 {
   "municipality": "Zaandam",
-  "generated_at": "2026-03-07T09:36:42.670834+00:00",
+  "generated_at": "2026-03-07T11:11:24.696136+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.44162,
       "longitude": 4.81236,
       "capacity": 100,
-      "vacantSpaces": 107,
-      "occupancyPercent": -7.0,
+      "vacantSpaces": 103,
+      "occupancyPercent": -3.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1772876093,
+      "lastUpdated": 1772881418,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
