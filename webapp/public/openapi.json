@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Parkeerdataviewer API",
-    "description": "REST API voor toegang tot parkeergarage bezettingsdata in Nederland.\n\nData is afkomstig van de **SPDP v2 Open Parkeerdata API** - het landelijke platform\nvoor parkeerdata van het Nationaal Parkeer Register.\n\n## Kenmerken\n- **Real-time data** - Bezettingsdata wordt elk uur gesynchroniseerd\n- **Filtering** - Filter op gemeente, exploitant of status\n- **Export** - Download data in GeoJSON, JSON of CSV formaat\n- **Historisch** - Uurlijkse snapshots worden opgeslagen\n- **Geen authenticatie** - De API is vrij toegankelijk\n\n## Bezettingsindicatie\n\n| Status | Bezettingsgraad |\n|--------|----------------|\n| Rustig | < 30% |\n| Beschikbaar | 30-60% |\n| Druk | 60-80% |\n| Bijna vol | 80-95% |\n| Vol | > 95% |\n\n## Data\nDe brondata is gepubliceerd onder CC-0 (publiek domein).\n",
-    "version": "1.0.0",
+    "description": "REST API voor toegang tot parkeergarage bezettingsdata in Nederland.\n\nData is afkomstig van de **SPDP v2 Open Parkeerdata API** - het landelijke platform\nvoor parkeerdata van het Nationaal Parkeer Register.\n\n## Kenmerken\n- **Real-time data** - Bezettingsdata wordt elk uur gesynchroniseerd\n- **Filtering** - Filter op gemeente, exploitant of status\n- **Per gemeente** - Data opvragen per gemeente\n- **Export** - Download data in GeoJSON, JSON of CSV formaat\n- **Historisch** - Uurlijkse snapshots worden opgeslagen\n- **Geen authenticatie** - De API is vrij toegankelijk\n\n## Bezettingsindicatie\n\n| Status | Bezettingsgraad |\n|--------|----------------|\n| Rustig | < 30% |\n| Beschikbaar | 30-60% |\n| Druk | 60-80% |\n| Bijna vol | 80-95% |\n| Vol | > 95% |\n\n## Data\nDe brondata is gepubliceerd onder CC-0 (publiek domein).\n",
+    "version": "1.1.0",
     "contact": {
       "name": "Parkeerdataviewer"
     },
@@ -22,6 +22,10 @@
     {
       "name": "Parkeergarages",
       "description": "Endpoints voor parkeergarage data"
+    },
+    {
+      "name": "Gemeenten",
+      "description": "Endpoints voor gemeente-specifieke data"
     },
     {
       "name": "Export",
@@ -93,6 +97,75 @@
         }
       }
     },
+    "/municipalities": {
+      "get": {
+        "summary": "Lijst gemeenten",
+        "description": "Haal een lijst op van alle gemeenten waarvoor parkeerdata beschikbaar is.",
+        "operationId": "getMunicipalities",
+        "tags": ["Gemeenten"],
+        "responses": {
+          "200": {
+            "description": "Lijst van gemeenten",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total": { "type": "integer", "description": "Totaal aantal gemeenten" },
+                    "municipalities": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Municipality" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/municipalities/{slug}": {
+      "get": {
+        "summary": "Gemeente details",
+        "description": "Haal alle parkeergarages op voor een specifieke gemeente, inclusief bezettingsdata.",
+        "operationId": "getMunicipality",
+        "tags": ["Gemeenten"],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "description": "Gemeente slug (lowercase, bijv. 'amsterdam', 's-gravenhage')",
+            "schema": { "type": "string" },
+            "example": "amsterdam"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Gemeente met parkeergarages",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "municipality": { "type": "string", "description": "Gemeente naam" },
+                    "generated_at": { "type": "string", "format": "date-time", "description": "Tijdstip van data generatie" },
+                    "facility_count": { "type": "integer", "description": "Aantal garages in gemeente" },
+                    "facilities": {
+                      "type": "array",
+                      "items": { "$ref": "#/components/schemas/Facility" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Gemeente niet gevonden"
+          }
+        }
+      }
+    },
     "/export": {
       "get": {
         "summary": "Exporteer data",
@@ -129,6 +202,11 @@
           "name": { "type": "string", "description": "Naam van de parkeergarage" },
           "municipality": { "type": "string", "description": "Gemeente" },
           "operator": { "type": "string", "description": "Exploitant" },
+          "street": { "type": "string", "description": "Straat" },
+          "houseNumber": { "type": "string", "description": "Huisnummer" },
+          "zipcode": { "type": "string", "description": "Postcode" },
+          "city": { "type": "string", "description": "Plaats" },
+          "province": { "type": "string", "description": "Provincie" },
           "latitude": { "type": "number", "description": "Breedtegraad (WGS84)" },
           "longitude": { "type": "number", "description": "Lengtegraad (WGS84)" },
           "capacity": { "type": "integer", "nullable": true, "description": "Totale capaciteit" },
@@ -136,7 +214,19 @@
           "occupancyPercent": { "type": "number", "nullable": true, "description": "Bezettingspercentage (0-100)" },
           "open": { "type": "boolean", "nullable": true, "description": "Is de garage open" },
           "full": { "type": "boolean", "nullable": true, "description": "Is de garage vol" },
-          "lastUpdated": { "type": "integer", "nullable": true, "description": "Unix timestamp van laatste update" }
+          "lastUpdated": { "type": "integer", "nullable": true, "description": "Unix timestamp van laatste update" },
+          "minimumHeightInMeters": { "type": "number", "nullable": true, "description": "Minimale doorrijhoogte in meters" },
+          "chargingPointCapacity": { "type": "integer", "description": "Aantal oplaadpunten" },
+          "disabledAccess": { "type": "boolean", "description": "Toegankelijk voor mindervaliden" },
+          "usage": { "type": "string", "description": "Type gebruik" }
+        }
+      },
+      "Municipality": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "description": "Gemeente naam" },
+          "slug": { "type": "string", "description": "URL-vriendelijke identifier" },
+          "facility_count": { "type": "integer", "description": "Aantal parkeergarages" }
         }
       }
     }

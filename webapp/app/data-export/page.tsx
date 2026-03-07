@@ -156,6 +156,18 @@ export default function DataExportPage() {
 
     setRangeDownloading(true);
     try {
+      // Fetch static facility data
+      const geoRes = await fetch('/data/parking_facilities.geojson');
+      const geoData = await geoRes.json();
+      const facilityLookup: Record<string, Record<string, unknown>> = {};
+      for (const f of geoData.features || []) {
+        facilityLookup[f.properties.uuid] = {
+          ...f.properties,
+          latitude: f.geometry.coordinates[1],
+          longitude: f.geometry.coordinates[0],
+        };
+      }
+
       let uuids: Set<string> | null = null;
       if (muniSlug) {
         const muniRes = await fetch(`/data/municipalities/${muniSlug}.json`);
@@ -165,6 +177,8 @@ export default function DataExportPage() {
       }
 
       const allDays: Record<string, DailySnapshots> = {};
+      const usedUuids = new Set<string>();
+
       for (const date of dates) {
         const [year, month, day] = date.split('-');
         const res = await fetch(`/data/snapshots/${year}/${month}/${day}.json`);
@@ -185,6 +199,23 @@ export default function DataExportPage() {
             ])
           );
         }
+
+        // Expand compact keys and track used UUIDs
+        for (const snap of Object.values(dayData.snapshots)) {
+          const expanded: Record<string, Record<string, unknown>> = {};
+          for (const [id, fac] of Object.entries(snap.facilities)) {
+            usedUuids.add(id);
+            const f = fac as Record<string, unknown>;
+            expanded[id] = {
+              vacantSpaces: f.v !== undefined ? Number(f.v) : null,
+              capacity: f.c !== undefined ? Number(f.c) : null,
+              open: f.o ?? null,
+              full: f.f ?? null,
+            };
+          }
+          snap.facilities = expanded;
+        }
+
         allDays[date] = dayData;
       }
 
@@ -193,9 +224,18 @@ export default function DataExportPage() {
         return;
       }
 
+      // Build facilities reference with static data
+      const facilitiesRef: Record<string, Record<string, unknown>> = {};
+      for (const uuid of usedUuids) {
+        if (facilityLookup[uuid]) {
+          facilitiesRef[uuid] = facilityLookup[uuid];
+        }
+      }
+
       const exportData = {
         ...(muniName ? { municipality: muniName } : {}),
         dateRange: { start, end },
+        facilities: facilitiesRef,
         days: allDays,
       };
 

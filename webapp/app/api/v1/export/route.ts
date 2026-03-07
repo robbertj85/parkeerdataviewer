@@ -27,7 +27,7 @@ export async function GET(request: NextRequest) {
     }));
 
     if (format === 'csv') {
-      const headers = ['uuid', 'name', 'municipality', 'operator', 'latitude', 'longitude', 'capacity', 'vacantSpaces', 'occupancyPercent', 'open', 'full', 'lastUpdated'];
+      const headers = ['uuid', 'name', 'municipality', 'operator', 'street', 'houseNumber', 'zipcode', 'city', 'province', 'latitude', 'longitude', 'capacity', 'vacantSpaces', 'occupancyPercent', 'open', 'full', 'lastUpdated', 'minimumHeightInMeters', 'chargingPointCapacity', 'disabledAccess', 'usage'];
       const rows = flat.map((row: Record<string, unknown>) =>
         headers.map((h) => {
           const val = row[h];
