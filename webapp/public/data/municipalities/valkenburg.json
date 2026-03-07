@@ -1,1 +1,29 @@
-{"municipality": "Valkenburg", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "8aa45b74-0b08-4234-9231-29b6a80a9ee7", "name": "P+R Spoorlaan (Valkenburg)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.08568, "longitude": 5.83199, "capacity": 123, "vacantSpaces": 69, "occupancyPercent": 43.9, "open": true, "full": false, "lastUpdated": 1772882680, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Valkenburg",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "8aa45b74-0b08-4234-9231-29b6a80a9ee7",
+      "name": "P+R Spoorlaan (Valkenburg)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.08568,
+      "longitude": 5.83199,
+      "capacity": 123,
+      "vacantSpaces": 59,
+      "occupancyPercent": 52.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888181,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

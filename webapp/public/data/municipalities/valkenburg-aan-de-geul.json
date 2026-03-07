@@ -1,1 +1,51 @@
-{"municipality": "Valkenburg aan de Geul", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 2, "facilities": [{"uuid": "241e35bc-be67-4ee9-9da0-71017d6a4267", "name": "P+R Baanweg (Schin op Geul)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 50.85573, "longitude": 5.874163, "capacity": 48, "vacantSpaces": 48, "occupancyPercent": 0.0, "open": true, "full": false, "lastUpdated": 1639497704, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}, {"uuid": "f7e4a75c-79a2-41c7-b12e-aa88bff379f1", "name": "P+R Mareheiweg (Klimmen Ransdaal)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 50.866523, "longitude": 5.890046, "capacity": 28, "vacantSpaces": 28, "occupancyPercent": 0.0, "open": true, "full": false, "lastUpdated": 1639497702, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Valkenburg aan de Geul",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "241e35bc-be67-4ee9-9da0-71017d6a4267",
+      "name": "P+R Baanweg (Schin op Geul)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 50.85573,
+      "longitude": 5.874163,
+      "capacity": 48,
+      "vacantSpaces": 48,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497704,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    },
+    {
+      "uuid": "f7e4a75c-79a2-41c7-b12e-aa88bff379f1",
+      "name": "P+R Mareheiweg (Klimmen Ransdaal)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 50.866523,
+      "longitude": 5.890046,
+      "capacity": 28,
+      "vacantSpaces": 28,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497702,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

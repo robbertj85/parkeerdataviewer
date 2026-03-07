@@ -1,1 +1,29 @@
-{"municipality": "Heerenveen", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "f7eafdd2-de31-4aff-b554-75270a60bc99", "name": "P+R Stationsplein (Heerenveen)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.96257, "longitude": 5.91403, "capacity": 129, "vacantSpaces": 45, "occupancyPercent": 65.1, "open": true, "full": false, "lastUpdated": 1772882223, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Heerenveen",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "f7eafdd2-de31-4aff-b554-75270a60bc99",
+      "name": "P+R Stationsplein (Heerenveen)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.96257,
+      "longitude": 5.91403,
+      "capacity": 129,
+      "vacantSpaces": 46,
+      "occupancyPercent": 64.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888255,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

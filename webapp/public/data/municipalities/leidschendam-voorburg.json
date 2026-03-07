@@ -1,1 +1,29 @@
-{"municipality": "Leidschendam-Voorburg", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "73f63588-e4c1-4f4c-aeae-d204e2ef5b1f", "name": "Garage Damplein (Leidschendam-Voorburg)", "operator": "Leidschendam-Voorburg", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.081003, "longitude": 4.397197, "capacity": 225, "vacantSpaces": 179, "occupancyPercent": 20.4, "open": true, "full": false, "lastUpdated": 1772882760, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Leidschendam-Voorburg",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "73f63588-e4c1-4f4c-aeae-d204e2ef5b1f",
+      "name": "Garage Damplein (Leidschendam-Voorburg)",
+      "operator": "Leidschendam-Voorburg",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.081003,
+      "longitude": 4.397197,
+      "capacity": 225,
+      "vacantSpaces": 165,
+      "occupancyPercent": 26.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888378,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

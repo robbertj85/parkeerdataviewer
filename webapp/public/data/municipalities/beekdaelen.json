@@ -1,1 +1,29 @@
-{"municipality": "Beekdaelen", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "6b153ac5-9aee-4758-a5a3-7e92a2b98eab", "name": "P+R Aan de drie heren (Beek)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 50.946975, "longitude": 5.786335, "capacity": 121, "vacantSpaces": 121, "occupancyPercent": 0.0, "open": true, "full": false, "lastUpdated": 1639497701, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Beekdaelen",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "6b153ac5-9aee-4758-a5a3-7e92a2b98eab",
+      "name": "P+R Aan de drie heren (Beek)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 50.946975,
+      "longitude": 5.786335,
+      "capacity": 121,
+      "vacantSpaces": 121,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497701,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

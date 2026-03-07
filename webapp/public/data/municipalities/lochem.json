@@ -1,1 +1,51 @@
-{"municipality": "Lochem", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 2, "facilities": [{"uuid": "0e9c5738-93b1-43fe-8f57-6f1066b5118a", "name": "Graafschapterrein (Lochem)", "operator": "Lochem", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.16279, "longitude": 6.41945, "capacity": 170, "vacantSpaces": 49, "occupancyPercent": 71.2, "open": true, "full": false, "lastUpdated": 1772882700, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}, {"uuid": "ddf76a3f-a13d-492f-8dd2-374a52c1a506", "name": "Mauritsweg (Lochem)", "operator": "Lochem", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.161736, "longitude": 6.411232, "capacity": 200, "vacantSpaces": 114, "occupancyPercent": 43.0, "open": true, "full": false, "lastUpdated": 1772882700, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Lochem",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "0e9c5738-93b1-43fe-8f57-6f1066b5118a",
+      "name": "Graafschapterrein (Lochem)",
+      "operator": "Lochem",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.16279,
+      "longitude": 6.41945,
+      "capacity": 170,
+      "vacantSpaces": 51,
+      "occupancyPercent": 70.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888100,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    },
+    {
+      "uuid": "ddf76a3f-a13d-492f-8dd2-374a52c1a506",
+      "name": "Mauritsweg (Lochem)",
+      "operator": "Lochem",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.161736,
+      "longitude": 6.411232,
+      "capacity": 200,
+      "vacantSpaces": 98,
+      "occupancyPercent": 51.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888100,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

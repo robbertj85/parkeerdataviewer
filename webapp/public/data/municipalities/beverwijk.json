@@ -1,1 +1,29 @@
-{"municipality": "Beverwijk", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "e25f0d56-a213-416b-ab85-9f4d40d0f8f6", "name": "P+R Wijckermolen (Beverwijk)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.47915, "longitude": 4.65656, "capacity": 116, "vacantSpaces": 108, "occupancyPercent": 6.9, "open": true, "full": false, "lastUpdated": 1772882130, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Beverwijk",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "e25f0d56-a213-416b-ab85-9f4d40d0f8f6",
+      "name": "P+R Wijckermolen (Beverwijk)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.47915,
+      "longitude": 4.65656,
+      "capacity": 116,
+      "vacantSpaces": 106,
+      "occupancyPercent": 8.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772887530,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

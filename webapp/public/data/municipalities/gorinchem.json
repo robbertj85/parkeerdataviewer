@@ -1,1 +1,29 @@
-{"municipality": "Gorinchem", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "1840ed29-74ce-46fc-8265-85c7c69c1acb", "name": "P+R Stationsweg (Gorinchem)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 51.83421, "longitude": 4.96932, "capacity": 122, "vacantSpaces": 113, "occupancyPercent": 7.4, "open": true, "full": false, "lastUpdated": 1772882397, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Gorinchem",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "1840ed29-74ce-46fc-8265-85c7c69c1acb",
+      "name": "P+R Stationsweg (Gorinchem)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 51.83421,
+      "longitude": 4.96932,
+      "capacity": 122,
+      "vacantSpaces": 110,
+      "occupancyPercent": 9.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772887801,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

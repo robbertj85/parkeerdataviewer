@@ -1,1 +1,29 @@
-{"municipality": "De Ronde Venen", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "80e6904b-0183-46dc-9d75-5238487d89ad", "name": "P + R staton Abcoude", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.27757, "longitude": 4.977115, "capacity": 50, "vacantSpaces": null, "occupancyPercent": null, "open": null, "full": null, "lastUpdated": null, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "De Ronde Venen",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "80e6904b-0183-46dc-9d75-5238487d89ad",
+      "name": "P + R staton Abcoude",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.27757,
+      "longitude": 4.977115,
+      "capacity": 50,
+      "vacantSpaces": null,
+      "occupancyPercent": null,
+      "open": null,
+      "full": null,
+      "lastUpdated": null,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

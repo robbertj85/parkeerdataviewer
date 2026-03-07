@@ -1,1 +1,29 @@
-{"municipality": "Assen", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "5283148b-441e-425d-bab4-ec0a68a33342", "name": "P+R Stationsplein (Assen)", "operator": "Nederlandse Spoorwegen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.98963, "longitude": 6.56954, "capacity": 256, "vacantSpaces": 206, "occupancyPercent": 19.5, "open": true, "full": false, "lastUpdated": 1772882345, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Assen",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "5283148b-441e-425d-bab4-ec0a68a33342",
+      "name": "P+R Stationsplein (Assen)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.98963,
+      "longitude": 6.56954,
+      "capacity": 256,
+      "vacantSpaces": 203,
+      "occupancyPercent": 20.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888169,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}

@@ -1,1 +1,29 @@
-{"municipality": "Diemen", "generated_at": "2026-03-07T12:39:53.926505+00:00", "facility_count": 1, "facilities": [{"uuid": "40367d76-9ba1-4257-b954-f5f58edf144e", "name": "P+R Station Diemen (Diemen)", "operator": "Diemen", "street": "", "houseNumber": "", "zipcode": "", "city": "", "province": "", "latitude": 52.345229, "longitude": 4.967026, "capacity": 112, "vacantSpaces": 82, "occupancyPercent": 26.8, "open": true, "full": false, "lastUpdated": 1772882671, "minimumHeightInMeters": null, "chargingPointCapacity": 0, "disabledAccess": false, "usage": ""}]}
+{
+  "municipality": "Diemen",
+  "generated_at": "2026-03-07T13:00:42.180353+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "40367d76-9ba1-4257-b954-f5f58edf144e",
+      "name": "P+R Station Diemen (Diemen)",
+      "operator": "Diemen",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.345229,
+      "longitude": 4.967026,
+      "capacity": 112,
+      "vacantSpaces": 82,
+      "occupancyPercent": 26.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1772888071,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": ""
+    }
+  ]
+}
