@@ -1,6 +1,6 @@
 {
   "municipality": "Noordwijk",
-  "generated_at": "2026-03-15T11:33:28.179968+00:00",
+  "generated_at": "2026-03-15T13:07:22.505830+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.243867,
       "longitude": 4.431611,
       "capacity": 240,
-      "vacantSpaces": 139,
-      "occupancyPercent": 42.1,
+      "vacantSpaces": 79,
+      "occupancyPercent": 67.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1773574230,
+      "lastUpdated": 1773579930,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
