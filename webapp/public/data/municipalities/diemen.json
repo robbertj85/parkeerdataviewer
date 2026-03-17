@@ -1,6 +1,6 @@
 {
   "municipality": "Diemen",
-  "generated_at": "2026-03-17T04:58:49.822510+00:00",
+  "generated_at": "2026-03-17T06:03:39.856944+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 16.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1773723110,
+      "lastUpdated": 1773726893,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
