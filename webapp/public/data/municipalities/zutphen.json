@@ -1,6 +1,6 @@
 {
   "municipality": "Zutphen",
-  "generated_at": "2026-03-26T11:55:09.277302+00:00",
+  "generated_at": "2026-03-26T13:43:31.670620+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.145233,
       "longitude": 6.192855,
       "capacity": 308,
-      "vacantSpaces": 185,
-      "occupancyPercent": 39.9,
+      "vacantSpaces": 194,
+      "occupancyPercent": 37.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1774525707,
+      "lastUpdated": 1774532413,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
