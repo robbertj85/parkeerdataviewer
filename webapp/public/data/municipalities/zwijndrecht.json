@@ -1,6 +1,6 @@
 {
   "municipality": "Zwijndrecht",
-  "generated_at": "2026-04-05T08:54:07.851217+00:00",
+  "generated_at": "2026-04-05T09:48:25.798596+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 10.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1775378508,
+      "lastUpdated": 1775382108,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
