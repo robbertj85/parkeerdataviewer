@@ -1,6 +1,6 @@
 {
   "municipality": "'s-Hertogenbosch",
-  "generated_at": "2026-04-12T23:42:46.697406+00:00",
+  "generated_at": "2026-04-13T03:33:08.449467+00:00",
   "facility_count": 11,
   "facilities": [
     {
@@ -213,11 +213,11 @@
       "latitude": 51.68848,
       "longitude": 5.2943,
       "capacity": 133,
-      "vacantSpaces": 138,
-      "occupancyPercent": -3.8,
+      "vacantSpaces": 136,
+      "occupancyPercent": -2.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1776036820,
+      "lastUpdated": 1776050634,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -239,7 +239,7 @@
       "occupancyPercent": -2.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1776037107,
+      "lastUpdated": 1776050607,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
