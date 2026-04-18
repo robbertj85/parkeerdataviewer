@@ -1,6 +1,6 @@
 {
   "municipality": "Weert",
-  "generated_at": "2026-04-18T09:54:00.756178+00:00",
+  "generated_at": "2026-04-18T10:50:03.386298+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.24941,
       "longitude": 5.69808,
       "capacity": 279,
-      "vacantSpaces": 240,
-      "occupancyPercent": 14.0,
+      "vacantSpaces": 233,
+      "occupancyPercent": 16.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1776505727,
+      "lastUpdated": 1776509300,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
