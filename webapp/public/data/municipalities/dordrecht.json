@@ -1,6 +1,6 @@
 {
   "municipality": "Dordrecht",
-  "generated_at": "2026-04-18T10:50:03.386298+00:00",
+  "generated_at": "2026-04-18T11:40:26.569422+00:00",
   "facility_count": 6,
   "facilities": [
     {
@@ -129,7 +129,7 @@
       "occupancyPercent": 15.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1776509238,
+      "lastUpdated": 1776512092,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
