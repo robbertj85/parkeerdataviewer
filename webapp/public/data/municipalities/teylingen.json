@@ -1,6 +1,6 @@
 {
   "municipality": "Teylingen",
-  "generated_at": "2026-04-19T20:46:58.993092+00:00",
+  "generated_at": "2026-04-19T21:42:54.785697+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -14,12 +14,12 @@
       "province": "",
       "latitude": 52.215931,
       "longitude": 4.517862,
-      "capacity": 89,
-      "vacantSpaces": 79,
-      "occupancyPercent": 11.2,
-      "open": true,
-      "full": true,
-      "lastUpdated": 1746629609,
+      "capacity": 520,
+      "vacantSpaces": null,
+      "occupancyPercent": null,
+      "open": null,
+      "full": null,
+      "lastUpdated": null,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
