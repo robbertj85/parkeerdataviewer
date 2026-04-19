@@ -1,6 +1,6 @@
 {
   "municipality": "Beekdaelen",
-  "generated_at": "2026-04-19T21:42:54.785697+00:00",
+  "generated_at": "2026-04-19T22:43:26.763219+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 50.946975,
       "longitude": 5.786335,
       "capacity": 121,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "vacantSpaces": 121,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497701,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
