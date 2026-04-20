@@ -1,6 +1,6 @@
 {
   "municipality": "Roosendaal",
-  "generated_at": "2026-04-20T20:56:53.894737+00:00",
+  "generated_at": "2026-04-20T21:54:22.154001+00:00",
   "facility_count": 8,
   "facilities": [
     {
@@ -129,7 +129,7 @@
       "occupancyPercent": 0.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1776717697,
+      "lastUpdated": 1776721297,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -151,7 +151,7 @@
       "occupancyPercent": 6.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1776717643,
+      "lastUpdated": 1776721243,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
