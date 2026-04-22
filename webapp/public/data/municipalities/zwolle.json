@@ -1,6 +1,6 @@
 {
   "municipality": "Zwolle",
-  "generated_at": "2026-04-22T19:24:14.454923+00:00",
+  "generated_at": "2026-04-22T21:03:30.625077+00:00",
   "facility_count": 9,
   "facilities": [
     {
@@ -70,28 +70,6 @@
       "usage": "Parkeren"
     },
     {
-      "uuid": "809116db-8166-4d66-93d1-fc859f4449d8",
-      "name": "Burgemeester van Roijensingel (Zwolle)",
-      "operator": "Zwolle",
-      "street": "Zuiderkerkstraat",
-      "houseNumber": "8",
-      "zipcode": "8011GG",
-      "city": "Zwolle",
-      "province": "",
-      "latitude": 52.507872,
-      "longitude": 6.094565,
-      "capacity": 173,
-      "vacantSpaces": 62,
-      "occupancyPercent": 64.2,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870878",
-      "minimumHeightInMeters": 0.0,
-      "chargingPointCapacity": 2,
-      "disabledAccess": false,
-      "usage": "Parkeren"
-    },
-    {
       "uuid": "2d8e6321-7108-4763-ba53-5d107ff6e674",
       "name": "Parkeergarage Emmawijk - Dek (Zwolle)",
       "operator": "Zwolle",
@@ -112,6 +90,28 @@
       "chargingPointCapacity": 2,
       "disabledAccess": false,
       "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "809116db-8166-4d66-93d1-fc859f4449d8",
+      "name": "Burgemeester van Roijensingel (Zwolle)",
+      "operator": "Zwolle",
+      "street": "Zuiderkerkstraat",
+      "houseNumber": "8",
+      "zipcode": "8011GG",
+      "city": "Zwolle",
+      "province": "",
+      "latitude": 52.507872,
+      "longitude": 6.094565,
+      "capacity": 173,
+      "vacantSpaces": 62,
+      "occupancyPercent": 64.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870878",
+      "minimumHeightInMeters": 0.0,
+      "chargingPointCapacity": 2,
+      "disabledAccess": false,
+      "usage": "Parkeren"
     },
     {
       "uuid": "ff27bae8-ce05-40c6-8422-03da3bd7d9e1",
