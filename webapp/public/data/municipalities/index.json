@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T10:42:46.758124+00:00",
+  "generated_at": "2026-04-24T12:01:50.158110+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -329,6 +329,11 @@
     {
       "name": "Weert",
       "slug": "weert",
+      "facility_count": 1
+    },
+    {
+      "name": "West Betuwe",
+      "slug": "west-betuwe",
       "facility_count": 1
     },
     {
