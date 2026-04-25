@@ -1,6 +1,6 @@
 {
   "municipality": "Den Haag",
-  "generated_at": "2026-04-25T14:51:20.361244+00:00",
+  "generated_at": "2026-04-25T15:47:05.403234+00:00",
   "facility_count": 10,
   "facilities": [
     {
@@ -169,11 +169,11 @@
       "latitude": 52.0829,
       "longitude": 4.30755,
       "capacity": 163,
-      "vacantSpaces": 148,
-      "occupancyPercent": 9.2,
+      "vacantSpaces": 150,
+      "occupancyPercent": 8.0,
       "open": true,
       "full": false,
-      "lastUpdated": "1777128594",
+      "lastUpdated": "1777131907",
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
