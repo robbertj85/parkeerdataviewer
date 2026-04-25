@@ -1,6 +1,6 @@
 {
   "municipality": "'s-Hertogenbosch",
-  "generated_at": "2026-04-25T22:45:50.300673+00:00",
+  "generated_at": "2026-04-25T23:46:39.376065+00:00",
   "facility_count": 11,
   "facilities": [
     {
@@ -136,28 +136,6 @@
       "usage": "Garage parkeren"
     },
     {
-      "uuid": "5d567c12-796c-4f8d-80f4-120ba32ed482",
-      "name": "Parkeergarage St. Jan",
-      "operator": "'s-Hertogenbosch",
-      "street": "Hekellaan",
-      "houseNumber": "25",
-      "zipcode": "5211LZ",
-      "city": "'s-Hertogenbosch",
-      "province": "Noord-Brabant",
-      "latitude": 51.685325,
-      "longitude": 5.314114,
-      "capacity": 840,
-      "vacantSpaces": 780,
-      "occupancyPercent": 7.1,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870882",
-      "minimumHeightInMeters": 2.1,
-      "chargingPointCapacity": 6,
-      "disabledAccess": true,
-      "usage": "Garage parkeren"
-    },
-    {
       "uuid": "aa548ce6-3110-4621-b3eb-ea45e5975df7",
       "name": "Parkeergarage St. Josephstraat",
       "operator": "'s-Hertogenbosch",
@@ -176,6 +154,28 @@
       "lastUpdated": "1751870882",
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
+      "disabledAccess": true,
+      "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "5d567c12-796c-4f8d-80f4-120ba32ed482",
+      "name": "Parkeergarage St. Jan",
+      "operator": "'s-Hertogenbosch",
+      "street": "Hekellaan",
+      "houseNumber": "25",
+      "zipcode": "5211LZ",
+      "city": "'s-Hertogenbosch",
+      "province": "Noord-Brabant",
+      "latitude": 51.685325,
+      "longitude": 5.314114,
+      "capacity": 840,
+      "vacantSpaces": 780,
+      "occupancyPercent": 7.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870882",
+      "minimumHeightInMeters": 2.1,
+      "chargingPointCapacity": 6,
       "disabledAccess": true,
       "usage": "Garage parkeren"
     },
