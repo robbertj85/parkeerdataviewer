@@ -1,6 +1,6 @@
 {
   "municipality": "Zwolle",
-  "generated_at": "2026-04-26T22:47:54.833250+00:00",
+  "generated_at": "2026-04-26T23:48:35.768075+00:00",
   "facility_count": 9,
   "facilities": [
     {
@@ -114,28 +114,6 @@
       "usage": "Garage parkeren"
     },
     {
-      "uuid": "ff27bae8-ce05-40c6-8422-03da3bd7d9e1",
-      "name": "Parkeergarage Noordereiland - Dek (Zwolle)",
-      "operator": "Zwolle",
-      "street": "Assiesstraat",
-      "houseNumber": "126",
-      "zipcode": "8011XV",
-      "city": "Zwolle",
-      "province": "Overijssel",
-      "latitude": 52.515666,
-      "longitude": 6.095621,
-      "capacity": 670,
-      "vacantSpaces": 553,
-      "occupancyPercent": 17.5,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870878",
-      "minimumHeightInMeters": 1.9,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Parkeren"
-    },
-    {
       "uuid": "9e43035c-6707-4b47-a263-d62f0c5d5f84",
       "name": "Parkeergarage L\u00fcbeckplein (Zwolle)",
       "operator": "Zwolle",
@@ -154,6 +132,28 @@
       "lastUpdated": "1751870878",
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 4,
+      "disabledAccess": false,
+      "usage": "Parkeren"
+    },
+    {
+      "uuid": "ff27bae8-ce05-40c6-8422-03da3bd7d9e1",
+      "name": "Parkeergarage Noordereiland - Dek (Zwolle)",
+      "operator": "Zwolle",
+      "street": "Assiesstraat",
+      "houseNumber": "126",
+      "zipcode": "8011XV",
+      "city": "Zwolle",
+      "province": "Overijssel",
+      "latitude": 52.515666,
+      "longitude": 6.095621,
+      "capacity": 670,
+      "vacantSpaces": 553,
+      "occupancyPercent": 17.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870878",
+      "minimumHeightInMeters": 1.9,
+      "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Parkeren"
     },
