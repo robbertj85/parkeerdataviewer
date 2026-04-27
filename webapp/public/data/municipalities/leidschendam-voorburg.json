@@ -1,6 +1,6 @@
 {
   "municipality": "Leidschendam-Voorburg",
-  "generated_at": "2026-04-27T21:58:58.389558+00:00",
+  "generated_at": "2026-04-27T22:58:24.070587+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 70.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1777327024,
+      "lastUpdated": 1777330627,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
