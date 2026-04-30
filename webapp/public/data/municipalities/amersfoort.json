@@ -1,6 +1,6 @@
 {
   "municipality": "Amersfoort",
-  "generated_at": "2026-04-30T22:01:54.856625+00:00",
+  "generated_at": "2026-04-30T23:00:37.836856+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.1529,
       "longitude": 5.36837,
       "capacity": 180,
-      "vacantSpaces": 187,
-      "occupancyPercent": -3.9,
+      "vacantSpaces": 188,
+      "occupancyPercent": -4.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1777586124,
+      "lastUpdated": 1777589762,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -41,7 +41,7 @@
       "occupancyPercent": 2.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1777586105,
+      "lastUpdated": 1777589756,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
