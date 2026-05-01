@@ -1,6 +1,6 @@
 {
   "municipality": "Beverwijk",
-  "generated_at": "2026-05-01T16:03:46.233080+00:00",
+  "generated_at": "2026-05-01T17:09:14.525399+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.47915,
       "longitude": 4.65656,
       "capacity": 116,
-      "vacantSpaces": 109,
-      "occupancyPercent": 6.0,
+      "vacantSpaces": 113,
+      "occupancyPercent": 2.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1777651109,
+      "lastUpdated": 1777655030,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
