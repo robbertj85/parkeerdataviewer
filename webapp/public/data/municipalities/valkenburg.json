@@ -1,6 +1,6 @@
 {
   "municipality": "Valkenburg",
-  "generated_at": "2026-05-02T13:25:25.895714+00:00",
+  "generated_at": "2026-05-02T14:55:36.776911+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.08568,
       "longitude": 5.83199,
       "capacity": 123,
-      "vacantSpaces": 63,
-      "occupancyPercent": 48.8,
+      "vacantSpaces": 66,
+      "occupancyPercent": 46.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1777728151,
+      "lastUpdated": 1777732916,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
