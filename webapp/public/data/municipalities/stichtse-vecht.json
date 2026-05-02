@@ -1,6 +1,6 @@
 {
   "municipality": "Stichtse Vecht",
-  "generated_at": "2026-05-02T15:54:55.045931+00:00",
+  "generated_at": "2026-05-02T16:57:44.991026+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": -90.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1777736966,
+      "lastUpdated": 1777740565,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -41,7 +41,7 @@
       "occupancyPercent": 33.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1777736966,
+      "lastUpdated": 1777740574,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -63,7 +63,7 @@
       "occupancyPercent": 21.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1777736966,
+      "lastUpdated": 1777740565,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
