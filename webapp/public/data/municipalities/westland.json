@@ -1,6 +1,6 @@
 {
   "municipality": "Westland",
-  "generated_at": "2026-05-03T16:59:31.867325+00:00",
+  "generated_at": "2026-05-03T17:52:26.302388+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 4.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1777827409,
+      "lastUpdated": 1777830665,
       "minimumHeightInMeters": 2.3,
       "chargingPointCapacity": 8,
       "disabledAccess": true,
