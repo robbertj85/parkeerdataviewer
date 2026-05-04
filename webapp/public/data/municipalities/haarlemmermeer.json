@@ -1,6 +1,6 @@
 {
   "municipality": "Haarlemmermeer",
-  "generated_at": "2026-05-04T14:18:06.560273+00:00",
+  "generated_at": "2026-05-04T16:53:31.026751+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.38653,
       "longitude": 4.74659,
       "capacity": 137,
-      "vacantSpaces": 11,
-      "occupancyPercent": 92.0,
+      "vacantSpaces": 37,
+      "occupancyPercent": 73.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1777903729,
+      "lastUpdated": 1777913390,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
