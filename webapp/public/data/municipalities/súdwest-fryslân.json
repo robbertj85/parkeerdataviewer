@@ -1,6 +1,6 @@
 {
   "municipality": "S\u00fadwest-Frysl\u00e2n",
-  "generated_at": "2026-05-09T10:13:05.053369+00:00",
+  "generated_at": "2026-05-09T11:55:23.539020+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 53.031308,
       "longitude": 5.650877,
       "capacity": 55,
-      "vacantSpaces": 0,
-      "occupancyPercent": 100.0,
+      "vacantSpaces": 3,
+      "occupancyPercent": 94.5,
       "open": true,
-      "full": true,
-      "lastUpdated": 1778321121,
+      "full": false,
+      "lastUpdated": 1778327412,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
