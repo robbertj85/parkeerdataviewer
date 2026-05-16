@@ -1,6 +1,6 @@
 {
   "municipality": "Den Haag",
-  "generated_at": "2026-05-16T11:57:16.219422+00:00",
+  "generated_at": "2026-05-16T13:46:20.743488+00:00",
   "facility_count": 10,
   "facilities": [
     {
@@ -158,28 +158,6 @@
       "usage": "P+R"
     },
     {
-      "uuid": "34c37f55-160a-47fb-a659-35d74f70907b",
-      "name": "Garage Parkstraat (Den Haag)",
-      "operator": "'s-Gravenhage",
-      "street": "Oranjestraat",
-      "houseNumber": "0",
-      "zipcode": "",
-      "city": "Den Haag",
-      "province": "",
-      "latitude": 52.0829,
-      "longitude": 4.30755,
-      "capacity": 163,
-      "vacantSpaces": 143,
-      "occupancyPercent": 12.3,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1778932466",
-      "minimumHeightInMeters": 2.0,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Garage parkeren"
-    },
-    {
       "uuid": "ca495787-8e55-4c7d-933b-c3192b40ddb8",
       "name": "Garage Helicon (Den Haag)",
       "operator": "'s-Gravenhage",
@@ -219,6 +197,28 @@
       "full": false,
       "lastUpdated": 1778654554,
       "minimumHeightInMeters": 1.9,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "34c37f55-160a-47fb-a659-35d74f70907b",
+      "name": "Garage Parkstraat (Den Haag)",
+      "operator": "'s-Gravenhage",
+      "street": "Oranjestraat",
+      "houseNumber": "0",
+      "zipcode": "",
+      "city": "Den Haag",
+      "province": "",
+      "latitude": 52.0829,
+      "longitude": 4.30755,
+      "capacity": 163,
+      "vacantSpaces": 151,
+      "occupancyPercent": 7.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1778939048",
+      "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Garage parkeren"
