@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T10:22:10.474886+00:00",
+  "generated_at": "2026-05-16T11:57:16.219422+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -259,7 +259,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 23
+      "facility_count": 24
     },
     {
       "name": "Schiedam",
@@ -350,11 +350,6 @@
       "name": "Zaanstad",
       "slug": "zaanstad",
       "facility_count": 2
-    },
-    {
-      "name": "Zeewolde",
-      "slug": "zeewolde",
-      "facility_count": 1
     },
     {
       "name": "Zeist",
