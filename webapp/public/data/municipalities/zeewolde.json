@@ -1,0 +1,29 @@
+{
+  "municipality": "Zeewolde",
+  "generated_at": "2026-05-16T10:22:10.474886+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "10f854b4-14ef-4914-8069-76d7f7f6afb4",
+      "name": "P2 Comfort Parking",
+      "operator": "Rotterdam The Hague Airport",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.27417732,
+      "longitude": 5.43999391,
+      "capacity": 258,
+      "vacantSpaces": 68,
+      "occupancyPercent": 73.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1778654261,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Terreinparkeren"
+    }
+  ]
+}

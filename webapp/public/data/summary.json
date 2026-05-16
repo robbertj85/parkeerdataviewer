@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-16T08:51:55.960452+00:00",
+  "generated_at": "2026-05-16T10:22:10.495571+00:00",
   "total_facilities": 310,
   "total_with_dynamic": 310,
-  "total_capacity": 99825,
-  "total_vacant": 68565,
-  "total_occupied": 31260,
+  "total_capacity": 99843,
+  "total_vacant": 61740,
+  "total_occupied": 38103,
   "facilities_open": 301,
-  "facilities_full": 18,
-  "municipalities": 74,
+  "facilities_full": 29,
+  "municipalities": 75,
   "by_operator": {
     "Nederlandse Spoorwegen": 77,
     "Amsterdam": 34,
@@ -56,7 +56,7 @@
   },
   "by_municipality": {
     "Amsterdam": 43,
-    "Rotterdam": 24,
+    "Rotterdam": 23,
     "Almere": 18,
     "Delft": 13,
     "Nijmegen": 11,
@@ -128,6 +128,7 @@
     "Zwijndrecht": 1,
     "Helmond": 1,
     "Westland": 1,
+    "Zeewolde": 1,
     "Haarlemmermeer": 1
   }
 }
