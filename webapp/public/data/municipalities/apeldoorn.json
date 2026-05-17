@@ -1,6 +1,6 @@
 {
   "municipality": "Apeldoorn",
-  "generated_at": "2026-05-17T22:00:14.128180+00:00",
+  "generated_at": "2026-05-17T22:58:55.091911+00:00",
   "facility_count": 8,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 14.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1779055020,
+      "lastUpdated": 1779058320,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -169,11 +169,11 @@
       "latitude": 52.21381886,
       "longitude": 5.96499822,
       "capacity": 105,
-      "vacantSpaces": 58,
-      "occupancyPercent": 44.8,
+      "vacantSpaces": 57,
+      "occupancyPercent": 45.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1779055100,
+      "lastUpdated": 1779058637,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
