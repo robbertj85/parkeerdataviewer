@@ -1,7 +1,7 @@
 {
   "municipality": "Middelburg",
-  "generated_at": "2026-05-17T11:16:19.484635+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-05-17T13:45:37.430999+00:00",
+  "facility_count": 1,
   "facilities": [
     {
       "uuid": "a74cb3bf-e681-45a0-bd09-60ab91099fec",
@@ -24,28 +24,6 @@
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "P+R"
-    },
-    {
-      "uuid": "8e0289ed-f3ee-458e-8da4-247c4b240bb4",
-      "name": "Parkeergarages Arie van Hensbergen",
-      "operator": "Veenendaal",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
-      "latitude": 51.51174431,
-      "longitude": 3.61187933,
-      "capacity": 354,
-      "vacantSpaces": 332,
-      "occupancyPercent": 6.2,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1779016368,
-      "minimumHeightInMeters": null,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Betaald parkeren"
     }
   ]
 }

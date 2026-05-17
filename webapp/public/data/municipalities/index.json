@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T11:16:19.484635+00:00",
+  "generated_at": "2026-05-17T13:45:37.430999+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -219,7 +219,7 @@
     {
       "name": "Middelburg",
       "slug": "middelburg",
-      "facility_count": 2
+      "facility_count": 1
     },
     {
       "name": "Nijmegen",
@@ -259,7 +259,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 24
+      "facility_count": 23
     },
     {
       "name": "Schiedam",
@@ -309,7 +309,7 @@
     {
       "name": "Veenendaal",
       "slug": "veenendaal",
-      "facility_count": 4
+      "facility_count": 5
     },
     {
       "name": "Venlo",
@@ -324,6 +324,11 @@
     {
       "name": "Voerendaal",
       "slug": "voerendaal",
+      "facility_count": 1
+    },
+    {
+      "name": "Wageningen",
+      "slug": "wageningen",
       "facility_count": 1
     },
     {
