@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T09:10:40.364013+00:00",
+  "generated_at": "2026-05-17T11:16:19.484635+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -219,7 +219,7 @@
     {
       "name": "Middelburg",
       "slug": "middelburg",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Nijmegen",
@@ -309,7 +309,7 @@
     {
       "name": "Veenendaal",
       "slug": "veenendaal",
-      "facility_count": 5
+      "facility_count": 4
     },
     {
       "name": "Venlo",
