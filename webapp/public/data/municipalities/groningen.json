@@ -1,30 +1,8 @@
 {
   "municipality": "Groningen",
-  "generated_at": "2026-05-17T22:58:55.091911+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-05-18T00:08:35.565527+00:00",
+  "facility_count": 1,
   "facilities": [
-    {
-      "uuid": "9f89a6c7-df06-45ea-adf6-0b94088fcb57",
-      "name": "parkeergarage Forum",
-      "operator": "Groningen",
-      "street": "Schoolstraat",
-      "houseNumber": "16",
-      "zipcode": "9712JS",
-      "city": "Groningen",
-      "province": "",
-      "latitude": 53.219207,
-      "longitude": 6.57081,
-      "capacity": 325,
-      "vacantSpaces": 244,
-      "occupancyPercent": 24.9,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1779058350,
-      "minimumHeightInMeters": 2.0,
-      "chargingPointCapacity": 10,
-      "disabledAccess": true,
-      "usage": "Garage parkeren"
-    },
     {
       "uuid": "751c1199-6ad2-4fc4-b879-8b9091c9d96c",
       "name": "P+R Hoofdstation (Groningen)",

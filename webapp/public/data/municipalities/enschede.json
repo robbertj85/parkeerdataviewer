@@ -1,7 +1,7 @@
 {
   "municipality": "Enschede",
-  "generated_at": "2026-05-17T22:58:55.091911+00:00",
-  "facility_count": 7,
+  "generated_at": "2026-05-18T00:08:35.565527+00:00",
+  "facility_count": 6,
   "facilities": [
     {
       "uuid": "618afa54-e882-4c12-916c-f223cc9c4e4a",
@@ -70,28 +70,6 @@
       "usage": "Garage parkeren"
     },
     {
-      "uuid": "480c50ad-2ef0-48df-8dbc-d2c8552151fd",
-      "name": "Parkeergarage Mooienhof",
-      "operator": "Enschede",
-      "street": "Mooienhof",
-      "houseNumber": "70",
-      "zipcode": "7511HN",
-      "city": "Enschede",
-      "province": "Overijssel",
-      "latitude": 52.218262,
-      "longitude": 6.893268,
-      "capacity": 100,
-      "vacantSpaces": 71,
-      "occupancyPercent": 29.0,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870873",
-      "minimumHeightInMeters": 2.0,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Garage parkeren"
-    },
-    {
       "uuid": "335d508f-cb75-480d-b034-b30f128fccce",
       "name": "Parkeergarage Brouwerij",
       "operator": "Enschede",
@@ -151,7 +129,7 @@
       "occupancyPercent": 0.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1779058368,
+      "lastUpdated": 1779062268,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

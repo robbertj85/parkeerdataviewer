@@ -1,0 +1,51 @@
+{
+  "municipality": "Tholen",
+  "generated_at": "2026-05-18T00:08:35.565527+00:00",
+  "facility_count": 2,
+  "facilities": [
+    {
+      "uuid": "2c0c337e-7c19-4db5-9da8-6bcc8e635404",
+      "name": "Garage IJdok",
+      "operator": "Amsterdam",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 51.61880326,
+      "longitude": 4.16266155,
+      "capacity": 244,
+      "vacantSpaces": 202,
+      "occupancyPercent": 17.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1779062491,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "21de769b-c8e4-45e6-8b40-4496fa1fc417",
+      "name": "Garage Waterlooplein",
+      "operator": "Amsterdam",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 51.61880326,
+      "longitude": 4.16266155,
+      "capacity": 150,
+      "vacantSpaces": 7,
+      "occupancyPercent": 95.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1753088646,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
+    }
+  ]
+}

@@ -1,8 +1,30 @@
 {
   "municipality": "Beverwijk",
-  "generated_at": "2026-05-17T22:58:55.091911+00:00",
-  "facility_count": 1,
+  "generated_at": "2026-05-18T00:08:35.565527+00:00",
+  "facility_count": 2,
   "facilities": [
+    {
+      "uuid": "32fbd12d-2b88-41df-9090-1d3962e1cfab",
+      "name": "Zone 2",
+      "operator": "Deventer",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.4762562,
+      "longitude": 4.6556808,
+      "capacity": 26,
+      "vacantSpaces": 13,
+      "occupancyPercent": 50.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1779062220,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Betaald parkeren"
+    },
     {
       "uuid": "e25f0d56-a213-416b-ab85-9f4d40d0f8f6",
       "name": "P+R Wijckermolen (Beverwijk)",
