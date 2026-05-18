@@ -1,7 +1,7 @@
 {
   "municipality": "Maastricht",
-  "generated_at": "2026-05-18T00:08:35.565527+00:00",
-  "facility_count": 6,
+  "generated_at": "2026-05-18T04:24:56.007505+00:00",
+  "facility_count": 7,
   "facilities": [
     {
       "uuid": "c0aecf40-4df5-43b9-b8af-577fb8c681f8",
@@ -90,6 +90,28 @@
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Terreinparkeren"
+    },
+    {
+      "uuid": "33d872e2-f94f-43b0-b07c-ce46e45422a5",
+      "name": "P+R Station Maastricht Noord II",
+      "operator": "Maastricht",
+      "street": "Hoekerweg",
+      "houseNumber": "0",
+      "zipcode": "6222NP",
+      "city": "Maastricht",
+      "province": "",
+      "latitude": 50.87225,
+      "longitude": 5.718426,
+      "capacity": 181,
+      "vacantSpaces": 162,
+      "occupancyPercent": 10.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1727444267,
+      "minimumHeightInMeters": 2.5,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "P+R"
     },
     {
       "uuid": "c74987a5-2457-407e-8cf2-5f92ac7279ec",

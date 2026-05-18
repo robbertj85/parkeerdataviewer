@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T00:08:35.565527+00:00",
+  "generated_at": "2026-05-18T04:24:56.007505+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -34,12 +34,12 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 26
+      "facility_count": 43
     },
     {
       "name": "Apeldoorn",
       "slug": "apeldoorn",
-      "facility_count": 6
+      "facility_count": 8
     },
     {
       "name": "Arnhem",
@@ -64,7 +64,7 @@
     {
       "name": "Beverwijk",
       "slug": "beverwijk",
-      "facility_count": 2
+      "facility_count": 1
     },
     {
       "name": "Boxtel",
@@ -77,6 +77,11 @@
       "facility_count": 2
     },
     {
+      "name": "De Bilt",
+      "slug": "de-bilt",
+      "facility_count": 1
+    },
+    {
       "name": "De Ronde Venen",
       "slug": "de-ronde-venen",
       "facility_count": 1
@@ -84,7 +89,7 @@
     {
       "name": "Delft",
       "slug": "delft",
-      "facility_count": 7
+      "facility_count": 13
     },
     {
       "name": "Den Haag",
@@ -94,7 +99,7 @@
     {
       "name": "Deventer",
       "slug": "deventer",
-      "facility_count": 6
+      "facility_count": 7
     },
     {
       "name": "Diemen",
@@ -119,7 +124,7 @@
     {
       "name": "Ede",
       "slug": "ede",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Eindhoven",
@@ -129,7 +134,7 @@
     {
       "name": "Enschede",
       "slug": "enschede",
-      "facility_count": 6
+      "facility_count": 7
     },
     {
       "name": "Gooise Meren",
@@ -144,7 +149,7 @@
     {
       "name": "Groningen",
       "slug": "groningen",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Haarlemmermeer",
@@ -184,7 +189,7 @@
     {
       "name": "Hoorn",
       "slug": "hoorn",
-      "facility_count": 5
+      "facility_count": 7
     },
     {
       "name": "Leeuwarden",
@@ -204,7 +209,7 @@
     {
       "name": "Maastricht",
       "slug": "maastricht",
-      "facility_count": 6
+      "facility_count": 7
     },
     {
       "name": "Meerssen",
@@ -219,7 +224,7 @@
     {
       "name": "Nijmegen",
       "slug": "nijmegen",
-      "facility_count": 9
+      "facility_count": 11
     },
     {
       "name": "Noordwijk",
@@ -249,12 +254,12 @@
     {
       "name": "Roosendaal",
       "slug": "roosendaal",
-      "facility_count": 7
+      "facility_count": 8
     },
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 21
+      "facility_count": 23
     },
     {
       "name": "Schiedam",
@@ -269,7 +274,7 @@
     {
       "name": "Stichtse Vecht",
       "slug": "stichtse-vecht",
-      "facility_count": 1
+      "facility_count": 3
     },
     {
       "name": "S\u00fadwest-Frysl\u00e2n",
@@ -280,11 +285,6 @@
       "name": "Teylingen",
       "slug": "teylingen",
       "facility_count": 1
-    },
-    {
-      "name": "Tholen",
-      "slug": "tholen",
-      "facility_count": 2
     },
     {
       "name": "Tilburg",
