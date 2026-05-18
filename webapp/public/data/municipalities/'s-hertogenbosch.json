@@ -1,6 +1,6 @@
 {
   "municipality": "'s-Hertogenbosch",
-  "generated_at": "2026-05-18T12:39:29.912380+00:00",
+  "generated_at": "2026-05-18T16:29:38.805574+00:00",
   "facility_count": 11,
   "facilities": [
     {
@@ -92,28 +92,6 @@
       "usage": "Garage parkeren"
     },
     {
-      "uuid": "461a6ae3-b610-4bec-95e1-bae6755b83a3",
-      "name": "Parkeergarage Wolvenhoek",
-      "operator": "'s-Hertogenbosch",
-      "street": "Wolvenhoek",
-      "houseNumber": "12",
-      "zipcode": "5211HH",
-      "city": "'s-Hertogenbosch",
-      "province": "Noord-Brabant",
-      "latitude": 51.686748,
-      "longitude": 5.303124,
-      "capacity": 250,
-      "vacantSpaces": 193,
-      "occupancyPercent": 22.8,
-      "open": true,
-      "full": false,
-      "lastUpdated": "1751870882",
-      "minimumHeightInMeters": 1.9,
-      "chargingPointCapacity": 0,
-      "disabledAccess": true,
-      "usage": "Garage parkeren"
-    },
-    {
       "uuid": "eab6b680-ef29-4e0a-971c-c5055fc59c19",
       "name": "Parkeergarage Stationsplein",
       "operator": "'s-Hertogenbosch",
@@ -133,6 +111,28 @@
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
+      "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "461a6ae3-b610-4bec-95e1-bae6755b83a3",
+      "name": "Parkeergarage Wolvenhoek",
+      "operator": "'s-Hertogenbosch",
+      "street": "Wolvenhoek",
+      "houseNumber": "12",
+      "zipcode": "5211HH",
+      "city": "'s-Hertogenbosch",
+      "province": "Noord-Brabant",
+      "latitude": 51.686748,
+      "longitude": 5.303124,
+      "capacity": 250,
+      "vacantSpaces": 193,
+      "occupancyPercent": 22.8,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870882",
+      "minimumHeightInMeters": 1.9,
+      "chargingPointCapacity": 0,
+      "disabledAccess": true,
       "usage": "Garage parkeren"
     },
     {
