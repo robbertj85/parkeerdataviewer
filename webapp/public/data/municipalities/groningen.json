@@ -1,6 +1,6 @@
 {
   "municipality": "Groningen",
-  "generated_at": "2026-05-20T04:08:08.469011+00:00",
+  "generated_at": "2026-05-20T08:30:25.555660+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 53.219207,
       "longitude": 6.57081,
       "capacity": 325,
-      "vacantSpaces": 199,
-      "occupancyPercent": 38.8,
+      "vacantSpaces": 154,
+      "occupancyPercent": 52.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1779249750,
+      "lastUpdated": 1779265650,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 10,
       "disabledAccess": true,
