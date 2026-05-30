@@ -1,6 +1,6 @@
 {
   "municipality": "Maastricht",
-  "generated_at": "2026-05-30T11:26:23.833463+00:00",
+  "generated_at": "2026-05-30T13:53:28.785140+00:00",
   "facility_count": 7,
   "facilities": [
     {
@@ -24,6 +24,28 @@
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "P+R"
+    },
+    {
+      "uuid": "45b1b090-778f-4a65-99ba-7baf8e0f4412",
+      "name": "Terrein Stadspark 1 (Maastricht)",
+      "operator": "Maastricht",
+      "street": "Maasboulevard",
+      "houseNumber": "101",
+      "zipcode": "6211JW",
+      "city": "Maastricht",
+      "province": "Limburg",
+      "latitude": 50.50364,
+      "longitude": 5.41497,
+      "capacity": 227,
+      "vacantSpaces": 33,
+      "occupancyPercent": 85.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1752066495,
+      "minimumHeightInMeters": 2.1,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Terreinparkeren"
     },
     {
       "uuid": "af0b223f-cfe3-4e84-8359-2724e26315a0",
@@ -70,28 +92,6 @@
       "usage": "Terreinparkeren"
     },
     {
-      "uuid": "45b1b090-778f-4a65-99ba-7baf8e0f4412",
-      "name": "Terrein Stadspark 1 (Maastricht)",
-      "operator": "Maastricht",
-      "street": "Maasboulevard",
-      "houseNumber": "101",
-      "zipcode": "6211JW",
-      "city": "Maastricht",
-      "province": "Limburg",
-      "latitude": 50.50364,
-      "longitude": 5.41497,
-      "capacity": 227,
-      "vacantSpaces": 33,
-      "occupancyPercent": 85.5,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1752066495,
-      "minimumHeightInMeters": 2.1,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Terreinparkeren"
-    },
-    {
       "uuid": "33d872e2-f94f-43b0-b07c-ce46e45422a5",
       "name": "P+R Station Maastricht Noord II",
       "operator": "Maastricht",
@@ -129,7 +129,7 @@
       "occupancyPercent": 44.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1780140157,
+      "lastUpdated": 1780148677,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -151,7 +151,7 @@
       "occupancyPercent": 8.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1780140234,
+      "lastUpdated": 1780149132,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
