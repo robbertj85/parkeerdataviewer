@@ -1,6 +1,6 @@
 {
   "municipality": "Ouder-Amstel",
-  "generated_at": "2026-05-31T23:14:20.362471+00:00",
+  "generated_at": "2026-06-01T04:52:47.128553+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.32266,
       "longitude": 4.93576,
       "capacity": 230,
-      "vacantSpaces": 226,
-      "occupancyPercent": 1.7,
+      "vacantSpaces": 225,
+      "occupancyPercent": 2.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1780268852,
+      "lastUpdated": 1780288652,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
