@@ -1,6 +1,6 @@
 {
   "municipality": "Gooise Meren",
-  "generated_at": "2026-06-02T05:54:35.279518+00:00",
+  "generated_at": "2026-06-02T10:46:52.841565+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.28006,
       "longitude": 5.15665,
       "capacity": 93,
-      "vacantSpaces": 75,
-      "occupancyPercent": 19.4,
+      "vacantSpaces": 26,
+      "occupancyPercent": 72.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1780379199,
+      "lastUpdated": 1780396760,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
