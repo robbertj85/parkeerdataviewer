@@ -1,6 +1,6 @@
 {
   "municipality": "Assen",
-  "generated_at": "2026-06-03T21:54:54.037655+00:00",
+  "generated_at": "2026-06-03T23:50:36.338132+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.98963,
       "longitude": 6.56954,
       "capacity": 256,
-      "vacantSpaces": 261,
-      "occupancyPercent": -2.0,
+      "vacantSpaces": 265,
+      "occupancyPercent": -3.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1780523031,
+      "lastUpdated": 1780530231,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
