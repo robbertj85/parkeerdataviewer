@@ -1,6 +1,6 @@
 {
   "municipality": "Venlo",
-  "generated_at": "2026-06-09T11:23:14.549872+00:00",
+  "generated_at": "2026-06-09T15:17:32.180917+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -14,12 +14,12 @@
       "province": "",
       "latitude": 51.36437,
       "longitude": 6.1734,
-      "capacity": 110,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "capacity": 80,
+      "vacantSpaces": 58,
+      "occupancyPercent": 27.5,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1781018083,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

@@ -1,6 +1,6 @@
 {
   "municipality": "Echt-Susteren",
-  "generated_at": "2026-06-09T11:23:14.549872+00:00",
+  "generated_at": "2026-06-09T15:17:32.180917+00:00",
   "facility_count": 4,
   "facilities": [
     {
@@ -59,11 +59,11 @@
       "latitude": 51.060712,
       "longitude": 5.862456,
       "capacity": 27,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "vacantSpaces": 11,
+      "occupancyPercent": 59.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497702,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

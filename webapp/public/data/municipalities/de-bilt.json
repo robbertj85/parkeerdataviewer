@@ -1,6 +1,6 @@
 {
   "municipality": "De Bilt",
-  "generated_at": "2026-06-09T11:23:14.549872+00:00",
+  "generated_at": "2026-06-09T15:17:32.180917+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -14,12 +14,12 @@
       "province": "",
       "latitude": 52.130495,
       "longitude": 5.202638,
-      "capacity": 163,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "capacity": 160,
+      "vacantSpaces": 150,
+      "occupancyPercent": 6.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1766561807,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
