@@ -1,7 +1,7 @@
 {
   "municipality": "Dordrecht",
-  "generated_at": "2026-06-12T05:53:31.678419+00:00",
-  "facility_count": 5,
+  "generated_at": "2026-06-12T10:23:33.001875+00:00",
+  "facility_count": 6,
   "facilities": [
     {
       "uuid": "fe585239-852e-4f52-84e8-56eda8239a8f",
@@ -112,6 +112,28 @@
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Garage parkeren"
+    },
+    {
+      "uuid": "5ad7a1ad-ec96-4e5c-9356-a5809078aada",
+      "name": "P+R Markettenweg (Dordrecht)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "Markettenweg",
+      "houseNumber": "50",
+      "zipcode": "3314JE",
+      "city": "Dordrecht",
+      "province": "",
+      "latitude": 51.80662,
+      "longitude": 4.66915,
+      "capacity": 113,
+      "vacantSpaces": 69,
+      "occupancyPercent": 38.9,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1781259669,
+      "minimumHeightInMeters": 0.0,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "P+R"
     }
   ]
 }

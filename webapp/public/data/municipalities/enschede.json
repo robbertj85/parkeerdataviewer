@@ -1,7 +1,7 @@
 {
   "municipality": "Enschede",
-  "generated_at": "2026-06-12T05:53:31.678419+00:00",
-  "facility_count": 5,
+  "generated_at": "2026-06-12T10:23:33.001875+00:00",
+  "facility_count": 7,
   "facilities": [
     {
       "uuid": "618afa54-e882-4c12-916c-f223cc9c4e4a",
@@ -24,6 +24,28 @@
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "P+R"
+    },
+    {
+      "uuid": "1a39c8e9-91f9-40d9-bdf3-ce1f6e438a14",
+      "name": "Parkeergarage Van Heek",
+      "operator": "Enschede",
+      "street": "Boulevard 1945",
+      "houseNumber": "105",
+      "zipcode": "7511AM",
+      "city": "Enschede",
+      "province": "Overijssel",
+      "latitude": 52.216916,
+      "longitude": 6.901198,
+      "capacity": 1700,
+      "vacantSpaces": 1464,
+      "occupancyPercent": 13.9,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1751870873",
+      "minimumHeightInMeters": 2.1,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
     },
     {
       "uuid": "480c50ad-2ef0-48df-8dbc-d2c8552151fd",
@@ -103,15 +125,37 @@
       "latitude": 52.22063983,
       "longitude": 6.8744958,
       "capacity": 145,
-      "vacantSpaces": 137,
-      "occupancyPercent": 5.5,
+      "vacantSpaces": 104,
+      "occupancyPercent": 28.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1781243539,
+      "lastUpdated": 1781259540,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Terreinparkeren"
+    },
+    {
+      "uuid": "da834c6e-b202-4b18-b7b0-4edc2716855b",
+      "name": "Parkeergarage Tricotage",
+      "operator": "Veenendaal",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.22231915,
+      "longitude": 6.8982404,
+      "capacity": 500,
+      "vacantSpaces": 387,
+      "occupancyPercent": 22.6,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1781259471,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Betaald parkeren"
     }
   ]
 }
