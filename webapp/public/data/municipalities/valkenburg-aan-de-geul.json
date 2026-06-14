@@ -1,6 +1,6 @@
 {
   "municipality": "Valkenburg aan de Geul",
-  "generated_at": "2026-06-14T09:50:41.123686+00:00",
+  "generated_at": "2026-06-14T12:06:17.385911+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 50.85573,
       "longitude": 5.874163,
       "capacity": 48,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "vacantSpaces": 48,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497704,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
