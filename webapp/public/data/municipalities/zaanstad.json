@@ -1,7 +1,7 @@
 {
   "municipality": "Zaanstad",
-  "generated_at": "2026-06-15T06:31:08.226427+00:00",
-  "facility_count": 1,
+  "generated_at": "2026-06-15T13:21:54.209766+00:00",
+  "facility_count": 2,
   "facilities": [
     {
       "uuid": "b3b3f9ec-e94e-4923-8865-53c9c5f7aeaf",
@@ -15,15 +15,37 @@
       "latitude": 52.43872,
       "longitude": 4.828007,
       "capacity": 236,
-      "vacantSpaces": 236,
-      "occupancyPercent": 0.0,
+      "vacantSpaces": 234,
+      "occupancyPercent": 0.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1781504850,
+      "lastUpdated": 1781529450,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Terreinparkeren"
+    },
+    {
+      "uuid": "3509fe81-59aa-47a7-a7ba-6d881d9a24fd",
+      "name": "P+R Provincialeweg (Zaandam)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "Provinciale weg",
+      "houseNumber": "0",
+      "zipcode": "1506MJ",
+      "city": "Zaandam",
+      "province": "",
+      "latitude": 52.44162,
+      "longitude": 4.81236,
+      "capacity": 100,
+      "vacantSpaces": 32,
+      "occupancyPercent": 68.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1781529176,
+      "minimumHeightInMeters": 0.0,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "P+R"
     }
   ]
 }
