@@ -1,6 +1,6 @@
 {
   "municipality": "Zwijndrecht",
-  "generated_at": "2026-06-20T16:24:10.777121+00:00",
+  "generated_at": "2026-06-20T18:18:02.995570+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.81431,
       "longitude": 4.642238,
       "capacity": 117,
-      "vacantSpaces": 101,
-      "occupancyPercent": 13.7,
+      "vacantSpaces": 99,
+      "occupancyPercent": 15.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1781971988,
+      "lastUpdated": 1781979027,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
