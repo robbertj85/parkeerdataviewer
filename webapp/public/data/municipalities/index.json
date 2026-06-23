@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T05:07:37.027163+00:00",
+  "generated_at": "2026-06-23T09:54:14.070255+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -19,7 +19,7 @@
     {
       "name": "Almere",
       "slug": "almere",
-      "facility_count": 16
+      "facility_count": 17
     },
     {
       "name": "Alphen a/d Rijn",
@@ -34,7 +34,7 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 32
+      "facility_count": 33
     },
     {
       "name": "Apeldoorn",
@@ -84,7 +84,7 @@
     {
       "name": "Delft",
       "slug": "delft",
-      "facility_count": 9
+      "facility_count": 10
     },
     {
       "name": "Den Haag",
@@ -124,7 +124,7 @@
     {
       "name": "Enschede",
       "slug": "enschede",
-      "facility_count": 6
+      "facility_count": 7
     },
     {
       "name": "Gooise Meren",
@@ -139,7 +139,7 @@
     {
       "name": "Groningen",
       "slug": "groningen",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Haarlemmermeer",
@@ -214,7 +214,7 @@
     {
       "name": "Nijmegen",
       "slug": "nijmegen",
-      "facility_count": 7
+      "facility_count": 9
     },
     {
       "name": "Noordwijk",
@@ -239,7 +239,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 18
+      "facility_count": 19
     },
     {
       "name": "Schiedam",
@@ -254,7 +254,7 @@
     {
       "name": "Stichtse Vecht",
       "slug": "stichtse-vecht",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Teylingen",
@@ -304,6 +304,11 @@
     {
       "name": "Weert",
       "slug": "weert",
+      "facility_count": 1
+    },
+    {
+      "name": "West Betuwe",
+      "slug": "west-betuwe",
       "facility_count": 1
     },
     {
