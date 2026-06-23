@@ -1,6 +1,6 @@
 {
   "municipality": "Meerssen",
-  "generated_at": "2026-06-23T20:23:09.701145+00:00",
+  "generated_at": "2026-06-23T22:19:41.252223+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -37,11 +37,11 @@
       "latitude": 50.896643,
       "longitude": 5.736096,
       "capacity": 37,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "vacantSpaces": 31,
+      "occupancyPercent": 16.2,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497702,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
