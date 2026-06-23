@@ -1,7 +1,7 @@
 {
   "municipality": "'s-Gravenhage",
-  "generated_at": "2026-06-22T22:09:13.938584+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-06-23T00:17:53.181858+00:00",
+  "facility_count": 1,
   "facilities": [
     {
       "uuid": "9bf549d0-916f-49e5-acd9-4083e2328056",
@@ -20,28 +20,6 @@
       "open": null,
       "full": null,
       "lastUpdated": null,
-      "minimumHeightInMeters": null,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Garage parkeren"
-    },
-    {
-      "uuid": "76b80f7c-2455-4eab-ba88-d4c2eaa1e7e8",
-      "name": "DEN HAAG-Binck City Park",
-      "operator": "Q-Park Nederland BV",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
-      "latitude": 52.06998449,
-      "longitude": 4.37382416,
-      "capacity": 230,
-      "vacantSpaces": 135,
-      "occupancyPercent": 41.3,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1782166115,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

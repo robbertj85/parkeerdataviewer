@@ -1,6 +1,6 @@
 {
   "municipality": "Vlaardingen",
-  "generated_at": "2026-06-22T22:09:13.938584+00:00",
+  "generated_at": "2026-06-23T00:17:53.181858+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -58,12 +58,12 @@
       "province": "Zuid-Holland",
       "latitude": 51.907665,
       "longitude": 4.33769,
-      "capacity": 148,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "capacity": 150,
+      "vacantSpaces": 136,
+      "occupancyPercent": 9.3,
+      "open": "true",
+      "full": "false",
+      "lastUpdated": 1639497728,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 4,
       "disabledAccess": false,

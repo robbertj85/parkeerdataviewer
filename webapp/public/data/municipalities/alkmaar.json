@@ -1,7 +1,7 @@
 {
   "municipality": "Alkmaar",
-  "generated_at": "2026-06-22T22:09:13.938584+00:00",
-  "facility_count": 4,
+  "generated_at": "2026-06-23T00:17:53.181858+00:00",
+  "facility_count": 3,
   "facilities": [
     {
       "uuid": "c06e8266-5df0-411e-8b7d-3027530f2661",
@@ -15,11 +15,11 @@
       "latitude": 52.632194,
       "longitude": 4.751839,
       "capacity": 420,
-      "vacantSpaces": 257,
-      "occupancyPercent": 38.8,
+      "vacantSpaces": 273,
+      "occupancyPercent": 35.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1782166058,
+      "lastUpdated": 1782173558,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": true,
@@ -41,7 +41,7 @@
       "occupancyPercent": 72.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1782166058,
+      "lastUpdated": 1782173558,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": true,
@@ -63,33 +63,11 @@
       "occupancyPercent": 69.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1782165751,
+      "lastUpdated": 1782173551,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Garage parkeren"
-    },
-    {
-      "uuid": "d863d817-96ec-4b0a-9393-97b6adaf70f5",
-      "name": "P+R Kruseman van Eltenweg (Alkmaar)",
-      "operator": "Nederlandse Spoorwegen",
-      "street": "Kruseman v Eltenweg",
-      "houseNumber": "1",
-      "zipcode": "1817BC",
-      "city": "Alkmaar",
-      "province": "",
-      "latitude": 52.63905,
-      "longitude": 4.74079,
-      "capacity": 180,
-      "vacantSpaces": 219,
-      "occupancyPercent": -21.7,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1782165395,
-      "minimumHeightInMeters": 0.0,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "P+R"
     }
   ]
 }
