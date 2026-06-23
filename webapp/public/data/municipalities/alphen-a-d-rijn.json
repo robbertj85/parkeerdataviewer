@@ -1,6 +1,6 @@
 {
   "municipality": "Alphen a/d Rijn",
-  "generated_at": "2026-06-23T00:17:53.181858+00:00",
+  "generated_at": "2026-06-23T05:07:37.027163+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.12741,
       "longitude": 4.65566,
       "capacity": 197,
-      "vacantSpaces": 196,
-      "occupancyPercent": 0.5,
+      "vacantSpaces": 183,
+      "occupancyPercent": 7.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1782172464,
+      "lastUpdated": 1782190940,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
