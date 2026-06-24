@@ -1,7 +1,7 @@
 {
   "municipality": "Dordrecht",
-  "generated_at": "2026-06-24T00:03:22.268379+00:00",
-  "facility_count": 5,
+  "generated_at": "2026-06-24T04:19:52.187608+00:00",
+  "facility_count": 6,
   "facilities": [
     {
       "uuid": "fe585239-852e-4f52-84e8-56eda8239a8f",
@@ -92,6 +92,28 @@
       "usage": "Garage parkeren"
     },
     {
+      "uuid": "1558c63d-0d97-40f3-9a0f-5f11e65875d7",
+      "name": "Garage Veemarkt (Dordrecht)",
+      "operator": "Dordrecht",
+      "street": "Van Godewijckstraat",
+      "houseNumber": "13",
+      "zipcode": "3311GX",
+      "city": "Dordrecht",
+      "province": "",
+      "latitude": 51.811779,
+      "longitude": 4.66003,
+      "capacity": 528,
+      "vacantSpaces": 528,
+      "occupancyPercent": 0.0,
+      "open": true,
+      "full": false,
+      "lastUpdated": "1674118048",
+      "minimumHeightInMeters": 2.0,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
+    },
+    {
       "uuid": "5ad7a1ad-ec96-4e5c-9356-a5809078aada",
       "name": "P+R Markettenweg (Dordrecht)",
       "operator": "Nederlandse Spoorwegen",
@@ -107,7 +129,7 @@
       "occupancyPercent": 0.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1782258640,
+      "lastUpdated": 1782273940,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
