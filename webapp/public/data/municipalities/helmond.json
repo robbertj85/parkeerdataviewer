@@ -1,6 +1,6 @@
 {
   "municipality": "Helmond",
-  "generated_at": "2026-06-26T21:24:32.750184+00:00",
+  "generated_at": "2026-06-26T23:13:43.239366+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": -5.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1782508196,
+      "lastUpdated": 1782515396,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
