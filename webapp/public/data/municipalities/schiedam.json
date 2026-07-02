@@ -1,6 +1,6 @@
 {
   "municipality": "Schiedam",
-  "generated_at": "2026-07-01T22:22:32.014153+00:00",
+  "generated_at": "2026-07-02T00:15:16.193676+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -41,7 +41,7 @@
       "occupancyPercent": -3.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1782944377,
+      "lastUpdated": 1782950677,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
