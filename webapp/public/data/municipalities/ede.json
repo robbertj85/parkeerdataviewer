@@ -1,6 +1,6 @@
 {
   "municipality": "Ede",
-  "generated_at": "2026-07-05T07:33:17.561554+00:00",
+  "generated_at": "2026-07-05T10:25:44.303190+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -14,12 +14,12 @@
       "province": "",
       "latitude": 52.045486,
       "longitude": 5.574509,
-      "capacity": 105,
-      "vacantSpaces": 100,
-      "occupancyPercent": 4.8,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1766561808,
+      "capacity": 98,
+      "vacantSpaces": null,
+      "occupancyPercent": null,
+      "open": null,
+      "full": null,
+      "lastUpdated": null,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
