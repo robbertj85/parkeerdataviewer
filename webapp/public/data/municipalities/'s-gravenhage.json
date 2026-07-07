@@ -1,6 +1,6 @@
 {
   "municipality": "'s-Gravenhage",
-  "generated_at": "2026-07-07T11:57:07.000674+00:00",
+  "generated_at": "2026-07-07T14:50:31.405306+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -37,11 +37,11 @@
       "latitude": 52.06998449,
       "longitude": 4.37382416,
       "capacity": 230,
-      "vacantSpaces": 199,
-      "occupancyPercent": 13.5,
+      "vacantSpaces": 188,
+      "occupancyPercent": 18.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1783425389,
+      "lastUpdated": 1783435782,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
