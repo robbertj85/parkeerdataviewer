@@ -1,6 +1,6 @@
 {
   "municipality": "Middelburg",
-  "generated_at": "2026-07-07T04:58:08.755852+00:00",
+  "generated_at": "2026-07-07T08:28:26.046107+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.49375,
       "longitude": 3.61519,
       "capacity": 143,
-      "vacantSpaces": 127,
-      "occupancyPercent": 11.2,
+      "vacantSpaces": 92,
+      "occupancyPercent": 35.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1783399925,
+      "lastUpdated": 1783412762,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
