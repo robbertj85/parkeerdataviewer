@@ -1,6 +1,6 @@
 {
   "municipality": "Enschede",
-  "generated_at": "2026-07-11T10:19:41.494565+00:00",
+  "generated_at": "2026-07-11T11:56:47.958372+00:00",
   "facility_count": 7,
   "facilities": [
     {
@@ -129,7 +129,7 @@
       "occupancyPercent": 4.8,
       "open": true,
       "full": false,
-      "lastUpdated": 1783765023,
+      "lastUpdated": 1783770523,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -147,11 +147,11 @@
       "latitude": 52.22231915,
       "longitude": 6.89824041,
       "capacity": 500,
-      "vacantSpaces": 413,
-      "occupancyPercent": 17.4,
+      "vacantSpaces": 393,
+      "occupancyPercent": 21.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1783765072,
+      "lastUpdated": 1783770772,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
