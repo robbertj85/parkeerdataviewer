@@ -1,6 +1,6 @@
 {
   "municipality": "Boxtel",
-  "generated_at": "2026-07-12T19:13:47.058024+00:00",
+  "generated_at": "2026-07-12T20:57:52.060721+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 54.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1783883493,
+      "lastUpdated": 1783888893,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
