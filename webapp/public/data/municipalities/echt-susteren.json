@@ -1,7 +1,7 @@
 {
   "municipality": "Echt-Susteren",
-  "generated_at": "2026-07-19T15:02:12.592665+00:00",
-  "facility_count": 4,
+  "generated_at": "2026-07-19T16:12:41.993871+00:00",
+  "facility_count": 3,
   "facilities": [
     {
       "uuid": "54544081-ae6b-4e18-bbf3-6833becce81f",
@@ -64,28 +64,6 @@
       "open": true,
       "full": false,
       "lastUpdated": 1639497702,
-      "minimumHeightInMeters": 0.0,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "P+R"
-    },
-    {
-      "uuid": "23703a32-e280-4265-97d3-dc82c40e92e1",
-      "name": "P+R Stationsstraat (Susteren)",
-      "operator": "Nederlandse Spoorwegen",
-      "street": "Stationsstraat",
-      "houseNumber": "0",
-      "zipcode": "6114GB",
-      "city": "Susteren",
-      "province": "Limburg",
-      "latitude": 51.059046,
-      "longitude": 5.86266,
-      "capacity": 62,
-      "vacantSpaces": 61,
-      "occupancyPercent": 1.6,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1639497701,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
