@@ -1,6 +1,6 @@
 {
   "municipality": "Arnhem",
-  "generated_at": "2026-07-19T16:12:41.993871+00:00",
+  "generated_at": "2026-07-19T19:16:21.213441+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -37,11 +37,11 @@
       "latitude": 51.984368,
       "longitude": 5.912586,
       "capacity": 147,
-      "vacantSpaces": 108,
-      "occupancyPercent": 26.5,
-      "open": true,
+      "vacantSpaces": 137,
+      "occupancyPercent": 6.8,
+      "open": false,
       "full": false,
-      "lastUpdated": 1784476890,
+      "lastUpdated": 1784488291,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
