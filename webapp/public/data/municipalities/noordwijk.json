@@ -1,7 +1,7 @@
 {
   "municipality": "Noordwijk",
-  "generated_at": "2026-07-20T15:55:11.798336+00:00",
-  "facility_count": 1,
+  "generated_at": "2026-07-20T18:10:45.689699+00:00",
+  "facility_count": 2,
   "facilities": [
     {
       "uuid": "8c237822-2d60-4446-b5cd-8f33cccb26fc",
@@ -15,15 +15,37 @@
       "latitude": 52.243867,
       "longitude": 4.431611,
       "capacity": 240,
-      "vacantSpaces": 107,
-      "occupancyPercent": 55.4,
+      "vacantSpaces": 109,
+      "occupancyPercent": 54.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1784562690,
+      "lastUpdated": 1784570790,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "Terreinparkeren"
+    },
+    {
+      "uuid": "da95ab75-7e5e-438d-8bfb-f3eb0d37dd44",
+      "name": "Straatparkeren Wantveld (Noordwijk)",
+      "operator": "Noordwijk",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.2501683,
+      "longitude": 4.4382764,
+      "capacity": 529,
+      "vacantSpaces": 388,
+      "occupancyPercent": 26.7,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1762942831,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Betaald parkeren"
     }
   ]
 }
