@@ -1,7 +1,7 @@
 {
   "municipality": "Eindhoven",
-  "generated_at": "2026-07-30T22:17:17.638104+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-07-31T00:08:58.323328+00:00",
+  "facility_count": 1,
   "facilities": [
     {
       "uuid": "cc7a3d99-d6f6-4407-86bc-008eb47549ea",
@@ -14,38 +14,16 @@
       "province": "",
       "latitude": 51.44248,
       "longitude": 5.4856,
-      "capacity": 150,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "capacity": 130,
+      "vacantSpaces": 134,
+      "occupancyPercent": -3.1,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1785455134,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "P+R"
-    },
-    {
-      "uuid": "69a54734-54a0-4e32-aef5-328b9d5c57b6",
-      "name": "EINDHOVEN-Witte Dame",
-      "operator": "Q-Park Nederland BV",
-      "street": "",
-      "houseNumber": "",
-      "zipcode": "",
-      "city": "",
-      "province": "",
-      "latitude": 51.44038937,
-      "longitude": 5.47228162,
-      "capacity": null,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
-      "minimumHeightInMeters": null,
-      "chargingPointCapacity": 0,
-      "disabledAccess": false,
-      "usage": "Garage parkeren"
     }
   ]
 }
