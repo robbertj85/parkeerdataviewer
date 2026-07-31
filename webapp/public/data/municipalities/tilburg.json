@@ -1,6 +1,6 @@
 {
   "municipality": "Tilburg",
-  "generated_at": "2026-07-31T13:00:41.965525+00:00",
+  "generated_at": "2026-07-31T15:23:45.459306+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.554213,
       "longitude": 5.081408,
       "capacity": 287,
-      "vacantSpaces": 187,
-      "occupancyPercent": 34.8,
+      "vacantSpaces": 232,
+      "occupancyPercent": 19.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1785502590,
+      "lastUpdated": 1785511290,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 2,
       "disabledAccess": false,
