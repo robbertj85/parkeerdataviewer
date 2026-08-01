@@ -1,7 +1,7 @@
 {
   "municipality": "Woerden",
-  "generated_at": "2026-07-31T23:07:43.030629+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-08-01T03:31:05.974827+00:00",
+  "facility_count": 3,
   "facilities": [
     {
       "uuid": "aac1824c-b958-4abe-b311-5e25a334b940",
@@ -20,6 +20,28 @@
       "open": null,
       "full": null,
       "lastUpdated": null,
+      "minimumHeightInMeters": 0.0,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "P+R"
+    },
+    {
+      "uuid": "83c0ebb3-ef4b-49bd-b15d-e30fc58902bf",
+      "name": "P+R Spoorlaan (Woerden)",
+      "operator": "Nederlandse Spoorwegen",
+      "street": "Stationsplein-Noord",
+      "houseNumber": "0",
+      "zipcode": "3445AD",
+      "city": "Woerden",
+      "province": "",
+      "latitude": 52.08568,
+      "longitude": 4.89278,
+      "capacity": 154,
+      "vacantSpaces": 173,
+      "occupancyPercent": -12.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1785555011,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,

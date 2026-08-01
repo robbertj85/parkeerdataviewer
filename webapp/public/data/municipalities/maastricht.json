@@ -1,7 +1,7 @@
 {
   "municipality": "Maastricht",
-  "generated_at": "2026-07-31T23:07:43.030629+00:00",
-  "facility_count": 6,
+  "generated_at": "2026-08-01T03:31:05.974827+00:00",
+  "facility_count": 7,
   "facilities": [
     {
       "uuid": "c0aecf40-4df5-43b9-b8af-577fb8c681f8",
@@ -70,6 +70,28 @@
       "usage": "Terreinparkeren"
     },
     {
+      "uuid": "53d7d51e-1be5-4ecf-af13-c1c601d37503",
+      "name": "Terrein Stadspark 3 (Maastricht)",
+      "operator": "Maastricht",
+      "street": "Parkweg",
+      "houseNumber": "1",
+      "zipcode": "6212XN",
+      "city": "Maastricht",
+      "province": "Limburg",
+      "latitude": 50.50291,
+      "longitude": 5.41473,
+      "capacity": 91,
+      "vacantSpaces": 58,
+      "occupancyPercent": 36.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1752066496,
+      "minimumHeightInMeters": 2.1,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Terreinparkeren"
+    },
+    {
       "uuid": "33d872e2-f94f-43b0-b07c-ce46e45422a5",
       "name": "P+R Station Maastricht Noord II",
       "operator": "Maastricht",
@@ -107,7 +129,7 @@
       "occupancyPercent": -18.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1785538996,
+      "lastUpdated": 1785554996,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -129,7 +151,7 @@
       "occupancyPercent": 5.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1785538429,
+      "lastUpdated": 1785554772,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
