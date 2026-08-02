@@ -1,6 +1,6 @@
 {
   "municipality": "Heerlen",
-  "generated_at": "2026-08-02T09:18:48.307706+00:00",
+  "generated_at": "2026-08-02T11:20:40.902719+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -36,12 +36,12 @@
       "province": "Limburg",
       "latitude": 50.895842,
       "longitude": 5.953013,
-      "capacity": 15,
-      "vacantSpaces": null,
-      "occupancyPercent": null,
-      "open": null,
-      "full": null,
-      "lastUpdated": null,
+      "capacity": 12,
+      "vacantSpaces": 8,
+      "occupancyPercent": 33.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1639497704,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
