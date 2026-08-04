@@ -1,6 +1,6 @@
 {
   "municipality": "Diemen",
-  "generated_at": "2026-08-04T09:41:50.355797+00:00",
+  "generated_at": "2026-08-04T12:05:21.668571+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.345229,
       "longitude": 4.967026,
       "capacity": 112,
-      "vacantSpaces": 26,
-      "occupancyPercent": 76.8,
+      "vacantSpaces": 23,
+      "occupancyPercent": 79.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1785835795,
+      "lastUpdated": 1785844862,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
