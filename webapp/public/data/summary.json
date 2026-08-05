@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-05T04:15:25.189096+00:00",
+  "generated_at": "2026-08-05T07:44:38.502000+00:00",
   "total_facilities": 311,
   "total_with_dynamic": 311,
-  "total_capacity": 157778,
-  "total_vacant": 100747,
-  "total_occupied": 57031,
-  "facilities_open": 282,
-  "facilities_full": 16,
+  "total_capacity": 98138,
+  "total_vacant": 92629,
+  "total_occupied": 5509,
+  "facilities_open": 301,
+  "facilities_full": 14,
   "municipalities": 74,
   "by_operator": {
     "Nederlandse Spoorwegen": 77,
@@ -124,8 +124,8 @@
     "Oss": 1,
     "Venlo": 1,
     "Bergen op Zoom": 1,
-    "Heerenveen": 1,
     "Zwijndrecht": 1,
+    "Heerenveen": 1,
     "Helmond": 1,
     "Westland": 1,
     "Haarlemmermeer": 1
