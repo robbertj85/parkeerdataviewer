@@ -1,6 +1,6 @@
 {
   "municipality": "Zwolle",
-  "generated_at": "2026-08-07T19:04:40.071173+00:00",
+  "generated_at": "2026-08-07T19:56:09.098752+00:00",
   "facility_count": 9,
   "facilities": [
     {
@@ -191,11 +191,11 @@
       "latitude": 52.51868565,
       "longitude": 6.11836361,
       "capacity": 132,
-      "vacantSpaces": 142,
-      "occupancyPercent": -7.6,
+      "vacantSpaces": 146,
+      "occupancyPercent": -10.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1786129304,
+      "lastUpdated": 1786132004,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
