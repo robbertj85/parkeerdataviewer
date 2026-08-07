@@ -1,6 +1,6 @@
 {
   "municipality": "Maastricht",
-  "generated_at": "2026-08-07T17:52:28.240713+00:00",
+  "generated_at": "2026-08-07T19:04:40.071173+00:00",
   "facility_count": 7,
   "facilities": [
     {
@@ -125,11 +125,11 @@
       "latitude": 50.85319,
       "longitude": 5.70299,
       "capacity": 27,
-      "vacantSpaces": 35,
-      "occupancyPercent": -29.6,
+      "vacantSpaces": 37,
+      "occupancyPercent": -37.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1786124753,
+      "lastUpdated": 1786129253,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -151,7 +151,7 @@
       "occupancyPercent": 18.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1786124597,
+      "lastUpdated": 1786129352,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
