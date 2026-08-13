@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T11:52:45.652613+00:00",
+  "generated_at": "2026-08-13T13:23:51.290548+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -19,7 +19,7 @@
     {
       "name": "Almere",
       "slug": "almere",
-      "facility_count": 18
+      "facility_count": 15
     },
     {
       "name": "Alphen a/d Rijn",
@@ -99,7 +99,7 @@
     {
       "name": "Deventer",
       "slug": "deventer",
-      "facility_count": 7
+      "facility_count": 6
     },
     {
       "name": "Diemen",
@@ -109,7 +109,7 @@
     {
       "name": "Doetinchem",
       "slug": "doetinchem",
-      "facility_count": 3
+      "facility_count": 2
     },
     {
       "name": "Dordrecht",
@@ -369,7 +369,7 @@
     {
       "name": "Zwolle",
       "slug": "zwolle",
-      "facility_count": 9
+      "facility_count": 7
     }
   ]
 }
