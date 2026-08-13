@@ -1,6 +1,6 @@
 {
   "municipality": "Alkmaar",
-  "generated_at": "2026-08-12T23:49:26.977428+00:00",
+  "generated_at": "2026-08-13T02:25:53.025753+00:00",
   "facility_count": 4,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 86.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1786578391,
+      "lastUpdated": 1786587691,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": true,
@@ -41,7 +41,7 @@
       "occupancyPercent": 42.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1786578391,
+      "lastUpdated": 1786587691,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": true,
@@ -63,7 +63,7 @@
       "occupancyPercent": 2.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1786578392,
+      "lastUpdated": 1786587692,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -85,7 +85,7 @@
       "occupancyPercent": -16.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1786578208,
+      "lastUpdated": 1786587208,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
