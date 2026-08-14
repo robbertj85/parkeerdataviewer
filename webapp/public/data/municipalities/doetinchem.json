@@ -1,6 +1,6 @@
 {
   "municipality": "Doetinchem",
-  "generated_at": "2026-08-14T02:24:04.621327+00:00",
+  "generated_at": "2026-08-14T04:53:18.483195+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -18,8 +18,8 @@
       "vacantSpaces": 173,
       "occupancyPercent": 1.7,
       "open": true,
-      "full": true,
-      "lastUpdated": "1786674080",
+      "full": false,
+      "lastUpdated": "1786683068",
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -41,7 +41,7 @@
       "occupancyPercent": 2.3,
       "open": true,
       "full": false,
-      "lastUpdated": "1786674080",
+      "lastUpdated": "1786683068",
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": true,
