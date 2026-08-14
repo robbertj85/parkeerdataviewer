@@ -1,6 +1,6 @@
 {
   "municipality": "Eindhoven",
-  "generated_at": "2026-08-13T23:49:24.657615+00:00",
+  "generated_at": "2026-08-14T02:24:04.621327+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 2.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1786664614,
+      "lastUpdated": 1786673614,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -41,7 +41,7 @@
       "occupancyPercent": 7.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1786664919,
+      "lastUpdated": 1786674160,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
