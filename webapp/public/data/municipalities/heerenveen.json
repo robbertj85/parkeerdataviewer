@@ -1,6 +1,6 @@
 {
   "municipality": "Heerenveen",
-  "generated_at": "2026-08-15T16:31:14.725727+00:00",
+  "generated_at": "2026-08-15T17:25:26.982525+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 3.9,
       "open": true,
       "full": false,
-      "lastUpdated": 1786810605,
+      "lastUpdated": 1786814205,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
