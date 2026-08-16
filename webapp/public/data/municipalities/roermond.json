@@ -1,6 +1,6 @@
 {
   "municipality": "Roermond",
-  "generated_at": "2026-08-16T18:36:07.157247+00:00",
+  "generated_at": "2026-08-16T19:25:37.452173+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": -1.2,
       "open": true,
       "full": false,
-      "lastUpdated": 1786905240,
+      "lastUpdated": 1786907940,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -37,11 +37,11 @@
       "latitude": 51.19466,
       "longitude": 5.99458,
       "capacity": 83,
-      "vacantSpaces": 89,
-      "occupancyPercent": -7.2,
+      "vacantSpaces": 90,
+      "occupancyPercent": -8.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1786904898,
+      "lastUpdated": 1786907598,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
