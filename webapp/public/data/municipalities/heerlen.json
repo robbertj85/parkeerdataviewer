@@ -1,6 +1,6 @@
 {
   "municipality": "Heerlen",
-  "generated_at": "2026-08-19T12:56:57.515064+00:00",
+  "generated_at": "2026-08-19T13:49:27.658238+00:00",
   "facility_count": 3,
   "facilities": [
     {
@@ -59,11 +59,11 @@
       "latitude": 50.89101,
       "longitude": 5.97021,
       "capacity": 223,
-      "vacantSpaces": 198,
-      "occupancyPercent": 11.2,
+      "vacantSpaces": 200,
+      "occupancyPercent": 10.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1787144001,
+      "lastUpdated": 1787147273,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
