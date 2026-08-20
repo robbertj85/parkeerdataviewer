@@ -1,6 +1,6 @@
 {
   "municipality": "Breda",
-  "generated_at": "2026-08-20T07:46:36.755854+00:00",
+  "generated_at": "2026-08-20T08:46:06.214323+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": -143.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1787211892,
+      "lastUpdated": 1787215482,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -37,11 +37,11 @@
       "latitude": 51.596259,
       "longitude": 4.777855,
       "capacity": 550,
-      "vacantSpaces": 379,
-      "occupancyPercent": 31.1,
+      "vacantSpaces": 368,
+      "occupancyPercent": 33.1,
       "open": true,
       "full": false,
-      "lastUpdated": 1787211663,
+      "lastUpdated": 1787215314,
       "minimumHeightInMeters": 2.1,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
