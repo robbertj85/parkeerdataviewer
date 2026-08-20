@@ -1,6 +1,6 @@
 {
   "municipality": "Leeuwarden",
-  "generated_at": "2026-08-20T03:53:05.538331+00:00",
+  "generated_at": "2026-08-20T04:42:38.035924+00:00",
   "facility_count": 6,
   "facilities": [
     {
@@ -125,11 +125,11 @@
       "latitude": 53.19531,
       "longitude": 5.79078,
       "capacity": 210,
-      "vacantSpaces": 209,
-      "occupancyPercent": 0.5,
+      "vacantSpaces": 198,
+      "occupancyPercent": 5.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1787197852,
+      "lastUpdated": 1787200698,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
