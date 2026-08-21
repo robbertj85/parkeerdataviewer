@@ -1,6 +1,6 @@
 {
   "municipality": "Lochem",
-  "generated_at": "2026-08-21T07:48:46.363805+00:00",
+  "generated_at": "2026-08-21T08:48:25.096623+00:00",
   "facility_count": 2,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.16279,
       "longitude": 6.41945,
       "capacity": 170,
-      "vacantSpaces": 62,
-      "occupancyPercent": 63.5,
+      "vacantSpaces": 64,
+      "occupancyPercent": 62.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1787298360,
+      "lastUpdated": 1787301960,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -41,7 +41,7 @@
       "occupancyPercent": 92.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1787298360,
+      "lastUpdated": 1787301960,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
