@@ -1,6 +1,6 @@
 {
   "municipality": "Heemstede",
-  "generated_at": "2026-08-23T15:28:17.281597+00:00",
+  "generated_at": "2026-08-23T16:32:33.535027+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.35933,
       "longitude": 4.606,
       "capacity": 132,
-      "vacantSpaces": 8,
-      "occupancyPercent": 93.9,
+      "vacantSpaces": 37,
+      "occupancyPercent": 72.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1787498769,
+      "lastUpdated": 1787502593,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
