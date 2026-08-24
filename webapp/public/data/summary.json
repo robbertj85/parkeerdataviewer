@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T05:43:32.459468+00:00",
+  "generated_at": "2026-08-24T07:08:32.324095+00:00",
   "total_facilities": 312,
   "total_with_dynamic": 312,
-  "total_capacity": 98032,
-  "total_vacant": 109607,
-  "total_occupied": -11575,
-  "facilities_open": 300,
+  "total_capacity": 97747,
+  "total_vacant": 102784,
+  "total_occupied": -5037,
+  "facilities_open": 304,
   "facilities_full": 16,
   "municipalities": 74,
   "by_operator": {
@@ -56,7 +56,7 @@
   },
   "by_municipality": {
     "Amsterdam": 43,
-    "Rotterdam": 23,
+    "Rotterdam": 24,
     "Almere": 18,
     "Delft": 13,
     "Nijmegen": 11,
@@ -79,7 +79,6 @@
     "Echt-Susteren": 4,
     "Alkmaar": 4,
     "Doetinchem": 3,
-    "Zaanstad": 3,
     "Schiedam": 3,
     "Woerden": 3,
     "Meerssen": 3,
@@ -88,14 +87,15 @@
     "Stichtse Vecht": 3,
     "Groningen": 2,
     "'s-Gravenhage": 2,
+    "Zaanstad": 2,
     "Noordwijk": 2,
     "Ede": 2,
     "Valkenburg aan de Geul": 2,
+    "Eindhoven": 2,
     "Breda": 2,
     "Amersfoort": 2,
     "Roermond": 2,
     "Lochem": 2,
-    "Haarlemmermeer": 2,
     "Diemen": 1,
     "Beekdaelen": 1,
     "Voerendaal": 1,
@@ -109,7 +109,6 @@
     "Ouder-Amstel": 1,
     "Boxtel": 1,
     "Middelburg": 1,
-    "Eindhoven": 1,
     "Weert": 1,
     "Oisterwijk": 1,
     "Valkenburg": 1,
@@ -128,6 +127,7 @@
     "Heerenveen": 1,
     "Zwijndrecht": 1,
     "Helmond": 1,
-    "Westland": 1
+    "Westland": 1,
+    "Haarlemmermeer": 1
   }
 }
