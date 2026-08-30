@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T15:19:54.249331+00:00",
+  "generated_at": "2026-08-30T19:19:13.147286+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
       "slug": "'s-gravenhage",
-      "facility_count": 2
+      "facility_count": 1
     },
     {
       "name": "'s-Hertogenbosch",
@@ -34,7 +34,7 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 42
+      "facility_count": 41
     },
     {
       "name": "Apeldoorn",
@@ -134,7 +134,7 @@
     {
       "name": "Enschede",
       "slug": "enschede",
-      "facility_count": 7
+      "facility_count": 6
     },
     {
       "name": "Gooise Meren",
@@ -222,6 +222,11 @@
       "facility_count": 1
     },
     {
+      "name": "Nieuwegein",
+      "slug": "nieuwegein",
+      "facility_count": 1
+    },
+    {
       "name": "Nijmegen",
       "slug": "nijmegen",
       "facility_count": 11
@@ -259,7 +264,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 23
+      "facility_count": 22
     },
     {
       "name": "Schiedam",
@@ -287,6 +292,11 @@
       "facility_count": 1
     },
     {
+      "name": "Tholen",
+      "slug": "tholen",
+      "facility_count": 1
+    },
+    {
       "name": "Tilburg",
       "slug": "tilburg",
       "facility_count": 7
@@ -294,7 +304,7 @@
     {
       "name": "Utrecht",
       "slug": "utrecht",
-      "facility_count": 10
+      "facility_count": 11
     },
     {
       "name": "Valkenburg",
@@ -369,7 +379,7 @@
     {
       "name": "Zwolle",
       "slug": "zwolle",
-      "facility_count": 9
+      "facility_count": 8
     }
   ]
 }
