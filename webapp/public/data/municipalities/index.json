@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:27:43.594212+00:00",
+  "generated_at": "2026-08-30T15:19:54.249331+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -129,7 +129,7 @@
     {
       "name": "Eindhoven",
       "slug": "eindhoven",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Enschede",
@@ -154,7 +154,7 @@
     {
       "name": "Haarlemmermeer",
       "slug": "haarlemmermeer",
-      "facility_count": 1
+      "facility_count": 3
     },
     {
       "name": "Harderwijk",
@@ -259,7 +259,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 24
+      "facility_count": 23
     },
     {
       "name": "Schiedam",
@@ -284,11 +284,6 @@
     {
       "name": "Teylingen",
       "slug": "teylingen",
-      "facility_count": 1
-    },
-    {
-      "name": "Tholen",
-      "slug": "tholen",
       "facility_count": 1
     },
     {
@@ -354,7 +349,7 @@
     {
       "name": "Zaanstad",
       "slug": "zaanstad",
-      "facility_count": 3
+      "facility_count": 2
     },
     {
       "name": "Zeist",
