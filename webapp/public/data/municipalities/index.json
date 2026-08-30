@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:50:49.969598+00:00",
+  "generated_at": "2026-08-30T10:27:43.594212+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -34,7 +34,7 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 43
+      "facility_count": 42
     },
     {
       "name": "Apeldoorn",
@@ -129,7 +129,7 @@
     {
       "name": "Eindhoven",
       "slug": "eindhoven",
-      "facility_count": 2
+      "facility_count": 1
     },
     {
       "name": "Enschede",
@@ -287,6 +287,11 @@
       "facility_count": 1
     },
     {
+      "name": "Tholen",
+      "slug": "tholen",
+      "facility_count": 1
+    },
+    {
       "name": "Tilburg",
       "slug": "tilburg",
       "facility_count": 7
@@ -349,7 +354,7 @@
     {
       "name": "Zaanstad",
       "slug": "zaanstad",
-      "facility_count": 2
+      "facility_count": 3
     },
     {
       "name": "Zeist",
