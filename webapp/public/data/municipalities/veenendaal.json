@@ -1,6 +1,6 @@
 {
   "municipality": "Veenendaal",
-  "generated_at": "2026-09-01T23:12:30.983824+00:00",
+  "generated_at": "2026-09-02T03:57:01.022048+00:00",
   "facility_count": 5,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.02926736,
       "longitude": 5.55676688,
       "capacity": 395,
-      "vacantSpaces": 315,
-      "occupancyPercent": 20.3,
+      "vacantSpaces": 316,
+      "occupancyPercent": 20.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1788304008,
+      "lastUpdated": 1788321108,
       "minimumHeightInMeters": null,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -63,7 +63,7 @@
       "occupancyPercent": 89.6,
       "open": true,
       "full": false,
-      "lastUpdated": 1788304011,
+      "lastUpdated": 1788321242,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
