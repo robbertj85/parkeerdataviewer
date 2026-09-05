@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-05T00:47:29.959062+00:00",
+  "generated_at": "2026-09-05T05:29:51.029111+00:00",
   "total_facilities": 312,
   "total_with_dynamic": 312,
-  "total_capacity": 99043,
-  "total_vacant": 118676,
-  "total_occupied": -19633,
-  "facilities_open": 290,
-  "facilities_full": 16,
-  "municipalities": 74,
+  "total_capacity": 99038,
+  "total_vacant": 118590,
+  "total_occupied": -19552,
+  "facilities_open": 296,
+  "facilities_full": 14,
+  "municipalities": 75,
   "by_operator": {
     "Nederlandse Spoorwegen": 77,
     "Amsterdam": 34,
@@ -55,7 +55,7 @@
     "Westland": 1
   },
   "by_municipality": {
-    "Amsterdam": 43,
+    "Amsterdam": 42,
     "Rotterdam": 24,
     "Almere": 18,
     "Delft": 13,
@@ -100,6 +100,7 @@
     "Beekdaelen": 1,
     "Voerendaal": 1,
     "Leidschendam-Voorburg": 1,
+    "Tholen": 1,
     "West Betuwe": 1,
     "De Bilt": 1,
     "Zeist": 1,

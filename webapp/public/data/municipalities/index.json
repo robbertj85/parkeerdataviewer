@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:47:29.940302+00:00",
+  "generated_at": "2026-09-05T05:29:51.018862+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -34,7 +34,7 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 43
+      "facility_count": 42
     },
     {
       "name": "Apeldoorn",
@@ -284,6 +284,11 @@
     {
       "name": "Teylingen",
       "slug": "teylingen",
+      "facility_count": 1
+    },
+    {
+      "name": "Tholen",
+      "slug": "tholen",
       "facility_count": 1
     },
     {
