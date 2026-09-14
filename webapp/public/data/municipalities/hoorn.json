@@ -1,6 +1,6 @@
 {
   "municipality": "Hoorn",
-  "generated_at": "2026-09-14T00:56:49.102438+00:00",
+  "generated_at": "2026-09-14T06:03:55.994683+00:00",
   "facility_count": 7,
   "facilities": [
     {
@@ -146,12 +146,12 @@
       "province": "",
       "latitude": 52.644103,
       "longitude": 5.065308,
-      "capacity": 87,
-      "vacantSpaces": 85,
-      "occupancyPercent": 2.3,
-      "open": true,
-      "full": false,
-      "lastUpdated": 1789330860,
+      "capacity": 100,
+      "vacantSpaces": null,
+      "occupancyPercent": null,
+      "open": null,
+      "full": null,
+      "lastUpdated": null,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
