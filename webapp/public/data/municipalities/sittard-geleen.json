@@ -1,6 +1,6 @@
 {
   "municipality": "Sittard-Geleen",
-  "generated_at": "2026-09-17T11:23:35.366600+00:00",
+  "generated_at": "2026-09-17T16:40:52.724513+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.001739,
       "longitude": 5.857042,
       "capacity": 495,
-      "vacantSpaces": 775,
-      "occupancyPercent": -56.6,
+      "vacantSpaces": 933,
+      "occupancyPercent": -88.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1789643845,
+      "lastUpdated": 1789663050,
       "minimumHeightInMeters": 1.9,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
