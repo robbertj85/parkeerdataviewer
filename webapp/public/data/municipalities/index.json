@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T21:33:22.705415+00:00",
+  "generated_at": "2026-09-19T00:04:01.915824+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -150,6 +150,11 @@
       "name": "Groningen",
       "slug": "groningen",
       "facility_count": 2
+    },
+    {
+      "name": "Haarlem",
+      "slug": "haarlem",
+      "facility_count": 1
     },
     {
       "name": "Haarlemmermeer",
