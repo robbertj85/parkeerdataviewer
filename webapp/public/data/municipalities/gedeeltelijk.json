@@ -1,0 +1,29 @@
+{
+  "municipality": "gedeeltelijk",
+  "generated_at": "2026-09-20T00:53:39.334215+00:00",
+  "facility_count": 1,
+  "facilities": [
+    {
+      "uuid": "1a5d074b-cdc7-4198-a09a-284d660d4c4b",
+      "name": "Wheme - (gedeeltelijk) blauwe zone, maximaal 2 uur parkeren",
+      "operator": "Winterswijk",
+      "street": "Wheme",
+      "houseNumber": "0",
+      "zipcode": "7101 D",
+      "city": "Winterswijk",
+      "province": "",
+      "latitude": 51.970787,
+      "longitude": 6.721713,
+      "capacity": 3,
+      "vacantSpaces": 2,
+      "occupancyPercent": 33.3,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1789731233,
+      "minimumHeightInMeters": 0.0,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Terreinparkeren"
+    }
+  ]
+}

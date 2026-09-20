@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:49:49.545078+00:00",
+  "generated_at": "2026-09-20T00:53:39.334215+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -347,6 +347,11 @@
       "facility_count": 1
     },
     {
+      "name": "Winterswijk",
+      "slug": "winterswijk",
+      "facility_count": 9
+    },
+    {
       "name": "Woerden",
       "slug": "woerden",
       "facility_count": 3
@@ -375,6 +380,11 @@
       "name": "Zwolle",
       "slug": "zwolle",
       "facility_count": 9
+    },
+    {
+      "name": "gedeeltelijk",
+      "slug": "gedeeltelijk",
+      "facility_count": 1
     }
   ]
 }
