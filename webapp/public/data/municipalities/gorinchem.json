@@ -1,6 +1,6 @@
 {
   "municipality": "Gorinchem",
-  "generated_at": "2026-09-22T04:18:38.709089+00:00",
+  "generated_at": "2026-09-22T14:34:27.809486+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.83421,
       "longitude": 4.96932,
       "capacity": 122,
-      "vacantSpaces": 159,
-      "occupancyPercent": -30.3,
+      "vacantSpaces": 125,
+      "occupancyPercent": -2.5,
       "open": true,
       "full": false,
-      "lastUpdated": 1790050594,
+      "lastUpdated": 1790085509,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
