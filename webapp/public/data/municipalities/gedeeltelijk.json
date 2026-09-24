@@ -1,6 +1,6 @@
 {
   "municipality": "gedeeltelijk",
-  "generated_at": "2026-09-24T13:27:08.848432+00:00",
+  "generated_at": "2026-09-24T18:22:13.797981+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -19,7 +19,7 @@
       "occupancyPercent": 72.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1790256180,
+      "lastUpdated": 1790274060,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
