@@ -1,6 +1,6 @@
 {
   "municipality": "Oisterwijk",
-  "generated_at": "2026-10-02T01:29:48.139848+00:00",
+  "generated_at": "2026-10-02T08:15:52.590147+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.5827,
       "longitude": 5.19772,
       "capacity": 125,
-      "vacantSpaces": 146,
-      "occupancyPercent": -16.8,
+      "vacantSpaces": 133,
+      "occupancyPercent": -6.4,
       "open": true,
       "full": false,
-      "lastUpdated": 1790903797,
+      "lastUpdated": 1790928736,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
