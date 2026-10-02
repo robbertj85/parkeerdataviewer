@@ -1,6 +1,6 @@
 {
   "municipality": "gedeeltelijk",
-  "generated_at": "2026-10-01T21:43:25.348005+00:00",
+  "generated_at": "2026-10-02T01:29:48.139848+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.970787,
       "longitude": 6.721713,
       "capacity": 77,
-      "vacantSpaces": 47,
-      "occupancyPercent": 39.0,
+      "vacantSpaces": 48,
+      "occupancyPercent": 37.7,
       "open": true,
       "full": false,
-      "lastUpdated": 1790890860,
+      "lastUpdated": 1790904480,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
