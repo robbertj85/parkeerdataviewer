@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-04T05:20:08.391054+00:00",
+  "generated_at": "2026-10-04T12:06:49.155174+00:00",
   "total_facilities": 323,
   "total_with_dynamic": 323,
-  "total_capacity": 121285,
-  "total_vacant": 152067,
-  "total_occupied": -30782,
-  "facilities_open": 304,
-  "facilities_full": 16,
+  "total_capacity": 121162,
+  "total_vacant": 136376,
+  "total_occupied": -15214,
+  "facilities_open": 316,
+  "facilities_full": 28,
   "municipalities": 77,
   "by_operator": {
     "Nederlandse Spoorwegen": 77,
