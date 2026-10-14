@@ -1,6 +1,6 @@
 {
   "municipality": "Bergen op Zoom",
-  "generated_at": "2026-10-14T06:00:27.398313+00:00",
+  "generated_at": "2026-10-14T11:33:41.165145+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 51.49488,
       "longitude": 4.29674,
       "capacity": 120,
-      "vacantSpaces": 83,
-      "occupancyPercent": 30.8,
+      "vacantSpaces": 56,
+      "occupancyPercent": 53.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1791957486,
+      "lastUpdated": 1791976680,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
