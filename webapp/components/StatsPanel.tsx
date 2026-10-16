@@ -33,6 +33,7 @@ export default function StatsPanel({ data, filters }: StatsPanelProps) {
 
     let totalCapacity = 0;
     let totalVacant = 0;
+    let totalOccupied = 0;
     const muniCounts: Record<string, number> = {};
     const categoryCounts: Record<string, number> = {};
 
@@ -41,7 +42,13 @@ export default function StatsPanel({ data, filters }: StatsPanelProps) {
     filtered.forEach((f) => {
       const p = f.properties;
       totalCapacity += p.capacity || 0;
-      totalVacant += p.vacantSpaces || 0;
+      // Only facilities reporting both numbers say anything about occupancy;
+      // subtracting all vacant from all capacity went negative on bad feeds.
+      if (p.capacity && p.vacantSpaces != null) {
+        const vacant = Math.min(Math.max(p.vacantSpaces, 0), p.capacity);
+        totalVacant += vacant;
+        totalOccupied += p.capacity - vacant;
+      }
       muniCounts[p.municipality] = (muniCounts[p.municipality] || 0) + 1;
 
       for (const cat of OCCUPANCY_CATEGORIES) {
@@ -61,7 +68,7 @@ export default function StatsPanel({ data, filters }: StatsPanelProps) {
       filtered: filtered.length,
       totalCapacity,
       totalVacant,
-      totalOccupied: totalCapacity - totalVacant,
+      totalOccupied,
       categoryCounts,
       topMunicipalities,
       uniqueMunicipalities: data.metadata.municipalities.length,

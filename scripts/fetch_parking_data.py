@@ -23,6 +23,10 @@ HEADERS = {
 DATA_DIR = Path(__file__).parent.parent / "webapp" / "public" / "data"
 CACHE_DIR = Path(__file__).parent.parent / "data" / "cache"
 
+# Vacant counts up to this factor above capacity are clamped to capacity; beyond
+# it the feed is considered broken and the count is dropped (see parse_counts).
+VACANT_OVERSHOOT_TOLERANCE = 1.1
+
 # Manual corrections for facilities with incorrect geocoding or metadata
 FACILITY_OVERRIDES = {
     # Garage Stadhuis Den Haag: geocoder misplaced it in 's-Hertogenbosch
@@ -380,6 +384,39 @@ def resolve_municipality(name, description, lat, lng):
     return "Onbekend"
 
 
+def parse_counts(static, dynamic):
+    """Return (capacity, vacant, occupancy_pct) for a facility, sanitising bad feeds.
+
+    Some operators report more vacant spaces than the facility holds (e.g. P+R
+    Breukelen: 30352 vacant of 352). A small overshoot is usually a stale
+    capacity and is clamped to "empty"; anything larger, or a negative count,
+    is treated as unknown so it can't skew occupancy or the totals.
+    """
+    capacity = dynamic.get("parkingCapacity") or static.get("capacity")
+    vacant = dynamic.get("vacantSpaces")
+    try:
+        capacity = int(capacity) if capacity is not None else None
+    except (TypeError, ValueError):
+        capacity = None
+    try:
+        vacant = int(vacant) if vacant is not None else None
+    except (TypeError, ValueError):
+        vacant = None
+
+    if vacant is not None and vacant < 0:
+        vacant = None
+    if vacant is not None and capacity:
+        if vacant > capacity * VACANT_OVERSHOOT_TOLERANCE:
+            vacant = None
+        elif vacant > capacity:
+            vacant = capacity
+
+    occupancy_pct = None
+    if capacity and vacant is not None:
+        occupancy_pct = round(((capacity - vacant) / capacity) * 100, 1)
+    return capacity, vacant, occupancy_pct
+
+
 def build_facilities_geojson(static_data, dynamic_data):
     """Build a GeoJSON FeatureCollection combining static and dynamic data."""
     features = []
@@ -407,8 +444,7 @@ def build_facilities_geojson(static_data, dynamic_data):
                 continue
 
         dynamic = dynamic_data.get(uuid, {})
-        capacity = dynamic.get("parkingCapacity") or static.get("capacity")
-        vacant = dynamic.get("vacantSpaces")
+        capacity, vacant, occupancy_pct = parse_counts(static, dynamic)
         municipality = geocoded_municipality or resolve_municipality(
             static["name"],
             static.get("description", ""),
@@ -416,19 +452,6 @@ def build_facilities_geojson(static_data, dynamic_data):
             lng,
         )
         municipality = MUNICIPALITY_RENAMES.get(municipality, municipality)
-
-        try:
-            capacity = int(capacity) if capacity is not None else None
-        except (TypeError, ValueError):
-            capacity = None
-        try:
-            vacant = int(vacant) if vacant is not None else None
-        except (TypeError, ValueError):
-            vacant = None
-
-        occupancy_pct = None
-        if capacity and vacant is not None and capacity > 0:
-            occupancy_pct = round(((capacity - vacant) / capacity) * 100, 1)
 
         address = static.get("address", {})
         props = {
@@ -549,19 +572,7 @@ def generate_municipality_files(static_data, dynamic_data, municipalities):
         for uuid in uuids:
             static = static_data.get(uuid, {})
             dynamic = dynamic_data.get(uuid, {})
-            capacity = dynamic.get("parkingCapacity") or static.get("capacity")
-            vacant = dynamic.get("vacantSpaces")
-            try:
-                capacity = int(capacity) if capacity is not None else None
-            except (TypeError, ValueError):
-                capacity = None
-            try:
-                vacant = int(vacant) if vacant is not None else None
-            except (TypeError, ValueError):
-                vacant = None
-            occupancy_pct = None
-            if capacity and vacant is not None and capacity > 0:
-                occupancy_pct = round(((capacity - vacant) / capacity) * 100, 1)
+            capacity, vacant, occupancy_pct = parse_counts(static, dynamic)
 
             address = static.get("address", {})
             facilities.append({
@@ -622,22 +633,19 @@ def generate_summary(static_data, dynamic_data, municipalities):
     """Generate summary statistics."""
     total_capacity = 0
     total_vacant = 0
+    total_occupied = 0
     total_open = 0
     total_full = 0
     operators = {}
 
     for uuid, static in static_data.items():
         dynamic = dynamic_data.get(uuid, {})
-        capacity = dynamic.get("parkingCapacity") or static.get("capacity") or 0
-        vacant = dynamic.get("vacantSpaces") or 0
-        try:
-            capacity = int(capacity)
-            vacant = int(vacant)
-        except (TypeError, ValueError):
-            capacity = 0
-            vacant = 0
-        total_capacity += capacity
-        total_vacant += vacant
+        capacity, vacant, _ = parse_counts(static, dynamic)
+        total_capacity += capacity or 0
+        # Only facilities reporting both numbers say anything about occupancy.
+        if capacity and vacant is not None:
+            total_vacant += vacant
+            total_occupied += capacity - vacant
         if dynamic.get("open"):
             total_open += 1
         if dynamic.get("full"):
@@ -654,7 +662,7 @@ def generate_summary(static_data, dynamic_data, municipalities):
         "total_with_dynamic": len(dynamic_data),
         "total_capacity": total_capacity,
         "total_vacant": total_vacant,
-        "total_occupied": total_capacity - total_vacant,
+        "total_occupied": total_occupied,
         "facilities_open": total_open,
         "facilities_full": total_full,
         "municipalities": len([m for m in municipalities if m != "Onbekend"]),
