@@ -9,8 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@maplibre/maplibre-gl-leaflet": "^0.1.4",
     "@vercel/analytics": "^1.6.1",
     "leaflet": "^1.9.4",
+    "maplibre-gl": "~5.24.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
