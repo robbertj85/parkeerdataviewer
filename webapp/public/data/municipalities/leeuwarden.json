@@ -1,6 +1,6 @@
 {
   "municipality": "Leeuwarden",
-  "generated_at": "2026-10-18T22:55:44.099295+00:00",
+  "generated_at": "2026-10-19T01:00:02.543826+00:00",
   "facility_count": 6,
   "facilities": [
     {
@@ -63,7 +63,7 @@
       "occupancyPercent": 99.0,
       "open": false,
       "full": false,
-      "lastUpdated": 1792363891,
+      "lastUpdated": 1792371391,
       "minimumHeightInMeters": 2.2,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -129,7 +129,7 @@
       "occupancyPercent": null,
       "open": true,
       "full": false,
-      "lastUpdated": 1792363934,
+      "lastUpdated": 1792371134,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
