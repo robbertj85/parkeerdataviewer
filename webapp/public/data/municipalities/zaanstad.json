@@ -1,7 +1,7 @@
 {
   "municipality": "Zaanstad",
-  "generated_at": "2026-10-20T19:06:05.579239+00:00",
-  "facility_count": 2,
+  "generated_at": "2026-10-20T22:19:03.352230+00:00",
+  "facility_count": 3,
   "facilities": [
     {
       "uuid": "b3b3f9ec-e94e-4923-8865-53c9c5f7aeaf",
@@ -19,7 +19,7 @@
       "occupancyPercent": 0.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1792522890,
+      "lastUpdated": 1792534290,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
@@ -37,15 +37,37 @@
       "latitude": 52.44162,
       "longitude": 4.81236,
       "capacity": 100,
-      "vacantSpaces": 85,
-      "occupancyPercent": 15.0,
+      "vacantSpaces": 92,
+      "occupancyPercent": 8.0,
       "open": true,
       "full": false,
-      "lastUpdated": 1792522934,
+      "lastUpdated": 1792534128,
       "minimumHeightInMeters": 0.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
       "usage": "P+R"
+    },
+    {
+      "uuid": "69a54734-54a0-4e32-aef5-328b9d5c57b6",
+      "name": "EINDHOVEN-Witte Dame",
+      "operator": "Q-Park Nederland BV",
+      "street": "",
+      "houseNumber": "",
+      "zipcode": "",
+      "city": "",
+      "province": "",
+      "latitude": 52.49584879,
+      "longitude": 4.74640884,
+      "capacity": 242,
+      "vacantSpaces": 224,
+      "occupancyPercent": 7.4,
+      "open": true,
+      "full": false,
+      "lastUpdated": 1792534477,
+      "minimumHeightInMeters": null,
+      "chargingPointCapacity": 0,
+      "disabledAccess": false,
+      "usage": "Garage parkeren"
     }
   ]
 }
