@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:19:03.352230+00:00",
+  "generated_at": "2026-10-21T01:30:12.020152+00:00",
   "municipalities": [
     {
       "name": "'s-Gravenhage",
@@ -34,7 +34,7 @@
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "facility_count": 41
+      "facility_count": 43
     },
     {
       "name": "Apeldoorn",
@@ -99,7 +99,7 @@
     {
       "name": "Deventer",
       "slug": "deventer",
-      "facility_count": 7
+      "facility_count": 6
     },
     {
       "name": "Diemen",
@@ -129,7 +129,7 @@
     {
       "name": "Eindhoven",
       "slug": "eindhoven",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Enschede",
@@ -159,7 +159,7 @@
     {
       "name": "Haarlemmermeer",
       "slug": "haarlemmermeer",
-      "facility_count": 1
+      "facility_count": 2
     },
     {
       "name": "Harderwijk",
@@ -194,7 +194,7 @@
     {
       "name": "Hoorn",
       "slug": "hoorn",
-      "facility_count": 8
+      "facility_count": 7
     },
     {
       "name": "Leeuwarden",
@@ -264,7 +264,7 @@
     {
       "name": "Rotterdam",
       "slug": "rotterdam",
-      "facility_count": 23
+      "facility_count": 21
     },
     {
       "name": "Schiedam",
@@ -289,11 +289,6 @@
     {
       "name": "Teylingen",
       "slug": "teylingen",
-      "facility_count": 1
-    },
-    {
-      "name": "Tholen",
-      "slug": "tholen",
       "facility_count": 1
     },
     {
@@ -337,6 +332,11 @@
       "facility_count": 1
     },
     {
+      "name": "Wageningen",
+      "slug": "wageningen",
+      "facility_count": 1
+    },
+    {
       "name": "Weert",
       "slug": "weert",
       "facility_count": 1
@@ -364,7 +364,7 @@
     {
       "name": "Zaanstad",
       "slug": "zaanstad",
-      "facility_count": 3
+      "facility_count": 2
     },
     {
       "name": "Zeist",
