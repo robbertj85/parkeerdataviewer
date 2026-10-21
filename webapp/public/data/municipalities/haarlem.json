@@ -1,6 +1,6 @@
 {
   "municipality": "Haarlem",
-  "generated_at": "2026-10-21T13:38:16.199611+00:00",
+  "generated_at": "2026-10-21T18:31:14.231847+00:00",
   "facility_count": 1,
   "facilities": [
     {
@@ -15,11 +15,11 @@
       "latitude": 52.386569,
       "longitude": 4.638824,
       "capacity": 300,
-      "vacantSpaces": 156,
-      "occupancyPercent": 48.0,
+      "vacantSpaces": 206,
+      "occupancyPercent": 31.3,
       "open": true,
       "full": false,
-      "lastUpdated": 1792589811,
+      "lastUpdated": 1792607348,
       "minimumHeightInMeters": 2.0,
       "chargingPointCapacity": 0,
       "disabledAccess": false,
