@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T01:30:12.046770+00:00",
+  "generated_at": "2026-10-21T07:22:08.485378+00:00",
   "total_facilities": 323,
   "total_with_dynamic": 323,
-  "total_capacity": 110518,
-  "total_vacant": 85617,
-  "total_occupied": 21510,
-  "facilities_open": 305,
-  "facilities_full": 20,
-  "municipalities": 78,
+  "total_capacity": 108204,
+  "total_vacant": 75491,
+  "total_occupied": 30682,
+  "facilities_open": 312,
+  "facilities_full": 18,
+  "municipalities": 77,
   "by_operator": {
     "Nederlandse Spoorwegen": 77,
     "Amsterdam": 34,
@@ -58,8 +58,8 @@
   },
   "by_municipality": {
     "Amsterdam": 43,
-    "Rotterdam": 21,
-    "Almere": 17,
+    "Rotterdam": 24,
+    "Almere": 18,
     "Delft": 13,
     "Nijmegen": 11,
     "Den Haag": 11,
@@ -68,13 +68,13 @@
     "Zwolle": 9,
     "Winterswijk": 9,
     "Apeldoorn": 8,
+    "Hoorn": 8,
     "Roosendaal": 8,
     "Enschede": 7,
-    "Hoorn": 7,
+    "Deventer": 7,
     "Tilburg": 7,
     "Maastricht": 7,
     "Leeuwarden": 6,
-    "Deventer": 6,
     "Dordrecht": 6,
     "Harderwijk": 5,
     "Veenendaal": 5,
@@ -99,7 +99,6 @@
     "Amersfoort": 2,
     "Roermond": 2,
     "Lochem": 2,
-    "Haarlemmermeer": 2,
     "Diemen": 1,
     "Voerendaal": 1,
     "Beekdaelen": 1,
@@ -134,6 +133,6 @@
     "Helmond": 1,
     "gedeeltelijk": 1,
     "Westland": 1,
-    "Wageningen": 1
+    "Haarlemmermeer": 1
   }
 }
