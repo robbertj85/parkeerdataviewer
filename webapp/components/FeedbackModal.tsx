@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { withBase } from '@/lib/basePath';
 
 interface FeedbackModalProps {
   isOpen: boolean;
@@ -40,7 +41,7 @@ export default function FeedbackModal({ isOpen, onClose }: FeedbackModalProps) {
     setError(null);
 
     try {
-      const res = await fetch('/api/v1/feedback', {
+      const res = await fetch(withBase('/api/v1/feedback'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ type, title, description, email }),

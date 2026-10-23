@@ -1,0 +1,22 @@
+# Data worker: hourly RDW/NPR fetch + nightly history backup (deploy/scheduler.py).
+FROM python:3.12-slim-bookworm
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends tzdata \
+ && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY scripts/requirements.txt scripts/requirements.txt
+RUN pip install --no-cache-dir -r scripts/requirements.txt
+COPY scripts/*.py scripts/
+COPY deploy/scheduler.py deploy/scheduler.py
+
+ENV TZ=Europe/Amsterdam PYTHONUNBUFFERED=1 \
+    PARKING_PUBLIC_DIR=/srv/parking/public \
+    PARKING_STATE_DIR=/srv/parking/state \
+    PARKING_HISTORY_DB=/srv/parking/state/history.db \
+    PARKING_CACHE_DIR=/srv/parking/cache
+# Mount points owned by the runtime user: Docker seeds empty named volumes from these.
+RUN useradd --uid 1000 --create-home worker \
+ && mkdir -p /srv/parking/public /srv/parking/state /srv/parking/cache \
+ && chown -R worker:worker /srv/parking
+USER worker
+CMD ["python", "deploy/scheduler.py", "serve"]

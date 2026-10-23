@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
+import "leaflet/dist/leaflet.css";
 import "./globals.css";
+
+// Self-hosted Umami (prototype.transportlab.app); unset locally = no analytics.
+const UMAMI_SRC = process.env.NEXT_PUBLIC_UMAMI_SRC;
+const UMAMI_WEBSITE_ID = process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID;
 
 export const metadata: Metadata = {
   title: "Parkeerdataviewer - Parkeerbezetting Nederland",
@@ -23,16 +28,12 @@ export default function RootLayout({
     <html lang="nl">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossOrigin=""
-        />
       </head>
       <body className="antialiased">
         {children}
-        <Analytics />
+        {UMAMI_SRC && UMAMI_WEBSITE_ID && (
+          <Script src={UMAMI_SRC} data-website-id={UMAMI_WEBSITE_ID} strategy="afterInteractive" />
+        )}
       </body>
     </html>
   );

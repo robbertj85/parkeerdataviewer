@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Summary, MunicipalityIndex, DailySnapshots } from '@/types/parking';
+import { withBase } from '@/lib/basePath';
 
 type ExportFormat = 'geojson' | 'json' | 'csv';
 
@@ -30,8 +31,8 @@ export default function DataExportPage() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data/summary.json').then((r) => r.ok ? r.json() : null),
-      fetch('/data/municipalities/index.json').then((r) => r.ok ? r.json() : null),
+      fetch(withBase('/data/summary.json')).then((r) => r.ok ? r.json() : null),
+      fetch(withBase('/data/municipalities/index.json')).then((r) => r.ok ? r.json() : null),
     ])
       .then(([sum, idx]) => {
         setSummary(sum);
@@ -62,14 +63,14 @@ export default function DataExportPage() {
 
   const downloadAsFormat = async (format: ExportFormat) => {
     if (format === 'geojson') {
-      await downloadFile('/data/parking_facilities.geojson', 'parkeerdata-nederland.geojson');
+      await downloadFile(withBase('/data/parking_facilities.geojson'), 'parkeerdata-nederland.geojson');
       return;
     }
 
     // For JSON/CSV, convert from GeoJSON
     setDownloading(format);
     try {
-      const res = await fetch('/data/parking_facilities.geojson');
+      const res = await fetch(withBase('/data/parking_facilities.geojson'));
       const data = await res.json();
       const features = data.features || [];
 
@@ -118,9 +119,7 @@ export default function DataExportPage() {
   const loadHistory = async () => {
     setHistoryLoading(true);
     try {
-      const [year, month, day] = selectedDate.split('-');
-      const url = `/data/snapshots/${year}/${month}/${day}.json`;
-      const res = await fetch(url);
+      const res = await fetch(withBase(`/api/v1/snapshots/${selectedDate}`));
       if (!res.ok) {
         setHistoryData(null);
         return;
@@ -157,7 +156,7 @@ export default function DataExportPage() {
     setRangeDownloading(true);
     try {
       // Fetch static facility data
-      const geoRes = await fetch('/data/parking_facilities.geojson');
+      const geoRes = await fetch(withBase('/data/parking_facilities.geojson'));
       const geoData = await geoRes.json();
       const facilityLookup: Record<string, Record<string, unknown>> = {};
       for (const f of geoData.features || []) {
@@ -170,7 +169,7 @@ export default function DataExportPage() {
 
       let uuids: Set<string> | null = null;
       if (muniSlug) {
-        const muniRes = await fetch(`/data/municipalities/${muniSlug}.json`);
+        const muniRes = await fetch(withBase(`/data/municipalities/${muniSlug}.json`));
         if (!muniRes.ok) throw new Error('Municipality data not found');
         const muniData = await muniRes.json();
         uuids = new Set((muniData.facilities || []).map((f: { uuid: string }) => f.uuid));
@@ -180,8 +179,7 @@ export default function DataExportPage() {
       const usedUuids = new Set<string>();
 
       for (const date of dates) {
-        const [year, month, day] = date.split('-');
-        const res = await fetch(`/data/snapshots/${year}/${month}/${day}.json`);
+        const res = await fetch(withBase(`/api/v1/snapshots/${date}`));
         if (!res.ok) continue;
         const dayData: DailySnapshots = await res.json();
 
@@ -397,7 +395,7 @@ export default function DataExportPage() {
                 {filteredMunis.map((muni) => (
                   <button
                     key={muni.slug}
-                    onClick={() => downloadFile(`/data/municipalities/${muni.slug}.json`, `parkeerdata-${muni.slug}.json`)}
+                    onClick={() => downloadFile(withBase(`/data/municipalities/${muni.slug}.json`), `parkeerdata-${muni.slug}.json`)}
                     disabled={downloading !== null}
                     className="flex items-center justify-between px-3 py-2 border border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition text-left disabled:opacity-50"
                   >

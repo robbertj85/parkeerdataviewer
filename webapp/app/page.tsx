@@ -11,6 +11,7 @@ import DetailPanel from '@/components/DetailPanel';
 import SearchBar from '@/components/SearchBar';
 import { ParkingData, ParkingFeature, Filters, DEFAULT_FILTERS } from '@/types/parking';
 import type { MapHandle } from '@/components/Map';
+import { withBase } from '@/lib/basePath';
 
 const Map = dynamic(() => import('@/components/Map'), {
   ssr: false,
@@ -91,7 +92,7 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    fetch('/data/parking_facilities.geojson')
+    fetch(withBase('/data/parking_facilities.geojson'))
       .then(async (res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();

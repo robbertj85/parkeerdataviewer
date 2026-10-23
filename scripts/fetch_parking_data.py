@@ -14,14 +14,24 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 
+import history
+
 SPDP_BASE = "https://npropendata.rdw.nl/parkingdata/v2"
 HEADERS = {
     "Accept": "application/json",
     "User-Agent": "ParkingViewer/1.0 (https://github.com/parkingviewer)"
 }
 
-DATA_DIR = Path(__file__).parent.parent / "webapp" / "public" / "data"
-CACHE_DIR = Path(__file__).parent.parent / "data" / "cache"
+REPO_DIR = Path(__file__).resolve().parent.parent
+# Defaults are the repo paths for local dev; the worker image points these at
+# its volumes (deploy/Dockerfile.worker).
+DATA_DIR = Path(os.environ.get("PARKING_PUBLIC_DIR", REPO_DIR / "webapp" / "public" / "data"))
+CACHE_DIR = Path(os.environ.get("PARKING_CACHE_DIR", REPO_DIR / "data" / "cache"))
+HISTORY_DB = Path(os.environ.get("PARKING_HISTORY_DB", REPO_DIR / "data" / "history.db"))
+
+# A run that reaches fewer facilities than this share of the index is treated as
+# an upstream outage: nothing is written, the previous data stays live.
+MIN_DYNAMIC_SHARE = 0.5
 
 # Vacant counts up to this factor above capacity are clamped to capacity; beyond
 # it the feed is considered broken and the count is dropped (see parse_counts).
@@ -70,6 +80,15 @@ MUNICIPALITY_RENAMES = {
 }
 
 
+def write_json(path, obj, **kwargs):
+    """Atomic write: nginx serves DATA_DIR live, readers must never see half a file."""
+    path = Path(path)
+    tmp = path.with_name(f".{path.name}.tmp-{os.getpid()}")
+    with open(tmp, "w") as f:
+        json.dump(obj, f, **kwargs)
+    os.replace(tmp, path)
+
+
 def fetch_index():
     """Fetch the SPDP v2 index of all parking facilities."""
     cache_file = CACHE_DIR / "index.json"
@@ -88,8 +107,7 @@ def fetch_index():
     resp.raise_for_status()
     data = resp.json()
 
-    with open(cache_file, "w") as f:
-        json.dump(data, f)
+    write_json(cache_file, data)
 
     print(f"Fetched {len(data.get('ParkingFacilities', []))} facilities")
     return data
@@ -123,13 +141,15 @@ def fetch_all_static(facilities):
     cache_file = CACHE_DIR / "static_data.json"
     cache_file.parent.mkdir(parents=True, exist_ok=True)
 
-    # Use cached static data if less than 24 hours old
+    previous = {}
     if cache_file.exists():
+        with open(cache_file) as f:
+            previous = json.load(f)
+        # Use cached static data if less than 24 hours old
         age = time.time() - cache_file.stat().st_mtime
         if age < 86400:
             print(f"Using cached static data ({age / 3600:.1f}h old)")
-            with open(cache_file) as f:
-                return json.load(f)
+            return previous
 
     print(f"Fetching static data for {len(facilities)} facilities...")
     static_data = {}
@@ -213,13 +233,23 @@ def fetch_all_static(facilities):
 
     print(f"Fetched static data: {len(static_data)} ok, {errors} errors")
 
+    # A failed request keeps the facility's previous static data instead of
+    # dropping it from the map until the next daily refresh.
+    kept = 0
+    for facility in facilities:
+        uuid = facility["identifier"]
+        if uuid not in static_data and uuid in previous:
+            static_data[uuid] = previous[uuid]
+            kept += 1
+    if kept:
+        print(f"Kept previous static data for {kept} facilities")
+
     # Apply manual corrections
     for uuid, overrides in FACILITY_OVERRIDES.items():
         if uuid in static_data:
             static_data[uuid].update(overrides)
 
-    with open(cache_file, "w") as f:
-        json.dump(static_data, f)
+    write_json(cache_file, static_data)
 
     return static_data
 
@@ -355,8 +385,27 @@ def reverse_geocode_municipality(lat, lng):
     return None
 
 
-# Cache for reverse geocoded municipalities to avoid duplicate API calls
+# Cache for reverse geocoded municipalities to avoid duplicate API calls.
+# Successful lookups persist across runs (CACHE_DIR); misses are retried next run.
 _reverse_geocode_cache = {}
+REVERSE_GEOCODE_CACHE = CACHE_DIR / "reverse_geocode.json"
+
+
+def load_reverse_geocode_cache():
+    if REVERSE_GEOCODE_CACHE.exists():
+        with open(REVERSE_GEOCODE_CACHE) as f:
+            for key, municipality in json.load(f).items():
+                lat, lng = key.split(",")
+                _reverse_geocode_cache[(float(lat), float(lng))] = municipality
+
+
+def save_reverse_geocode_cache():
+    REVERSE_GEOCODE_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    write_json(REVERSE_GEOCODE_CACHE, {
+        f"{lat},{lng}": municipality
+        for (lat, lng), municipality in _reverse_geocode_cache.items()
+        if municipality != "Onbekend"
+    })
 
 
 def resolve_municipality(name, description, lat, lng):
@@ -505,29 +554,9 @@ def build_facilities_geojson(static_data, dynamic_data):
     }, municipalities
 
 
-def save_hourly_snapshot(dynamic_data, static_data):
-    """Save an hourly snapshot to the daily file."""
+def save_hourly_snapshot(dynamic_data):
+    """Record this hour's dynamic data in the history DB (see history.py)."""
     now = datetime.now(timezone.utc)
-    year = now.strftime("%Y")
-    month = now.strftime("%m")
-    day = now.strftime("%d")
-    hour = now.strftime("%H")
-
-    snapshot_dir = DATA_DIR / "snapshots" / year / month
-    snapshot_dir.mkdir(parents=True, exist_ok=True)
-    snapshot_file = snapshot_dir / f"{day}.json"
-
-    # Load existing daily file or create new
-    if snapshot_file.exists():
-        with open(snapshot_file) as f:
-            daily = json.load(f)
-    else:
-        daily = {
-            "date": now.strftime("%Y-%m-%d"),
-            "snapshots": {}
-        }
-
-    # Build compact snapshot (only dynamic data)
     snapshot_facilities = {}
     for uuid, dyn in dynamic_data.items():
         if dyn.get("vacantSpaces") is not None or dyn.get("parkingCapacity") is not None:
@@ -542,17 +571,8 @@ def save_hourly_snapshot(dynamic_data, static_data):
                 entry["f"] = dyn["full"]
             snapshot_facilities[uuid] = entry
 
-    daily["snapshots"][hour] = {
-        "timestamp": now.isoformat(),
-        "facility_count": len(snapshot_facilities),
-        "facilities": snapshot_facilities,
-    }
-
-    with open(snapshot_file, "w") as f:
-        json.dump(daily, f, separators=(",", ":"))
-
-    print(f"Saved snapshot for {now.strftime('%Y-%m-%d')} hour {hour} ({len(snapshot_facilities)} facilities)")
-    return snapshot_file
+    history.record_live(HISTORY_DB, snapshot_facilities, now)
+    print(f"Saved snapshot for {now.strftime('%Y-%m-%d')} hour {now:%H} ({len(snapshot_facilities)} facilities)")
 
 
 def generate_municipality_files(static_data, dynamic_data, municipalities):
@@ -605,8 +625,7 @@ def generate_municipality_files(static_data, dynamic_data, municipalities):
             "facilities": facilities,
         }
 
-        with open(muni_dir / f"{safe_name}.json", "w") as f:
-            json.dump(muni_data, f, indent=2)
+        write_json(muni_dir / f"{safe_name}.json", muni_data, indent=2)
 
         generated.append(safe_name)
 
@@ -623,10 +642,15 @@ def generate_municipality_files(static_data, dynamic_data, municipalities):
             if muni_name != "Onbekend"
         ]
     }
-    with open(muni_dir / "index.json", "w") as f:
-        json.dump(index, f, indent=2)
+    write_json(muni_dir / "index.json", index, indent=2)
 
-    print(f"Generated {len(generated)} municipality files")
+    # Drop files of municipalities that were renamed or no longer have facilities.
+    keep = {f"{name}.json" for name in generated} | {"index.json"}
+    stale = [p for p in muni_dir.glob("*.json") if p.name not in keep]
+    for path in stale:
+        path.unlink()
+
+    print(f"Generated {len(generated)} municipality files" + (f", removed {len(stale)} stale" if stale else ""))
 
 
 def generate_summary(static_data, dynamic_data, municipalities):
@@ -692,25 +716,28 @@ def main():
 
     # Step 3: Fetch dynamic data
     dynamic_data = fetch_all_dynamic(facilities)
+    if len(dynamic_data) < MIN_DYNAMIC_SHARE * len(facilities):
+        print(f"Only {len(dynamic_data)}/{len(facilities)} dynamic responses; keeping previous data")
+        sys.exit(1)
 
     # Step 4: Build GeoJSON
+    load_reverse_geocode_cache()
     geojson, municipalities = build_facilities_geojson(static_data, dynamic_data)
+    save_reverse_geocode_cache()
 
     # Save GeoJSON
-    with open(DATA_DIR / "parking_facilities.geojson", "w") as f:
-        json.dump(geojson, f)
+    write_json(DATA_DIR / "parking_facilities.geojson", geojson)
     print(f"Saved GeoJSON with {len(geojson['features'])} features")
 
     # Step 5: Save hourly snapshot
-    save_hourly_snapshot(dynamic_data, static_data)
+    save_hourly_snapshot(dynamic_data)
 
     # Step 6: Generate municipality files
     generate_municipality_files(static_data, dynamic_data, municipalities)
 
     # Step 7: Generate summary
     summary = generate_summary(static_data, dynamic_data, municipalities)
-    with open(DATA_DIR / "summary.json", "w") as f:
-        json.dump(summary, f, indent=2)
+    write_json(DATA_DIR / "summary.json", summary, indent=2)
     print(f"Summary: {summary['total_facilities']} facilities, {summary['municipalities']} municipalities")
 
     # Step 8: Save latest snapshot
@@ -724,8 +751,7 @@ def main():
             for uuid in set(list(static_data.keys()) + list(dynamic_data.keys()))
         }
     }
-    with open(DATA_DIR / "latest.json", "w") as f:
-        json.dump(latest, f, separators=(",", ":"))
+    write_json(DATA_DIR / "latest.json", latest, separators=(",", ":"))
 
     print("Done!")
 

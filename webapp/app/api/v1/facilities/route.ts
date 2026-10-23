@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
-import { join } from 'path';
+import { dataPath } from '@/lib/dataDir';
+
+export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
   try {
-    const dataPath = join(process.cwd(), 'public', 'data', 'parking_facilities.geojson');
-    const raw = await readFile(dataPath, 'utf-8');
+    const filePath = dataPath('parking_facilities.geojson');
+    const raw = await readFile(filePath, 'utf-8');
     const data = JSON.parse(raw);
 
     const { searchParams } = request.nextUrl;

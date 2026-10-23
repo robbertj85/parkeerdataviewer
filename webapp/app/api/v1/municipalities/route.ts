@@ -1,10 +1,12 @@
 import { NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
-import { join } from 'path';
+import { dataPath } from '@/lib/dataDir';
+
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
-    const indexPath = join(process.cwd(), 'public', 'data', 'municipalities', 'index.json');
+    const indexPath = dataPath('municipalities', 'index.json');
     const raw = await readFile(indexPath, 'utf-8');
     const data = JSON.parse(raw);
 

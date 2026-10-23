@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import { withBase } from '@/lib/basePath';
 
 const SWAGGER_CSS_URL = 'https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui.css';
 const SWAGGER_JS_URL = 'https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui-bundle.js';
@@ -23,7 +24,7 @@ export default function ApiDocsPage() {
         containerRef.current.innerHTML = '';
         // @ts-expect-error SwaggerUIBundle is loaded from CDN
         window.SwaggerUIBundle({
-          url: '/openapi.json',
+          url: withBase('/openapi.json'),
           dom_id: '#swagger-ui',
           presets: [
             // @ts-expect-error SwaggerUIBundle is loaded from CDN
@@ -65,7 +66,7 @@ export default function ApiDocsPage() {
           </div>
           <div className="ml-auto flex items-center gap-3">
             <a
-              href="/openapi.json"
+              href={withBase('/openapi.json')}
               download
               className="text-xs sm:text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
             >
