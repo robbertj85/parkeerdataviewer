@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://prototype.transportlab.app/parkeerdataviewer/:path*",
+      "permanent": false
+    }
+  ]
+}

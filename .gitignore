@@ -28,3 +28,6 @@ verkeerslichtenviewer/
 # Data lives on the VPS volumes now (deploy/README.md); generated locally
 webapp/public/data/
 data/history.db*
+
+# Copied from node_modules by predev/prebuild (MapLibre 6 worker)
+webapp/public/maplibre-gl-worker.mjs

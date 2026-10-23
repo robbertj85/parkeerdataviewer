@@ -2,8 +2,10 @@
 
 import { useEffect, useRef, useImperativeHandle, forwardRef, useState } from 'react';
 import L from 'leaflet';
+import { setWorkerUrl } from 'maplibre-gl';
 import { maplibreGL } from '@maplibre/maplibre-gl-leaflet';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import { withBase } from '@/lib/basePath';
 import { ParkingData, ParkingFeature, Filters, getOccupancyColor } from '@/types/parking';
 
 const OSM_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
@@ -91,9 +93,11 @@ function getAvailableLayers(): TileLayerKey[] {
   });
 }
 
-// maplibre-gl is pinned to v5 in package.json: with v6 the adapter's transform
-// patching leaves the GL map in a state where it never requests tiles, so the
-// style loads but the basemap stays blank.
+// MapLibre 6 looks for its worker next to its own (bundler-renamed) module and
+// 404s, so the GL map never requests tiles and the basemap stays blank. Serve
+// it from public/ instead (copied there by predev/prebuild).
+setWorkerUrl(withBase('/maplibre-gl-worker.mjs'));
+
 function createBaseLayer(config: BaseMapConfig): L.Layer {
   if (config.type === 'vector') {
     const layer = maplibreGL({

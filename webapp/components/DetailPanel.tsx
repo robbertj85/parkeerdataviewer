@@ -105,9 +105,7 @@ export default function DetailPanel({ feature, onClose, mobile }: DetailPanelPro
     setStaticInfo(null);
     setSelectedPoint(null);
     setStaticLoading(true);
-    fetch(`https://npropendata.rdw.nl/parkingdata/v2/static/${props.uuid}`, {
-      headers: { 'Accept': 'application/json' },
-    })
+    fetch(withBase(`/api/v1/rdw/static/${props.uuid}`))
       .then((r) => r.ok ? r.json() : null)
       .then((data) => {
         if (!data?.parkingFacilityInformation) return;
@@ -305,7 +303,7 @@ export default function DetailPanel({ feature, onClose, mobile }: DetailPanelPro
     setStaticJsonLoading(true);
     setShowStaticJson(true);
     try {
-      const r = await fetch(`https://npropendata.rdw.nl/parkingdata/v2/static/${props.uuid}`, { headers: { Accept: 'application/json' } });
+      const r = await fetch(withBase(`/api/v1/rdw/static/${props.uuid}`));
       if (r.status === 404) { setStaticJson('Geen statische data beschikbaar voor deze garage'); }
       else { const data = await r.json(); setStaticJson(JSON.stringify(data, null, 2)); }
     } catch { setStaticJson('Kon data niet ophalen (netwerkfout)'); }
@@ -317,7 +315,7 @@ export default function DetailPanel({ feature, onClose, mobile }: DetailPanelPro
     setDynamicJsonLoading(true);
     setShowDynamicJson(true);
     try {
-      const r = await fetch(`https://npropendata.rdw.nl/parkingdata/v2/dynamic/${props.uuid}`, { headers: { Accept: 'application/json' } });
+      const r = await fetch(withBase(`/api/v1/rdw/dynamic/${props.uuid}`));
       if (r.status === 404) { setDynamicJson('Geen dynamische data beschikbaar voor deze garage'); }
       else { const data = await r.json(); setDynamicJson(JSON.stringify(data, null, 2)); }
     } catch { setDynamicJson('Kon data niet ophalen (netwerkfout)'); }
