@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
 
+// Served under a path prefix behind the reverse proxy (see deploy/), e.g.
+// NEXT_PUBLIC_BASE_PATH=/parkeerdataviewer. Empty for local dev.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || undefined;
+
 const nextConfig: NextConfig = {
+  basePath,
+  // Self-contained server bundle for the Docker image (deploy/Dockerfile.web).
+  output: "standalone",
+  // In production nginx serves /data from the worker's volume, not Next; the
+  // /data headers below only apply to local dev.
+
   async headers() {
     const securityHeaders = [
       { key: 'X-DNS-Prefetch-Control', value: 'on' },

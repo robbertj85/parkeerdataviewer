@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { withBase } from '@/lib/basePath';
 
 interface AboutModalProps {
   isOpen: boolean;
@@ -113,7 +114,7 @@ export default function AboutModal({ isOpen, onClose }: AboutModalProps) {
             <h3 className="font-semibold text-gray-900 mb-2">API</h3>
             <p>
               De Parkeerdataviewer biedt een gratis REST API aan. Bekijk de{' '}
-              <a href="/api/v1/docs" className="text-blue-600 hover:underline">
+              <a href={withBase('/api/v1/docs')} className="text-blue-600 hover:underline">
                 API documentatie
               </a>{' '}
               voor meer informatie.

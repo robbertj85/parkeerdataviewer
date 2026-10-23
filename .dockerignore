@@ -1,0 +1,12 @@
+# Build contexts for deploy/Dockerfile.* are the repo root; keep them small and
+# platform-clean (host node_modules contain macOS native binaries).
+.git
+**/node_modules
+**/.next
+**/.vercel
+**/.DS_Store
+**/__pycache__
+webapp/public/data
+data
+venv
+verkeerslichtenviewer

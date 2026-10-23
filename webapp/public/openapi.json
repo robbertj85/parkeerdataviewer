@@ -14,7 +14,7 @@
   },
   "servers": [
     {
-      "url": "/api/v1",
+      "url": "api/v1",
       "description": "API v1"
     }
   ],
@@ -188,6 +188,187 @@
               "application/geo+json": {},
               "text/csv": {}
             }
+          }
+        }
+      }
+    },
+    "/snapshots/{date}": {
+      "get": {
+        "summary": "Uurlijkse snapshots van één dag",
+        "description": "Alle uurlijkse bezettingssnapshots van één UTC-dag (sinds 2026-03-06).",
+        "tags": [
+          "Historisch"
+        ],
+        "parameters": [
+          {
+            "name": "date",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            },
+            "example": "2026-10-01"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Dagsnapshots",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "snapshots": {
+                      "type": "object",
+                      "description": "Per UTC-uur (\"00\"-\"23\")",
+                      "additionalProperties": {
+                        "type": "object",
+                        "properties": {
+                          "timestamp": {
+                            "type": "string",
+                            "format": "date-time"
+                          },
+                          "facility_count": {
+                            "type": "integer"
+                          },
+                          "facilities": {
+                            "type": "object",
+                            "description": "Per garage-UUID: v = vrije plekken, c = capaciteit, o = open, f = vol",
+                            "additionalProperties": {
+                              "type": "object",
+                              "properties": {
+                                "v": {
+                                  "type": "integer"
+                                },
+                                "c": {
+                                  "type": "integer"
+                                },
+                                "o": {
+                                  "type": "boolean"
+                                },
+                                "f": {
+                                  "type": "boolean"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ongeldige datum"
+          },
+          "404": {
+            "description": "Geen snapshots voor deze datum"
+          }
+        }
+      }
+    },
+    "/history/{uuid}": {
+      "get": {
+        "summary": "Bezettingshistorie van één garage",
+        "description": "Uurlijkse snapshots van één garage voor de laatste `days` UTC-dagen, oudste eerst. Dagen zonder data ontbreken.",
+        "tags": [
+          "Historisch"
+        ],
+        "parameters": [
+          {
+            "name": "uuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "days",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 366,
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Historie",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "uuid": {
+                      "type": "string"
+                    },
+                    "days": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "snapshots": {
+                            "type": "object",
+                            "description": "Per UTC-uur (\"00\"-\"23\")",
+                            "additionalProperties": {
+                              "type": "object",
+                              "properties": {
+                                "timestamp": {
+                                  "type": "string",
+                                  "format": "date-time"
+                                },
+                                "facility_count": {
+                                  "type": "integer"
+                                },
+                                "facilities": {
+                                  "type": "object",
+                                  "description": "Per garage-UUID: v = vrije plekken, c = capaciteit, o = open, f = vol",
+                                  "additionalProperties": {
+                                    "type": "object",
+                                    "properties": {
+                                      "v": {
+                                        "type": "integer"
+                                      },
+                                      "c": {
+                                        "type": "integer"
+                                      },
+                                      "o": {
+                                        "type": "boolean"
+                                      },
+                                      "f": {
+                                        "type": "boolean"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ongeldige UUID"
           }
         }
       }

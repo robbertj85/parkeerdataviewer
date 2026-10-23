@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readFile } from 'fs/promises';
-import { join } from 'path';
+import { dataPath } from '@/lib/dataDir';
+
+export const dynamic = 'force-dynamic';
 
 export async function GET(
   request: NextRequest,
@@ -15,7 +17,7 @@ export async function GET(
       return NextResponse.json({ error: 'Invalid municipality slug' }, { status: 400 });
     }
 
-    const filePath = join(process.cwd(), 'public', 'data', 'municipalities', `${safeSlug}.json`);
+    const filePath = dataPath('municipalities', `${safeSlug}.json`);
     const raw = await readFile(filePath, 'utf-8');
     const data = JSON.parse(raw);
 

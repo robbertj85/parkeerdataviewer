@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { ParkingFeature, DailySnapshots, getOccupancyColor, getOccupancyLabel } from '@/types/parking';
+import { withBase } from '@/lib/basePath';
 
 interface DetailPanelProps {
   feature: ParkingFeature;
@@ -190,32 +191,20 @@ export default function DetailPanel({ feature, onClose, mobile }: DetailPanelPro
     setHistoryLoading(true);
 
     const rangeDays = timeRange === '24h' ? 1 : timeRange === '7d' ? 7 : timeRange === '30d' ? 30 : 365;
-    const dates: string[] = [];
-    for (let i = 0; i < rangeDays; i++) {
-      const d = new Date();
-      d.setDate(d.getDate() - i);
-      const y = d.getFullYear();
-      const m = String(d.getMonth() + 1).padStart(2, '0');
-      const day = String(d.getDate()).padStart(2, '0');
-      dates.push(`${y}/${m}/${day}`);
-    }
 
-    Promise.all(
-      dates.map((datePath) =>
-        fetch(`/data/snapshots/${datePath}.json`)
-          .then((r) => (r.ok ? r.json() : null))
-          .catch(() => null)
-      )
-    ).then((results) => {
-      const valid = results.filter(Boolean) as DailySnapshots[];
-      if (valid.length > 0) {
-        setTodayData(valid[0]); // most recent = today
-      }
-      if (valid.length > 1) {
-        setHistoryDays(valid.slice(1)); // past days
-      }
-      setHistoryLoading(false);
-    });
+    // One request with only this facility's hours (days oldest first, empty days left out).
+    fetch(withBase(`/api/v1/history/${encodeURIComponent(props.uuid)}?days=${rangeDays}`))
+      .then((r) => (r.ok ? r.json() : { days: [] }))
+      .catch(() => ({ days: [] }))
+      .then(({ days }: { days: DailySnapshots[] }) => {
+        if (days.length > 0) {
+          setTodayData(days[days.length - 1]); // most recent = today
+        }
+        if (days.length > 1) {
+          setHistoryDays(days.slice(0, -1).reverse()); // past days, newest first
+        }
+        setHistoryLoading(false);
+      });
   }, [props.uuid, timeRange]);
 
   // Helper: extract occupancy data from a snapshot for this facility

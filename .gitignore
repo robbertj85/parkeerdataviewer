@@ -24,3 +24,7 @@ next-env.d.ts
 
 # Verkeerslichtenviewer copy (not part of this project)
 verkeerslichtenviewer/
+
+# Data lives on the VPS volumes now (deploy/README.md); generated locally
+webapp/public/data/
+data/history.db*

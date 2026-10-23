@@ -1,0 +1,32 @@
+# Next.js app (UI + /api/v1/*) as a standalone Node server.
+# Data is NOT baked in: nginx serves /data from the worker's volume, and the API
+# routes read the same volume (PARKING_DATA_DIR) plus history.db.
+FROM node:22-bookworm-slim AS build
+WORKDIR /app/webapp
+COPY webapp/package.json webapp/package-lock.json ./
+RUN npm ci
+COPY webapp/ ./
+ARG NEXT_PUBLIC_BASE_PATH=/parkeerdataviewer
+ARG NEXT_PUBLIC_UMAMI_SRC=
+ARG NEXT_PUBLIC_UMAMI_WEBSITE_ID=
+ARG NEXT_PUBLIC_THUNDERFOREST_API_KEY=
+ENV NEXT_PUBLIC_BASE_PATH=$NEXT_PUBLIC_BASE_PATH \
+    NEXT_PUBLIC_UMAMI_SRC=$NEXT_PUBLIC_UMAMI_SRC \
+    NEXT_PUBLIC_UMAMI_WEBSITE_ID=$NEXT_PUBLIC_UMAMI_WEBSITE_ID \
+    NEXT_PUBLIC_THUNDERFOREST_API_KEY=$NEXT_PUBLIC_THUNDERFOREST_API_KEY \
+    NEXT_TELEMETRY_DISABLED=1
+RUN npm run build
+
+FROM node:22-bookworm-slim
+WORKDIR /app
+ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0 \
+    PARKING_DATA_DIR=/srv/parking/public \
+    PARKING_HISTORY_DB=/srv/parking/state/history.db
+COPY --from=build --chown=node:node /app/webapp/.next/standalone ./
+COPY --from=build --chown=node:node /app/webapp/.next/static ./.next/static
+# public/ holds only build-time assets (openapi.json, icons); data comes from the volume.
+COPY --from=build --chown=node:node /app/webapp/public ./public
+RUN mkdir -p /srv/parking/public /srv/parking/state && chown -R node:node /srv/parking
+USER node
+EXPOSE 3000
+CMD ["node", "server.js"]
